@@ -1,0 +1,3921 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>INTERCAMBIO DE LIBROS Y CONTENIDO ACADEMICO</title>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" contente="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css" />
+    <link rel="stylesheet" href="estiloscelular.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="icon" href="img\catatua.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="educativo.js"></script>
+    <script src="script.js"></script>
+    <script src="busqueda.js"></script>
+    <script src="app.js"></script>
+</head>
+<body>
+
+    <!-- la vaina esa-->
+    <div id="logo">
+        <img class="figura" src="img\logo.png" />
+    </div>
+    
+        <!-- el menu--> 
+    <div id="tipo">
+        <header class="head">
+            <nav>
+                <img style="width:60px; height: 70px;" src="img\jad-removebg-preview (1).png">
+                <ul class="horizontal">
+                    <button class="refresco" onclick="window.location.reload();">INICIO</button>
+                    
+                    <li class="dedo"> 
+                        CONTACTOS
+                        <ul class="vertical">
+                            <li><a  class="enlace"  target="_blank" href="https://wa.me/qr/7RLD325345PLC1">953 514 348</a></li>
+                            <li><a  class="enlace"  target="_blank" href="img\qr.jpeg">QR (WASAP)</a></li>
+                            <li><a  class="enlace"  target="_blank" href="https://www.instagram.com/edu.libro?utm_source=qr&igsh=eWtzbjlxdHY5MWRx">INSTAGRAN</a></li>   
+                        </ul>
+                    </li>
+
+                <li class="dedo">
+                        PUBLICIDAD              
+                    <ul class="vertical">
+                        <li><button class="clasista" onclick="educa()">PROMOCIONALES</button></li>
+                    </ul>
+                </li>
+            </ul>
+            
+                <div class="container">
+                    <search>
+                        <form id="search" onsubmit="return false;"> 
+                            <label>
+                               <input input type="search" id="input-search"  list="search-options" placeholder="Buscar" autocomplete="off">
+                            </label>
+                            <datalist id="search-options">
+                                <select id="oxapampa" size="5">
+                                    <option value=" "> </option>
+                                </select> 
+                            </datalist>
+                        </form>
+                    </search>
+                    <div class="btn">
+                        <button id="botoncito"><i class="fa fa-search" aria-hidden="true"></i></button>
+                    </div>
+                </div>
+            </nav>
+        </header>
+    </div>
+
+    <!--titulo-->
+    <div id="titulo">
+        <p class="fu">"Institucion Educativa 6050 Juana Alarco de Dammert" </p>
+        <p class="fe">BIBLIOTECA</p>
+    </div>
+
+    <div id="f">
+
+        <button class="dina" onclick="window.location.assign('ORDENADO.html');"> A - Z</button>
+
+    <!--arguedas-->
+    <details open class="detalle">
+        <summary class="sol">SECCIÓN ARGUEDAS</summary>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <button class="gog" onclick="one()"><img src="https://imagessl3.casadellibro.com/a/l/s5/53/9788494435553.webp"></button>
+            </div>
+              
+            <div class="swiper-slide">
+                <button class="gog" onclick="dos()" > <img src="https://images.cdn1.buscalibre.com/fit-in/360x360/3b/01/3b01b3739e1b67a95c51a9f04836a2a7.jpg"></button>
+            </div>
+              
+            <div class="swiper-slide">
+                <button class="gog" onclick="tres()"> <img  src="https://www.elvirrey.com/imagenes/9786125/978612505919.GIF"></button>
+            </div>
+              
+            <div class="swiper-slide">
+                <button class="gog" onclick="cuatro()"> <img  src="https://elcomercio.pe/resizer/UGJvHtpmOZJ5GobiRgQX3mZkU9I=/620x0/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/ACOGKHBGKNGSBAZOVXM5IDZZ2I.jpg"></button>
+            </div>
+              
+            <div class="swiper-slide">
+                <button class="gog" onclick="cinco()"> <img  src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1482834617i/33615123.jpg"> </button>
+            </div>
+              
+            <div class="swiper-slide">
+                <button class="gog" onclick="seis()"> <img src="https://www.universidadperu.com/imgsag/trascendencia-de-la-literatura-quechua-actual-lectura-dramatica-de-la-adaptacion-de-la-obra-warma-kuyay-de-jose-maria-arguedas-por-el-grupo-teatral.jpg"> </button>
+            </div>
+            
+        </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </details> <br>
+
+    <!--vargas-->
+    <details class="detalle">
+        <summary class="sol">SECCION VARGAS LLOSA</summary>
+       
+         <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <button class="gog" onclick="siete()"><img class="jim"  src="https://images.cdn1.buscalibre.com/fit-in/360x360/46/0c/460cf768bec27103e3d93791c2770ba5.jpg"> </button>
+            </div>
+              
+            <div class="swiper-slide">
+                <button class="gog" onclick="pepe()"><img class="jim" src="https://www.penguinlibros.com/pe/2012577-large_default/el-fuego-de-la-imaginacion-libros-escenarios-pantallas-y-museos.webp"> </button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="pipa()"><img class="jim" src="https://www.libreriasur.com.pe/imagenes/9786125/978612502068.webp"> </button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="joselino()"><img class="jim" src="https://f.rpp-noticias.io/2023/03/15/1402061portada-un-barbaro-en-parisjpg.jpg"> </button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="pepita()"><img class="jim" src="https://www.crisol.com.pe/media/catalog/product/cache/f6d2c62455a42b0d712f6c919e880845/9/7/9788420431994_f1zhnomg1x6pg0hq.jpg"> </button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="pepito()"><img class="jim" src="https://imagenes.elpais.com/resizer/v2/ARO3GBP4WQEZX43BWWP7GY72II.jpg?auth=1debe2a0a54ce2eb7b7ee47e284bba16042cfd9fbb8813bba5f105e423285a22&width=1960"> </button>
+            </div>
+              
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <!--<div class="swiper-pagination"></div>-->
+          </div>
+    </details><br>
+
+    <!--autoayuda-->
+    <details class="detalle">
+        <summary class="sol">SECCION AUTOAYUDA</summary>
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">    
+            <div class="swiper-slide">
+                <button class="gog" onclick="ocho()"><img class="jime" src="img\texto.jpeg"> </button>
+            </div>
+              
+            <div class="swiper-slide">
+                <button class="gog" onclick="nueve()"><img class="jim" src="img\musica.jpeg"> </button>
+            </div>
+              
+            <div class="swiper-slide">
+               <button class="gog" onclick="dies()"><img class="jim" src="img\Autoayuda\1.jpg"> </button>
+            </div>
+              
+            <div class="swiper-slide">
+                <button class="gog" onclick="once()"><img class="jim" src="img\Autoayuda\2.jpg"> </button>
+            </div>
+                  
+            <div class="swiper-slide">
+                <button class="gog" onclick="doce()"><img class="jim" src="img\Autoayuda\3.jpg"> </button>
+            </div>
+                  
+            <div class="swiper-slide">
+               <button class="gog" onclick="trece()"><img class="jim" src="img\Autoayuda\4.jpg"> </button>
+            </div>
+                  
+            <div class="swiper-slide">
+              <button class="gog" onclick="catorce()"><img class="jim" src="img\Autoayuda\5.jpg"> </button>
+            </div>
+                  
+            <div class="swiper-slide" >
+               <button class="gog" onclick="aa()"><img class="jim" src="img\Autoayuda\paula .png"> </button>
+            </div>
+
+            <div class="swiper-slide" >
+                <button class="gog" onclick="cientoveinticuatro()"><img class="jim" src="img\Autoayuda\el aprendiz se hace mago.png"> </button>
+            </div>
+
+            <div class="swiper-slide" >
+                <button class="gog" onclick="cientoveinticinco()"><img class="jim" src="img\Autoayuda\el libro de las edades.png"> </button>
+            </div>
+
+            <div class="swiper-slide" >
+                <button class="gog" onclick="cientoveintiseis()"><img class="jim" src="img\Autoayuda\manantiales del desierto.png"> </button>
+            </div>
+
+            <div class="swiper-slide" >
+                <button class="gog" onclick="cientoveintisiete()"><img class="jim" src="img\Autoayuda\testimonio de amor.png"> </button>
+            </div>
+
+            <div class="swiper-slide" >
+                <button class="gog" onclick="cientoveintiocho()"><img class="jim" src="img\Autoayuda\una nueva mujer, relato intimo de la menopausia.png"> </button>
+            </div>
+
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+    </details><br>
+
+    <!--biografia-->
+    <details class="detalle">
+        <summary class="sol">SECCION BIOGRAFIA</summary>
+        
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">  
+            <div class="swiper-slide">
+               <button class="gog" onclick="quince()"><img class="jim" src="img\Biografia\Gran.jpg"> </button>
+            </div>
+            
+            <div class="swiper-slide">
+                <button class="gog" onclick="dieciseis()"><img class="jim" src="img\Biografia\Julio.jpg"> </button>
+            </div>
+              
+            <div class="swiper-slide">
+                <button class="gog" onclick="diesiciete()"><img class="jim" src="img\Biografia\Napoleon.jpg"> </button>
+            </div>
+              
+            <div class="swiper-slide">
+                <button class="gog" onclick="ff()"><img class="jim" src="img\Biografia\su vida y obra de oscar wilde.png"> </button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="cientoveintinueve()"><img class="jim" src="img\Biografia\todas mis muertes.png"> </button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="cientotreinta()"><img class="jim" src="img\Biografia\mi planta de naranja lima.png"> </button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="cientotreintados()"><img class="jim" src="img\Biografia\camila y paul .png"> </button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="cientotreintatres()"><img class="jim" src="img\Biografia\el moises de las americas, vida obra del baron de hirsch.png"> </button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="cientotreintacuatro()"><img class="jim" src="img\Biografia\la agonia del patriota.png"> </button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="cientotreintacinco()"><img class="jim" src="img\Biografia\Maus.png"> </button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="cientotreintaseis()"><img class="jim" src="img\Biografia\mozart.png"> </button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="cientotreintasiete()"><img class="jim" src="img\Biografia\triangulo de rembrandt.png"> </button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="cientotreintaocho()"><img class="jim" src="img\Biografia\vallejo.periodista paradigmatico.png"> </button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="cientotreintanueve()"><img class="jim" src="img\Biografia\verdi y su tiempo.png"> </button>
+            </div>
+
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+    </details><br>
+
+    <!--drama-->
+    <details class="detalle">
+        <summary class="sol">SECCION DRAMA</summary>
+        
+           <div class="swiper mySwiper">
+            <div class="swiper-wrapper">  
+            <div class="swiper-slide">
+               <button class="gog" onclick="diecinueve()"><img class="jim" src="img\Drama\Ella.jpg"> </button>
+            </div>
+              
+            <div class="swiper-slide">
+                <button class="gog" onclick="veinte()"><img class="jim" src="img\Drama\Hora.jpg"> </button>
+            </div>
+              
+            <div class="swiper-slide">
+                <button class="gog" onclick="veintiuno()"><img class="jim" src="img\Drama\Romeo.jpg"> </button>
+            </div>
+              
+            <div class="swiper-slide">
+                <button class="gog" onclick="gg()"><img class="jim" src="img\Drama\edipo rey.png"> </button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="cientocincuentacuatro()"><img class="jim" src="img\Drama\chicken street.png"> </button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="cientocincuentacinco()"><img class="jim" src="img\Drama\juan el bautista.png"> </button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="cientocincuentaseis()"><img class="jim" src="img\Drama\tragedias.png"> </button>
+            </div>
+            
+            <div class="swiper-slide">
+                <button class="gog" onclick="cientocincuentasiete()"><img class="jim" src="img\Drama\un divorcio perfecto.png"> </button>
+            </div>
+            
+        </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+    </details><br>
+   
+    <!--aventura-->
+    <details class="detalle">
+        <summary class="sol">SECCION AVENTURA</summary>
+        
+           <div class="swiper mySwiper">
+            <div class="swiper-wrapper"> 
+            
+            <div class="swiper-slide">
+                 <button class="gog" onclick="veintidos()"><img class="jim" src="img\Aventura\Isla.jpg"> </button>
+              </div>
+              
+            <div class="swiper-slide">
+              <button class="gog" onclick="veintitres()"><img class="jim" src="img\Aventura\Mamzana.jpg"> </button>
+              </div>
+              
+               <div class="swiper-slide">
+             <button class="gog"onclick="veinticuatro()"><img class="jim" src="img\Aventura\Mosca.jpg"> </button>
+              </div>
+              
+               <div class="swiper-slide">
+            <button class="gog" onclick="veinticinco()"><img class="jim" src="img\Aventura\Viaje.jpg"> </button>
+                  </div>
+                  
+                  <div class="swiper-slide">
+                    <button class="gog" onclick="cientotreintauno()"><img class="jim" src="img\Aventura\colmillo blanco.png"> </button>
+                        </div>
+      
+                  </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+        <!--<button class="gog" onclick="bb()"><img class="jim" src="img\Aventura\20000 leguas de viaje submarino.png"> </button>
+        <button class="gog" onclick="cc()"><img class="jim" src="img\Aventura\chepibola.png"> </button>
+        <button class="gog"onclick="dd()"><img class="jim" src="img\Aventura\las aventuras de d'artagnan y los tres mosqueteros.png"> </button>
+        <button class="gog" onclick="ee()"><img class="jim" src="img\Aventura\sandokan el  rey del mar.png"> </button>-->
+    </details><br>
+
+    <!--accion-->
+    <details class="detalle">
+        <summary class="sol">SECCION ACCION</summary>
+        
+            <div class="swiper mySwiper">
+            <div class="swiper-wrapper">  
+            <div class="swiper-slide">
+               <button class="gog" onclick="veintiseis()"><img class="jim" src="img\Accion\Revolucion.jpg"> </button>
+              </div>
+            <div class="swiper-slide">
+                 <button class="gog" onclick="veintisiete()"><img class="jim" src="img\Accion\Padre.jpg"> </button>
+              </div>
+                  </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+    </details><br>
+
+    <!--fantasia-->
+    <details class="detalle">
+        <summary class="sol">SECCION FANTASIA</summary>
+        
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">  
+                    <div class="swiper-slide">
+                        <button class="gog" onclick="veintinueve()"><img class="jim" src="img\Fantasía\five.jpg"> </button>
+                    </div>
+        
+                    <div class="swiper-slide">
+                        <button class="gog" onclick="treinta()"><img class="jim" src="img\Fantasía\four.jpg"> </button>
+                    </div>
+              
+                    <div class="swiper-slide">
+                        <button class="gog" onclick="treintayuno()"><img class="jim" src="img\Fantasía\one.jpg"> </button>
+                    </div>
+              
+                    <div class="swiper-slide">
+                        <button class="gog" onclick="treintaydos()"><img class="jim" src="img\Fantasía\seven.jpg"> </button>
+                    </div>
+                  
+                    <div class="swiper-slide">
+                        <button class="gog" onclick="treintaytres()"><img class="jim" src="img\Fantasía\six.jpg"> </button>
+                    </div>
+            
+                    <div class="swiper-slide">
+                        <button class="gog" onclick="treintaycuatro()"><img class="jim" src="img\Fantasía\three.jpg"> </button>
+                    </div>
+                  
+                   <div class="swiper-slide">
+                        <button class="gog" onclick="jaja()"><img class="jim" src="img\Fantasía\alicia en el pais de las maravillas.png"> </button>
+                   </div>
+            
+                    <div class="swiper-slide">
+                        <button class="gog" onclick="hh()"><img class="jim" src="img\Fantasía\bonicula.png"> </button>
+                    </div>
+                    
+                    <div class="swiper-slide">
+                        <button class="gog" onclick="cientonoventauno()"><img class="jim" src="img\Fantasía\diccionario de abracadabra.png"> </button>
+                    </div>    
+
+                    <div class="swiper-slide">
+                        <button class="gog" onclick="cientonoventados()"><img class="jim" src="img\Fantasía\jirel de joiry.png"> </button>
+                    </div>    
+
+                    <div class="swiper-slide">
+                        <button class="gog" onclick="cientonoventatres()"><img class="jim" src="img\Fantasía\thor y la serpiente de midgard.png"> </button>
+                    </div>    
+      
+                </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>  
+        </div>
+    </details><br>
+    
+    <!--suspense-->
+    <details class="detalle">
+        <summary class="sol">SECCION SUSPENSE</summary>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">  
+            <div class="swiper-slide">
+                <button class="gog" onclick="treintayseis()"><img class="jim" src="img\Suspenso\Cabaña.jpg"> </button>
+              </div>
+              
+            <div class="swiper-slide">
+                <button class="gog" onclick="treintaysiete()"><img class="jim" src="img\Suspenso\Código.jpg"> </button>
+              </div>
+
+               <div class="swiper-slide">
+                <button class="gog" onclick="treintayocho()"><img class="jim" src="img\Suspenso\Sonvra.jpg"> </button>
+              </div>
+              
+               <div class="swiper-slide">
+                <button class="gog" onclick="treintaynueve()"><img class="jim" src="img\Suspenso\Tren.jpg"> </button>
+                  </div>
+                  
+             <div class="swiper-slide">
+                <button class="gog" onclick="cuarenta()"><img class="jim" src="img\Suspenso\Visitas.jpg"> </button>
+                  </div>
+            
+              <div class="swiper-slide">
+                <button class="gog" onclick="uu()"><img class="jim" src="img\Suspenso\la noche humana.png"> </button>
+                  </div>      
+                  </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+    </details><br>
+
+     <!--ficcion-->
+     <details class="detalle">
+        <summary class="sol">SECCION FICCION</summary>
+           <div class="swiper mySwiper">
+            <div class="swiper-wrapper">  
+                <div class="swiper-slide">
+                    <button class="gog" onclick="cuarentayuno()"><img class="jim" src="img\Ficcion\g.jpg"> </button>
+                </div>
+              
+            
+                <div class="swiper-slide">
+                    <button class="gog" onclick="cuarentaydos()"><img class="jim" src="img\Ficcion\h.jpg"> </button>
+                </div>
+
+                <div class="swiper-slide">
+                    <button class="gog" onclick="cuarentaytres()"><img class="jim" src="img\Ficcion\j.jpg"> </button>
+                </div>
+              
+                <div class="swiper-slide">
+                    <button class="gog" onclick="vv()"><img class="jim" src="img\Ficcion\Quijote.jpg"> </button>
+                </div>
+                  
+                <div class="swiper-slide">
+                    <button class="gog" onclick="ii()"><img class="jim" src="img\Ficcion\el conde dracula.png"> </button>
+                </div>
+            
+                <div class="swiper-slide">
+                    <button class="gog" onclick="jj()"><img class="jim" src="img\Ficcion\el extraño.png"> </button>
+                </div>  
+                  
+                <div class="swiper-slide">
+                    <button class="gog" onclick="kk()"><img class="jim" src="img\Ficcion\el fantasma de canterville.png"> </button>
+                </div>
+                  
+                <div class="swiper-slide">
+                    <button class="gog" onclick="ll()"><img class="jim" src="img\Ficcion\el llano en llamas.png"> </button>
+                </div> 
+                  
+                <div class="swiper-slide">
+                    <button class="gog" onclick="mm()"><img class="jim" src="img\Ficcion\el misterio del gato negro.png"> </button>
+                </div>
+                  
+                <div class="swiper-slide">
+                    <button class="gog" onclick="nn()"><img class="jim" src="img\Ficcion\el señor de las moscas.png"> </button>
+                </div>
+                  
+                <div class="swiper-slide">
+                    <button class="gog" onclick="oo()"><img class="jim" src="img\Ficcion\historia del jabon.png"> </button>
+                </div>
+                  
+                <div class="swiper-slide">
+                    <button class="gog" onclick="pp()"><img class="jim" src="img\Ficcion\la crisalida.png"> </button>
+                </div>
+                  
+                <div class="swiper-slide">
+                    <button class="gog" onclick="qq()"><img class="jim" src="img\Ficcion\tradiciones peruanas.png"> </button>
+                </div>
+                  
+                <div class="swiper-slide">
+                    <button class="gog" onclick="rr()"><img class="jim" src="img\Ficcion\una vez y nunca mas.png"> </button>
+                </div>
+                  
+                <div class="swiper-slide">
+                    <button class="gog" onclick="ss()"><img class="jim" src="img\Ficcion\una visita inesperada.png"> </button>
+                </div>
+                  
+                <div class="swiper-slide">
+                    <button class="gog" onclick="tt()"><img class="jim" src="img\Ficcion\zapateando bajo la lluvia.png"> </button> 
+                </div>
+
+                <div class="swiper-slide">
+                    <button class="gog" onclick="cientonoventacuatro()"><img class="jim" src="img\Ficcion\coleccion minuscula.png"> </button> 
+                </div>
+
+                <div class="swiper-slide">
+                    <button class="gog" onclick="cientonoventacinco()"><img class="jim" src="img\Ficcion\conversacion en la catedral.png"> </button> 
+                </div>
+
+                <div class="swiper-slide">
+                    <button class="gog" onclick="cientonoventaseis()"><img class="jim" src="img\Ficcion\el cristo villenas.png"> </button> 
+                </div>
+
+                <div class="swiper-slide">
+                    <button class="gog" onclick="cientonoventasiete()"><img class="jim" src="img\Ficcion\el guardian entre el centeno.png"> </button> 
+                </div>
+
+                <div class="swiper-slide">
+                    <button class="gog" onclick="cientonoventaocho()"><img class="jim" src="img\Ficcion\el inventor de la maquina prodigiosa.png"> </button> 
+                </div>
+
+                <div class="swiper-slide">
+                    <button class="gog" onclick="cientonoventanueve()"><img class="jim" src="img\Ficcion\el limbo del doctor river.png"> </button> 
+                </div>
+
+                <div class="swiper-slide">
+                    <button class="gog" onclick="doscientos()"><img class="jim" src="img\Ficcion\el secreto de emma.png"> </button> 
+                </div>
+
+                <div class="swiper-slide">
+                    <button class="gog" onclick="doscientosuno()"><img class="jim" src="img\Ficcion\extraña recompensa.png"> </button> 
+                </div>
+
+                <div class="swiper-slide">
+                    <button class="gog" onclick="doscientosdos()"><img class="jim" src="img\Ficcion\la casa en amalfi.png"> </button> 
+                </div>
+
+                <div class="swiper-slide">
+                    <button class="gog" onclick="doscientostres()"><img class="jim" src="img\Ficcion\las hijas del capitán .png"> </button> 
+                </div>
+
+                <div class="swiper-slide">
+                    <button class="gog" onclick="doscientoscuatro()"><img class="jim" src="img\Ficcion\maze runner correr o morir.png"> </button> 
+                </div>
+
+                <div class="swiper-slide">
+                    <button class="gog" onclick="doscientoscinco()"><img class="jim" src="img\Ficcion\nitocris, princesa de egipto.png"> </button> 
+                </div>
+
+                <div class="swiper-slide">
+                    <button class="gog" onclick="doscientosseis()"><img class="jim" src="img\Ficcion\no sera la tierra.png"> </button> 
+                </div>
+
+                <div class="swiper-slide">
+                    <button class="gog" onclick="doscientossiete()"><img class="jim" src="img\Ficcion\rivales inesperados.png"> </button> 
+                </div>
+                  
+                  
+                  </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+    </details><br>
+
+    <!--estudio-->
+    <details class="detalle">
+        <summary class="sol">SECCION ESTUDIO</summary>
+           <div class="swiper mySwiper">
+            <div class="swiper-wrapper">  
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="cuarentaycinco()"><img class="jim" src="img\estudio\Atlas del cuerpo humano.png"> </button>
+            </div>
+              
+            <div class="swiper-slide">
+                <button class="gog" onclick="cuarentayseis()"><img class="jim" src="img\estudio\atlas del cuerpo humano2.png"> </button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="cuarentaysiete()"><img class="jim" src="img\estudio\atlas tomo del 1 al 16.png"> </button>
+            </div>
+              
+            <div class="swiper-slide">
+                <button class="gog" onclick="cuarentayocho()"><img class="jim" src="img\estudio\atlas universal y del peru.png"> </button>
+            </div>
+                  
+            <div class="swiper-slide">
+                <button class="gog" onclick="bing()"><img class="jim" src="img\estudio\catecismo de la iglesia catolica.png"> </button>
+            </div>
+            
+            <div class="swiper-slide">
+                <button class="gog" onclick="chatgpt()"><img class="jim" src="img\estudio\collins pocket plus.png"> </button>
+            </div>
+                  
+            <div class="swiper-slide">
+                <button class="gog" onclick="meta()"><img class="jim" src="img\estudio\Como desarollar micro emprendimientos.png"> </button>
+            </div>  
+                  
+            <div class="swiper-slide">
+                <button class="gog" onclick="matate()"><img class="jim" src="img\estudio\Como escribir mejor.png"> </button>
+            </div>
+            
+            <div class="swiper-slide">
+                <button class="gog" onclick="cuarentaynueve()"><img class="jim" src="img\estudio\Como hacer monografias.png"> </button>
+            </div>
+            
+            <div class="swiper-slide">
+                <button class="gog" onclick="cincuenta()"><img class="jim" src="img\estudio\diccionario de sinonimos y antonimos.png"> </button>
+            </div>
+    
+            <div class="swiper-slide">
+                <button class="gog" onclick="cincuentayuno()"><img class="jim" src="img\estudio\diccionario español ingles y viceversa.png"> </button>
+            </div>
+    
+            <div class="swiper-slide">
+                <button class="gog" onclick="cincuentaydos()"><img class="jim" src="img\estudio\diccionario ilustrado oceano de la lengua española.png"> </button>
+            </div>
+    
+            <div class="swiper-slide">
+                <button class="gog" onclick="cincuentaytres()"><img class="jim" src="img\estudio\diccionario panhispanico de dudas.png"> </button>
+            </div>
+            
+            <div class="swiper-slide">
+                <button class="gog" onclick="cincuentaycuatro()"><img class="jim" src="img\estudio\diccionario pocket.png"> </button>
+            </div>
+    
+            <div class="swiper-slide">
+                <button class="gog" onclick="cincuentaycinco()"><img class="jim" src="img\estudio\English dictionary.png"> </button>
+            </div>
+    
+            <div class="swiper-slide">
+                <button class="gog" onclick="cincuentayseis()"><img class="jim" src="img\estudio\English language.png"> </button>
+            </div>
+    
+            <div class="swiper-slide">
+               <button class="gog" onclick="cincuentaysiete()"><img class="jim" src="img\estudio\essential dictionary.png"> </button>
+            </div>
+    
+            <div class="swiper-slide">
+                <button class="gog" onclick="cincuentayocho()"><img class="jim" src="img\estudio\hablemos de ciencia.png"> </button>
+            </div>
+    
+            <div class="swiper-slide">
+                <button class="gog" onclick="cincuentaynueve()"><img class="jim" src="img\estudio\la biblia de la fisica y quimica.png"> </button>
+            </div>
+    
+            <div class="swiper-slide">
+                <button class="gog" onclick="sesenta()"><img class="jim" src="img\estudio\sound foundations.png"> </button>
+            </div>
+    
+            <div class="swiper-slide">
+                <button class="gog" onclick="sesentayuno()"><img class="jim" src="img\estudio\diccionario pocket.png"> </button>
+            </div>
+    
+            <div class="swiper-slide">
+                <button class="gog" onclick="sesentaydos()"><img class="jim" src="img\estudio\la biblia de las ciencias naturales.png"> </button>
+            </div>
+    
+            <div class="swiper-slide">
+                <button class="gog" onclick="sesentaytres()"><img class="jim" src="img\estudio\the frameworks of english.png"> </button>
+            </div>
+            
+            <!--aqui-->
+            <div class="swiper-slide">
+                <button class="gog" onclick="cientocincuentaocho()"><img class="jim" src="img\estudio\antologia de los finalistas de la XIII bienal de poesia.png"> </button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="cientocincuentanueve()"><img class="jim" src="img\estudio\aprende ingles en 7 dias.png"> </button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="cientosesenta()"><img class="jim" src="img\estudio\breve manual de puntuacion y acentuacion.png"> </button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="cientosesentauno()"><img class="jim" src="img\estudio\como conocer las formas de la musica.png"> </button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="cientosesentados()"><img class="jim" src="img\estudio\conversaciones con lexema.png"> </button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="cientosesentatres()"><img class="jim" src="img\estudio\desarrollo de la expresividad corporal.png"> </button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="cientosesentacuatro()"><img class="jim" src="img\estudio\dos decadas de formacion profesional y certificacion de competencias peru 1990-2010.png"> </button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="cientosesentacinco()"><img class="jim" src="img\estudio\economia para principiantes.png"> </button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="cientosesentaseis()"><img class="jim" src="img\estudio\educar la mirada.png"> </button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="cientosesentasiete()"><img class="jim" src="img\estudio\el espacio.png"> </button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="cientosesentaocho()"><img class="jim" src="img\estudio\el mito de la superpotencia uso y abuso del poder- prologo de bill clinton.png"> </button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="cientosesentanueve()"><img class="jim" src="img\estudio\evaluar educacion fisica.png"> </button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="cientosetenta()"><img class="jim" src="img\estudio\historia universal 1.png"> </button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="cientosetentauno()"><img class="jim" src="img\estudio\huaca pucllana.png"> </button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="cientosetentados()"><img class="jim" src="img\estudio\la cocina de la escritura.png"> </button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="cientosetentatres()"><img class="jim" src="img\estudio\la condicion fisica en la educacion secundaria obligatoria.png"> </button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="cientosetentacuatro()"><img class="jim" src="img\estudio\la evaluación formativa como instrumento de aprendizaje en educacion fisica.png"> </button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="cientosetentacinco()"><img class="jim" src="img\estudio\la expresion corporal.png"> </button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="cientosetentaseis()"><img class="jim" src="img\estudio\lexico de la politica.png"> </button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="cientosetentasiete()"><img class="jim" src="img\estudio\lexico popular peruano.png"> </button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="cientosetentaocho()"><img class="jim" src="img\estudio\los estados desunidos de latinoamerica.png"> </button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="cientosetentanueve()"><img class="jim" src="img\estudio\matematicas..estas ahi.png"> </button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="cientoochenta()"><img class="jim" src="img\estudio\pais de jauja.png"> </button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="cientoochentauno()"><img class="jim" src="img\estudio\para conocer la constitucion de 1993.png"> </button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="cientoochentados()"><img class="jim" src="img\estudio\perspectivas teoricas y ejercicios practicos.png"> </button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="cientoochentatres()"><img class="jim" src="img\estudio\politicas de empleo peru.png"> </button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="cientoochentacuatro()"><img class="jim" src="img\estudio\politicas y sistemas de formación.png"> </button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="cientoochentacinco()"><img class="jim" src="img\estudio\probabilidad y estadistica como trabajar con niños y jovenes.png"> </button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="cientoochentaseis()"><img class="jim" src="img\estudio\razones para enseñar geometría en la educación básica.png"> </button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="cientoochentasiete()"><img class="jim" src="img\estudio\sistematización de la practica docente.png"> </button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="cientoochentaocho()"><img class="jim" src="img\estudio\sound foundations learning and teaching pronunciato.png"> </button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="cientoochentanueve()"><img class="jim" src="img\estudio\teoria del movimiento.png"> </button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="cientonoventa()"><img class="jim" src="img\estudio\una verdad incomoda.png"> </button>
+            </div>
+
+
+        </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+    </details><br>
+
+    <!--comedia-->
+    <details class="detalle">
+        <summary class="sol">SECCION COMEDIA</summary>
+        
+                   <div class="swiper mySwiper">
+
+            <div class="swiper-wrapper">  
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="sesentaycuatro()"><img class="jim" src="img\comedia\el sargento canuto.png"> </button>
+              </div>
+              
+            <div class="swiper-slide">
+                  <button class="gog" onclick="sesentaycinco()"><img class="jim" src="img\comedia\ña catita.png"> </button>
+              </div>
+                  
+                  </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+    </details><br>
+
+    <!--cuentos-->
+    <details class="detalle">
+        <summary class="sol">SECCION CUENTOS</summary>
+        
+          <div class="swiper mySwiper">
+
+            <div class="swiper-wrapper">  
+
+            <div class="swiper-slide">
+              <button class="gog" onclick="sesentayseis()"><img class="jim" src="img\cuentos\criatura musicales y otros cuentos.png"> </button>
+            </div>
+              
+            <div class="swiper-slide">
+                <button class="gog" onclick="sesentaysiete()"><img class="jim" src="img\cuentos\cuentos de la ciudad.png"> </button>
+            </div>
+              
+            <div class="swiper-slide">
+                <button class="gog" onclick="sesentayocho()"><img class="jim" src="img\cuentos\cuentos de la selva.png"> </button>
+            </div>
+                  
+            <div class="swiper-slide">
+                <button class="gog" onclick="sesentaynueve()"><img class="jim" src="img\cuentos\los colores del cielo.png"> </button>
+            </div>
+                      
+            <div class="swiper-slide">
+                <button class="gog" onclick="setenta()"><img class="jim" src="img\cuentos\los duendes secuestradores.png"></button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="cientocuarenta()"><img class="jim" src="img\cuentos\antologia de los ganadores y finalistas de la XXII bienal de poesia premios copè 2005.png"></button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="cientocuarentauno()"><img class="jim" src="img\cuentos\cuentos andinos.png"></button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="cientocuarentados()"><img class="jim" src="img\cuentos\cuentos reunidos.png"></button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="cientocuarentatres()"><img class="jim" src="img\cuentos\el mestizo de las alpujarras.png"></button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="cientocuarentacuatro()"><img class="jim" src="img\cuentos\el principito.png"></button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="cientocuarentacinco()"><img class="jim" src="img\cuentos\el toro que se perdio en la lluvia.png"></button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="cientocuarentaseis()"><img class="jim" src="img\cuentos\en llano en llamas.png"></button>
+            </div>
+            
+            <div class="swiper-slide">
+                <button class="gog" onclick="cientocuarentasiete()"><img class="jim" src="img\cuentos\guitarra de palisandro.png"></button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="cientocuarentaocho()"><img class="jim" src="img\cuentos\la leyenda del cid .png"></button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="cientocuarentanueve()"><img class="jim" src="img\cuentos\los ojos de judas.png"></button>
+            </div>
+        
+            <div class="swiper-slide">
+                <button class="gog" onclick="cientocincuenta()"><img class="jim" src="img\cuentos\paco yunque.png"></button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="cientocincuentauno()"><img class="jim" src="img\cuentos\relampago inmovil.png"></button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="cientocincuentados()"><img class="jim" src="img\cuentos\teatro infantil y juvenil.png"></button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="cientocincuentatres()"><img class="jim" src="img\cuentos\un mundo para julius.png"></button>
+            </div>
+        
+        </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+    </details><br>
+
+    <!--filosofia-->
+    <details class="detalle">
+        <summary class="sol">SECCION FILOSOFIA</summary>
+        
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">  
+            
+            <div class="swiper-slide">
+                 <button class="gog" onclick="setentaydos()"><img class="jim" src="img\filosofia\introduccion a la filosofia.png"> </button>
+              </div>
+              
+            <div class="swiper-slide">
+                 <button class="gog" onclick="setentayuno()"><img class="jim" src="img\filosofia\el retrato de dorian gray.png"> </button>
+              </div>
+              
+               <div class="swiper-slide">
+                   <button class="gog" onclick="setentaytres()"><img class="jim" src="img\filosofia\platon y otros pretextos.png"> </button>
+              </div>
+
+              <div class="swiper-slide">
+                <button class="gog" onclick="doscientosocho()"><img class="jim" src="img\filosofia\ética para amador.png"> </button>
+           </div>
+              
+                  </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+    </details><br>
+
+    <!--historia-->
+    <details class="detalle">
+        <summary class="sol">SECCION HISTORIA</summary>
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">  
+            <div class="swiper-slide">
+                <button class="gog" onclick="setentaycuatro()"><img class="jim" src="img\historia\cenepa mision de honor.png"> </button>
+            </div>
+              
+            <div class="swiper-slide">
+                <button class="gog" onclick="setentaycinco()"><img class="jim" src="img\historia\desde el usnu de los incas.png"> </button>
+            </div>
+              
+            <div class="swiper-slide">
+                <button class="gog" onclick="setentayseis()"><img class="jim" src="img\historia\historia cronologica del peru.png"> </button>
+            </div>
+              
+            <div class="swiper-slide">
+                <button class="gog" onclick="setentaysiete()"><img class="jim" src="img\historia\historia de la republica del peru 2.png"> </button>
+            </div>
+              
+            <div class="swiper-slide">
+                <button class="gog" onclick="setentayocho()"><img class="jim" src="img\historia\historia de la republica del peru 4.png"> </button>
+            </div>
+              
+            <div class="swiper-slide">
+                <button class="gog" onclick="setentaynueve()"><img class="jim" src="img/historia/historia de la republica del peru 5.png"> </button>
+            </div>
+               
+            <div class="swiper-slide">
+                <button class="gog" onclick="ochenta()"><img class="jim" src="img\historia\historia del peru contemporaneo.png"> </button> 
+            </div>
+               
+            <div class="swiper-slide">
+                <button class="gog" onclick="ochentayuno()"><img class="jim" src="img/historia/historia del peru.png"> </button>
+            </div>
+  
+            <div class="swiper-slide">
+                <button class="gog" onclick="ochentaydos()"><img class="jim" src="img\historia\ivanhoe de walter scott.png"> </button>
+            </div>
+ 
+            <div class="swiper-slide">
+                <button class="gog" onclick="ochentaytres()"><img class="jim" src="img\historia\la iliada.png"> </button>
+            </div>
+ 
+            <div class="swiper-slide">
+                <button class="gog" onclick="ochentaycuatro()"><img class="jim" src="img/historia/meditaciones sobre el destino historico del peru.png"> </button>
+            </div>
+ 
+            <div class="swiper-slide">
+                <button class="gog" onclick="ochentaycinco()"><img class="jim" src="img\historia\pecados publicos hombres y mujeres en la colonia.png"> </button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="doscientosnueve()"><img class="jim" src="img\historia\antigua china tesoros artisticos.png"> </button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="doscientosdies()"><img class="jim" src="img\historia\antigua china una cultura milenaria.png"> </button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="doscientosonce()"><img class="jim" src="img\historia\antigua egipto tierra de dioses y faraones.png"> </button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="doscientosdoce()"><img class="jim" src="img\historia\episodios nacionales  la guerra de la independencia.png"> </button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="doscientostrece()"><img class="jim" src="img\historia\grecia antigua el arte griego a través de los siglos.png"> </button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="doscientoscatorce()"><img class="jim" src="img\historia\india antigua historia de la cultura indu.png"> </button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="doscientosquince()"><img class="jim" src="img\historia\india antigua, arte, religion y vida cotidiana.png"> </button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="doscientosdiesiseis()"><img class="jim" src="img\historia\introduccion a la pintura peruana del siglo XXI.png"> </button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="doscientosdiesisiete()"><img class="jim" src="img\historia\la cara del mal.png"> </button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="doscientosdiesiocho()"><img class="jim" src="img\historia\la vida y la historia.png"> </button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="doscientosdiesinueve()"><img class="jim" src="img\historia\las flechas del guerrero.png"> </button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="doscientosveinte()"><img class="jim" src="img\historia\las lanzas de jerusalen.png"> </button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="doscientosveintiuno()"><img class="jim" src="img\historia\lima a fines del siglo XIX.png"> </button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="doscientosveintidos()"><img class="jim" src="img\historia\los papeles del damasco .png"> </button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="doscientosveintitres()"><img class="jim" src="img\historia\mexico antiguo, el mundo azteca y maya.png"> </button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="doscientosveinticuatro()"><img class="jim" src="img\historia\mexico antiguo, mesoamerica precolombina.png"> </button>
+            </div>
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="doscientosveinticinco()"><img class="jim" src="img\historia\poesia peruana siglo XX.png"> </button>
+            </div>
+
+
+        </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>  
+        </div>
+    </details><br>
+
+    <!--literatura-->
+    <details class="detalle">
+        <summary class="sol">SECCION LITERATURA</summary>
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">  
+            
+                <div class="swiper-slide">
+                    <button class="gog" onclick="ochentayseis()"><img class="jim" src="img\literatura\7  ensayos de interpretacion de la realidad peruana.png"> </button>
+                </div>
+              
+                <div class="swiper-slide">
+                    <button class="gog" onclick="ochentaysiete()"><img class="jim" src="img\literatura\amen.png"> </button>
+                </div>
+              
+                <div class="swiper-slide">
+                    <button class="gog" onclick="ochentayocho()"><img class="jim" src="img\literatura\antologia poetica.png"> </button>
+                </div>
+              
+                <div class="swiper-slide">
+                    <button class="gog" onclick="ochentaynueve()"><img class="jim" src="img\literatura\antologia poetica1.png"> </button>
+                </div>
+              
+                <div class="swiper-slide">
+                    <button class="gog" onclick="noventa()"><img class="jim" src="img/literatura/antologia poetica2.png"> </button>
+                </div>
+
+                <div class="swiper-slide">
+                    <button class="gog" onclick="noventayuno()"><img class="jim" src="img\literatura\ciudad de los reyes.png"> </button>
+                </div>
+ 
+                <div class="swiper-slide">
+                    <button class="gog" onclick="noventaydos()"><img class="jim" src="img\literatura\don quijote contra los molinos.png"> </button>
+                </div>
+
+                <div class="swiper-slide">
+                    <button class="gog" onclick="noventaytres()"><img class="jim" src="img\literatura\el corsario negro.png"> </button>
+                </div>
+ 
+                <div class="swiper-slide">
+                    <button class="gog" onclick="noventaycuatro()"><img class="jim" src="img\literatura\el guardian entre el centeno.png"> </button>
+                </div>
+
+                <div class="swiper-slide">
+                    <button class="gog" onclick="noventaycinco()"><img class="jim" src="img/literatura/el monstruo de los cerros.png"> </button>
+                </div>
+ 
+                <div class="swiper-slide">
+                    <button class="gog" onclick="noventayseis()"><img class="jim" src="img/literatura/el muchacho que inventa historias de otros cuentos.png"> </button>
+                </div>
+
+                <div class="swiper-slide">
+                    <button class="gog" onclick="noventaysiete()"><img class="jim" src="img/literatura/el tunel.png"> </button>
+                </div>
+ 
+                <div class="swiper-slide">
+                    <button class="gog" onclick="noventayocho()"><img class="jim" src="img/literatura/el viejo saurio se retira.png"> </button>
+                </div>
+
+                <div class="swiper-slide">
+                    <button class="gog" onclick="noventaynueve()"><img class="jim" src="img/literatura/fortunato.png"> </button>
+                </div>
+ 
+                <div class="swiper-slide">
+                    <button class="gog" onclick="cien()"><img class="jim" src="img/literatura/gulliver entre los gigantes.png"> </button>
+                </div>
+
+                <div class="swiper-slide">
+                    <button class="gog" onclick="cientouno()"><img class="jim" src="img/literatura/historia de la muralla.png"> </button>
+                </div>
+ 
+                <div class="swiper-slide">
+                    <button class="gog" onclick="cientodos()"><img class="jim" src="img/literatura/konrad o el niño que salio de una lata de conservas.png"> </button>
+                </div>
+
+                <div class="swiper-slide">
+                    <button class="gog" onclick="cientotres()"><img class="jim" src="img/literatura/la furia de aquiles.png"> </button>
+                </div>
+ 
+                <div class="swiper-slide">
+                    <button class="gog" onclick="cientocuatro()"><img class="jim" src="img/literatura/le metamorfosis.png"> </button>
+                </div>
+
+                <div class="swiper-slide">
+                    <button class="gog" onclick="cientocinco()"><img class="jim" src="img/literatura/los jefes los cachorros.png"> </button>
+                </div>
+ 
+                <div class="swiper-slide">
+                    <button class="gog" onclick="cientoseis()"><img class="jim" src="img/literatura/los perros hambrientos.png"> </button>
+                </div>
+
+                <div class="swiper-slide">
+                    <button class="gog" onclick="cientosiete()"><img class="jim" src="img/literatura/mas alla de la vida y la muerte.png"> </button>
+                </div>
+ 
+                <div class="swiper-slide">
+                    <button class="gog" onclick="cientoocho()"><img class="jim" src="img/literatura/mis queridos vandalos.png"> </button>
+                </div>
+
+                <div class="swiper-slide">
+                    <button class="gog" onclick="cientonueve()"><img class="jim" src="img/literatura/novelas y cuentos completos.png"> </button>
+                </div>
+ 
+                <div class="swiper-slide">
+                    <button class="gog" onclick="cientodies()"><img class="jim" src="img/literatura/ollantay,el rigor de un padre y la generosidad de un rey.png"> </button>
+                </div>
+
+                <div class="swiper-slide">
+                    <button class="gog" onclick="cientoonce()"><img class="jim" src="img/literatura/paren el mundo que aca me bajo.png"> </button>
+                </div>
+
+                <div class="swiper-slide">
+                    <button class="gog" onclick="cientodoce()"><img class="jim" src="img/literatura/poesia completa.png"> </button>
+                </div>
+ 
+                <div class="swiper-slide">
+                    <button class="gog" onclick="cientotrece()"><img class="jim" src="img/literatura/poetas peruanas de antologia.png"> </button>
+                </div>
+
+                <div class="swiper-slide">
+                    <button class="gog" onclick="cientocatorce()"><img class="jim" src="img/literatura/puerto cholo.png"> </button>
+                </div>
+ 
+                <div class="swiper-slide">
+                    <button class="gog" onclick="cientoquince()"><img class="jim" src="img/literatura/sueño aymara.png"> </button>
+                </div>
+
+                <div class="swiper-slide">
+                    <button class="gog" onclick="cientodiesiseis()"><img class="jim" src="img/literatura/trilce.png"> </button>
+                </div>
+ 
+                <div class="swiper-slide">
+                    <button class="gog" onclick="cientodiecisiete()"><img class="jim" src="img/literatura/un extraterrestre en la cocina.png"> </button>
+                </div>
+
+                <div class="swiper-slide">
+                    <button class="gog" onclick="cientodieciocho()"><img class="jim" src="img/literatura/un mundo para julius.png"> </button>
+                </div>
+
+                <div class="swiper-slide">
+                    <button class="gog" onclick="doscientosveintiseis()"><img class="jim" src="img\literatura\a lo mejor soy otro.png"> </button>
+                </div>
+
+                <div class="swiper-slide">
+                    <button class="gog" onclick="doscientosveintisiete()"><img class="jim" src="img\literatura\alicho.png"> </button>
+                </div>
+
+                <div class="swiper-slide">
+                    <button class="gog" onclick="doscientosveintiocho()"><img class="jim" src="img\literatura\calixto garmendia.png"> </button>
+                </div>
+
+                <div class="swiper-slide">
+                    <button class="gog" onclick="doscientosveintinueve()"><img class="jim" src="img\literatura\cuentos de te y otros arboles.png"> </button>
+                </div>
+
+                <div class="swiper-slide">
+                    <button class="gog" onclick="doscientostreinta()"><img class="jim" src="img\literatura\El bagrecico.png"> </button>
+                </div>
+              
+                <div class="swiper-slide">
+                    <button class="gog" onclick="doscientostreintauno()"><img class="jim" src="img\literatura\el demonio de los andes.png"> </button>
+                </div>
+
+                <div class="swiper-slide">
+                    <button class="gog" onclick="doscientostreintados()"><img class="jim" src="img\literatura\el equilibrista.png"> </button>
+                </div>
+
+                <div class="swiper-slide">
+                    <button class="gog" onclick="doscientostreintatres()"><img class="jim" src="img\literatura\el mundo es ancho y ajeno.png"> </button>
+                </div>
+
+                <div class="swiper-slide">
+                    <button class="gog" onclick="doscientostreintacuatro()"><img class="jim" src="img\literatura\el narrador de historias.png"> </button>
+                </div>
+
+                <div class="swiper-slide">
+                    <button class="gog" onclick="doscientostreintacinco()"><img class="jim" src="img\literatura\el principe que todo lo aprendio de los libros.png"> </button>
+                </div>
+
+                <div class="swiper-slide">
+                    <button class="gog" onclick="doscientostreintaseis()"><img class="jim" src="img\literatura\el zoo a través del cristal.png"> </button>
+                </div>
+
+                <div class="swiper-slide">
+                    <button class="gog" onclick="doscientostreintasiete()"><img class="jim" src="img\literatura\entre la sombra y el fuego.png"> </button>
+                </div>
+
+                <div class="swiper-slide">
+                    <button class="gog" onclick="doscientostreintaocho()"><img class="jim" src="img\literatura\fuera de clases.png"> </button>
+                </div>
+
+                <div class="swiper-slide">
+                    <button class="gog" onclick="doscientostreintanueve()"><img class="jim" src="img\literatura\jane eyre.png"> </button>
+                </div>
+
+                <div class="swiper-slide">
+                    <button class="gog" onclick="doscientoscuarenta()"><img class="jim" src="img\literatura\la casa de carton.png"> </button>
+                </div>
+              
+                <div class="swiper-slide">
+                    <button class="gog" onclick="doscientoscuarentauno()"><img class="jim" src="img\literatura\la llamada de lo salvaje.png"> </button>
+                </div>
+
+                <div class="swiper-slide">
+                    <button class="gog" onclick="doscientoscuarentados()"><img class="jim" src="img\literatura\los crimenes de collique.png"> </button>
+                </div>
+              
+                <div class="swiper-slide">
+                    <button class="gog" onclick="doscientoscuarentatres()"><img class="jim" src="img\literatura\los crimenes de collique.png"> </button>
+                </div>
+
+                <div class="swiper-slide">
+                    <button class="gog" onclick="doscientoscuarentatres()"><img class="jim" src="img\literatura\los crimenes de collique.png"> </button>
+                </div>
+
+                <div class="swiper-slide">
+                    <button class="gog" onclick="doscientoscuarentacuatro()"><img class="jim" src="img\literatura\los dientes del dragon.png"> </button>
+                </div>
+
+                <div class="swiper-slide">
+                    <button class="gog" onclick="doscientoscuarentacinco()"><img class="jim" src="img\literatura\los heraldos negros.png"> </button>
+                </div>
+
+                <div class="swiper-slide">
+                    <button class="gog" onclick="doscientoscuarentaseis()"><img class="jim" src="img\literatura\los inocentes.png"> </button>
+                </div>
+
+                <div class="swiper-slide">
+                    <button class="gog" onclick="doscientoscuarentasiete()"><img class="jim" src="img\literatura\ofrenda de piedra.png"> </button>
+                </div>
+
+                <div class="swiper-slide">
+                    <button class="gog" onclick="doscientoscuarentaocho()"><img class="jim" src="img\literatura\palma, la tradicion y el tiempo.png"> </button>
+                </div>
+            
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>  
+    </details><br>
+
+     <!--misterio-->
+     <details class="detalle">
+        <summary class="sol">SECCION MISTERIO</summary>
+    <div class="swiper mySwiper">
+
+            <div class="swiper-wrapper">  
+
+            <div class="swiper-slide">
+                <button class="gog" onclick="cientodiecinueve()"><img class="jim" src="img\misteiro\navajas en el paladar.png"> </button>
+            </div>
+              
+            <div class="swiper-slide">
+                <button class="gog" onclick="cientoveinte()"><img class="jim" src="img\misteiro\sherlock holmes y el misterio de las cinco semillas.png"> </button>
+            </div>
+                  
+            <div class="swiper-slide">
+                <button class="gog" onclick="doscientoscuarentaynueve()"><img class="jim" src="img\misteiro\el libro los crimenes de la calle morgue.png"> </button>
+            </div>
+                  </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+     </details><br>
+
+    <!--terror-->
+    <details class="detalle">
+        <summary class="sol">SECCION TERROR</summary>
+                   <div class="swiper mySwiper">
+            <div class="swiper-wrapper">  
+
+            <div class="swiper-slide">
+               <button class="gog" onclick="cientoveintiuno()"><img class="jim" src="img\terror\doctor jekyll y mister hyde.png"> </button>
+              </div>
+              
+            <div class="swiper-slide">
+                 <button class="gog" onclick="cientoveintidos()"><img class="jim" src="img\terror\el entierro prematuro.png"> </button>
+              </div>
+              
+                <div class="swiper-slide">
+     <button class="gog" onclick="cientoveintitres()"><img class="jim" src="img\terror\hijas del terror.png"> </button>
+  </div>
+
+  <div class="swiper-slide">
+    <button class="gog" onclick="doscientoscincuentanuve()"><img class="jim" src="img\terror\un infierno en la mente.png"> </button>
+ </div>
+                  
+                  </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+    </details><br>   
+
+        <!--romance-->
+        <details class="detalle">
+            <summary class="sol">SECCION ROMANCE</summary>
+                       <div class="swiper mySwiper">
+                <div class="swiper-wrapper">  
+    
+                <div class="swiper-slide">
+                   <button class="gog" onclick="doscientoscincuenta()"><img class="jim" src="img\romance\confesiones junto al lago.png"> </button>
+                  </div>
+                  
+                <div class="swiper-slide">
+                     <button class="gog" onclick="doscientoscincuentauno()"><img class="jim" src="img\romance\el señor de la tentacion.png"> </button>
+                  </div>
+                  
+                    <div class="swiper-slide">
+         <button class="gog" onclick="doscientoscincuentados()"><img class="jim" src="img\romance\la condesa de toscana.png"> </button>
+      </div>
+
+      <div class="swiper-slide">
+        <button class="gog" onclick="doscientoscincuentatres()"><img class="jim" src="img\romance\la doncella de fuego.png"> </button>
+     </div>
+
+     <div class="swiper-slide">
+        <button class="gog" onclick="doscientoscincuentacuatro()"><img class="jim" src="img\romance\la espada venecia.png"> </button>
+     </div>
+
+     <div class="swiper-slide">
+        <button class="gog" onclick="doscientoscincuentacinco()"><img class="jim" src="img\romance\los amantes de judea.png"> </button>
+     </div>
+
+     <div class="swiper-slide">
+        <button class="gog" onclick="doscientoscincuentaseis()"><img class="jim" src="img\romance\Maria.png"> </button>
+     </div>
+
+     <div class="swiper-slide">
+        <button class="gog" onclick="doscientoscincuentasiete()"><img class="jim" src="img\romance\una loba en la corte .png"> </button>
+     </div>
+
+     <div class="swiper-slide">
+        <button class="gog" onclick="doscientoscincuentaocho()"><img class="jim" src="img\romance\werther.png"> </button>
+     </div>     
+                      </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+              </div>
+        </details><br> 
+    </div>
+
+    <!--libros-->
+    <!--uno-->
+   <!-- <div id="resumen">
+        <p class="fi">EL SEXTO</p>
+        <p class="fo">(no esta en la biblioteca)
+        <div class="fideos">
+            <table class="kk">
+                <thead>
+                <tr>
+                <td class="a" colspan="2"> EL SEXTO <br> (Nombre de la prision)</td>
+                </tr>
+                <tr>
+                <td class="b" colspan="2"> De: <spam style="color: brown;">Jose Maria Arguedas</spam> </td>
+                </tr>
+                <td  class="c" colspan="2"> <img src="https://imagessl3.casadellibro.com/a/l/s5/53/9788494435553.webp"></td>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                <td class="d"> Genero:</td>
+                <td class="reo"> Novela</td>
+                </tr>
+                <tr>
+                <td class="d">Tema(s):</td>
+                <td class="reo">Persecucion politica; Vida carcel </td>
+            </tr>
+            <tr>
+                <td class="d"> Idioma: </td>
+                <td class="reo"> Español </td>
+            </tr>
+            <tr>
+                <td class="d"> Fecha de Publicacion: </td>
+                <td class="reo"> 1961 </td>
+            </tr>
+                </tbody>
+                </table>
+        </div>
+        <div class="caldo">
+        <p class="siu">.RESUMEN</p>
+        <p class="texto">
+            La obra "El sexto" de José María Arguedas es una novela que aborda temas como la injusticia social, 
+            la opresión y la lucha por la libertad. La historia se desarrolla en una prisión peruana y sigue la 
+            vida de un prisionero llamado Gabriel, quien enfrenta diversas dificultades y abusos por parte de 
+            las autoridades penitenciarias.
+        </p>
+        <p class="texto">
+            Además, la novela también aborda temas como la identidad cultural y la discriminación racial, ya que 
+            Gabriel es un personaje mestizo que se enfrenta a la discriminación por parte de los demás prisioneros. 
+            Arguedas logra transmitir la complejidad de la sociedad peruana y las tensiones que existen entre 
+            diferentes grupos étnico
+        </p><br>
+        </div>
+        
+    </div>-->
+    <!--segundo-->
+   <!-- <div id="tsangres">
+    <p class="fi">TODAS LAS SANGRES</p>
+    <p class="fo">(esta en la biblioteca)</p>
+    <div class="fideos">
+        <table class="kk">
+            <thead>
+            <tr>
+            <td class="a" colspan="2"> TODAS LAS SANGRES</td>
+            </tr>
+            <tr>
+            <td class="b" colspan="2"> De: <spam style="color: brown;">Jose Maria Arguedas</spam> </td>
+            </tr>
+            <td  class="c" colspan="2"> <img src="https://images.cdn1.buscalibre.com/fit-in/360x360/3b/01/3b01b3739e1b67a95c51a9f04836a2a7.jpg"></td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td class="d"> Genero:</td>
+            <td class="reo"> Novela</td>
+            </tr>
+            <tr>
+            <td class="d">Tema:</td>
+            <td class="reo"> Una Diversidad cultural y racial</td>
+        </tr>
+        <tr>
+            <td class="d"> Idioma: </td>
+            <td class="reo"> Español </td>
+        </tr>
+        <tr>
+            <td class="d"> Fecha de Publicacion: </td>
+            <td class="reo"> 1964 </td>
+        </tr>
+            </tbody>
+            </table>
+    </div>
+    <div class="gallina">
+        <p class="siu">.RESUMEN</p>
+    <p class="texto">
+        Todas las sangres de José María Arguedas se trata de la lucha de lo tradicional con resistirse a 
+        los cambios del futuro. Es una disputa entre dos hermanos que tienen una idea diferente en 
+        cuanto a seguir las corrientes capitalistas.
+    </p>
+    <br>
+</div>
+    </div>-->
+<!--tercero-->
+    <!--<div id="yawar">
+        <p class="fi">YAWAR FIESTA</p>
+        <p class="fo">(esta en la biblioteca)</p>
+        <div class="fideos">
+            <table class="kk">
+                <thead>
+                <tr>
+                <td class="a" colspan="2"> YAWAR FIESTA <br> (Fiesta De Sangre)</td>
+                </tr>
+                <tr>
+                <td class="b" colspan="2"> De: <spam style="color: brown;">Jose Maria Arguedas</spam> </td>
+                </tr>
+                <td  class="c" colspan="2"> <img src="https://www.elvirrey.com/imagenes/9786125/978612505919.GIF"></td>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                <td class="d"> Genero:</td>
+                <td class="reo"> Novela</td>
+                </tr>
+                <tr>
+                <td class="d">Tema:</td>
+                <td class="reo"> Corrida de Toros al estilo andino</td>
+            </tr>
+            <tr>
+                <td class="d"> Idioma: </td>
+                <td class="reo"> Español </td>
+            </tr>
+            <tr>
+                <td class="d"> Fecha de Publicacion: </td>
+                <td class="reo"> 1941 </td>
+            </tr>
+                </tbody>
+                </table>
+        </div>
+        <div class="sopa">
+            <p class="siu">.RESUMEN</p>
+        <p class="texto">
+            En la obra "YAWAR FIESTA" el egoísmo, la despreocupación y el abuso de las autoridades se refleja 
+            en la actualidad de la política en algunos pueblos, debido a esto la gente no tiene confianza en 
+            sus autoridades y puede causar algunas rebeliones y huelgas, que puede hacer arrepentirse a algunas 
+            autoridades.
+        </p>
+        <br>
+    </div>
+    </div>-->
+<!--cuarto-->
+   <!--<div id="rios">
+        <p class="fi">LOS RIOS PROFUNDOS</p>
+        <p class="fo">(esta en la biblioteca)</p>
+        <div class="fideo">
+            <table class="kk"> 
+                <thead>
+                <tr>
+                <td class="a" colspan="2"> RIOS PROFUNDOS </td>
+                </tr>
+                <tr>
+                <td class="b" colspan="2"> De: <spam style="color: brown;">Jose Maria Arguedas</spam> </td>
+                </tr>
+                <td  class="c" colspan="2"> <img src="https://elcomercio.pe/resizer/UGJvHtpmOZJ5GobiRgQX3mZkU9I=/620x0/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/ACOGKHBGKNGSBAZOVXM5IDZZ2I.jpg"></td>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                <td class="d"> Genero:</td>
+                <td class="reo"> Narrativa</td>
+                </tr>
+                </tr>
+                <tr>
+                <td class="d">Tema:</td>
+                <td class="reo"> Identificacion del mundo andino</td>
+            </tr>
+            <tr>
+                <td class="d"> Idioma: </td>
+                <td class="reo"> Español </td>
+            </tr>
+            <tr>
+                <td class="d"> Fecha de Publicacion: </td>
+                <td class="reo"> 1958 </td>
+            </tr>
+                </tbody>
+                </table>
+        </div>
+
+        <div class="agua">
+            <p class="siu">.RESUMEN</p>
+        <p class="texto">
+            La novela Los ríos profundos (1958) del escritor peruano José María Arguedas describe el proceso 
+            de madurez de Ernesto, muchacho solitario que ha de escoger una vía personal entre los elementos 
+            enfrentados que componen las dos facetas de su cultura mestiza. Esos elementos son de índole 
+            mágica y religiosa y guían al protagonista en una iniciación mística a través de un espacio 
+            dividido entre la pureza regeneradora de la naturaleza andina y la pervertida promiscuidad del 
+            internado de Abancay. Dicha iniciación alcanzará su cumplimiento final en el momento en que 
+            Ernesto, en un impulso de compasión por los indios oprimidos, vincule su visión animista del mundo 
+            con un pensamiento político y social.
+        </p>
+        <br>
+        </div>
+    </div>-->
+<!--quinto-->
+    <!--<div id="zorra">
+        <p class="fi">EL ZORRO DE ARRIBA Y EL ZORRO DE ABAJO</p>
+        <p class="fo">(esta en la biblioteca)</p>
+        <div class="fideo">
+            <table class="vv">
+                <thead>
+                <tr>
+                <td class="a" colspan="2"> EL ZORRO DE ARRIBA Y EL ZORRO DE ABAJO </td>
+                </tr>
+                <tr>
+                <td class="b" colspan="2"> De: <spam style="color: brown;">Jose Maria Arguedas</spam> </td>
+                </tr>
+                <td  class="c" colspan="2"> <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1482834617i/33615123.jpg"></td>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                <td class="d"> Genero:</td>
+                <td class="reo"> Novela</td>
+                </tr>
+                <tr>
+                <td class="d">Tema:</td>
+                <td class="reo">La Migracion y choque cultural.</td>
+            </tr>
+            <tr>
+                <td class="d"> Idioma: </td>
+                <td class="reo"> Español </td>
+            </tr>
+            <tr>
+                <td class="d"> Fecha de Publicacion: </td>
+                <td class="reo"> 1971 </td>
+            </tr>
+                </tbody>
+                </table>
+        </div>
+        <div class="h2o">
+            <p class="siu">.RESUMEN</p>
+        <p class="texto">
+            "El zorro de arriba y el zorro de abajo" ha supuesto el descubrimiento del autor el
+            que el boom relegó a un segundo (o tercer) plano olvidado y de una obra sumamente compleja 
+            (y complicada por momentos), ambiciosa y original que es, además, un ejercicio de cruda 
+            realidad para los lectores alejados de los territorios en los que se desarrolla la novela. Y 
+            es que esta vez las gentes "de arriba" no son elementos folklóricos ni exóticos, sino seres 
+            de carne y hueso enfrentados a terribles contradicciones expuestas por Arguedas en toda su 
+            crudeza y verosimilitud.
+        </p>
+        <br>
+        </div>
+    </div>-->
+<!--sexto-->
+    <!--<div id="warma">
+        <p class="fi" >WARMA KUYAY</p>
+        <p class="fo">(esta en la biblioteca)</p>
+        <div class="fideos">
+            <table class="kk">
+                <thead>
+                <tr>
+                <td class="a" colspan="2"> WARMA KUYAY <br> (amor de niño)</td>
+                </tr>
+                <tr>
+                <td class="b" colspan="2"> De: <spam style="color: brown;">Jose Maria Arguedas</spam> </td>
+                </tr>
+                <td  class="c" colspan="2"> <img src="https://www.universidadperu.com/imgsag/trascendencia-de-la-literatura-quechua-actual-lectura-dramatica-de-la-adaptacion-de-la-obra-warma-kuyay-de-jose-maria-arguedas-por-el-grupo-teatral.jpg"></td>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                <td class="d"> Genero:</td>
+                <td class="reo"> Cuento literario</td>
+                </tr>
+                <tr>
+                <td class="d">Tema:</td>
+                <td class="reo"> El Amor e Identidad cultural</td>
+            </tr>
+            <tr>
+                <td class="d"> Idioma: </td>
+                <td> Español </td>
+            </tr>
+            <tr>
+                <td class="d"> Fecha de Publicacion: </td>
+                <td class="reo"> 1933 </td>
+            </tr>
+                </tbody>
+                </table>
+        </div>
+        <div class="lava">
+            <p class="siu">.RESUMEN</p>
+        <p class="texto">
+            «Warma Kuyay» narra la historia de Ernesto, un joven que se enamora de Justina, una 
+            niña indígena que trabaja como sirvienta en la hacienda de don Froylán. La trama se 
+            desarrolla en un ambiente de opresión y desigualdad social, donde los personajes 
+            deben enfrentar los prejuicios y las barreras impuestas por su condición social.
+        </p>
+        <br>
+        </div>
+    </div>-->
+<!--setimo-->
+    <!--<div id="perro">
+        <p class="fi" >LA CIUDAD Y LOS PERROS</p>
+        <p class="fo">(esta en la biblioteca)</p>
+        <div class="fideos">
+            <table class="kk">
+                <thead>
+                <tr>
+                <td class="a" colspan="2"> LA CIUDAD Y <br>
+                    LOS PERROS</td>
+                </tr>
+                <tr>
+                <td class="b" colspan="2"> De: <spam style="color: brown;">Mario Vargas Llosa</spam> </td>
+                </tr>
+                <td  class="c" colspan="2"> <img src="https://images.cdn1.buscalibre.com/fit-in/360x360/46/0c/460cf768bec27103e3d93791c2770ba5.jpg"></td>
+                </tr>
+                </thead>                                                                                                   
+                <tbody>                              
+                <tr>
+                <td class="d"> Genero:</td>
+                <td class="reo"> Novela</td>                                        
+                </tr>
+                <tr>
+                <td class="d">Tema:</td>
+                <td class="reo">Adaptacion al ambiente violento<br> y corrupto</td>
+            </tr>
+            <tr>
+                <td class="d"> Idioma: </td>
+                <td> Español </td>
+            </tr>
+            <tr>
+                <td class="d"> Fecha de Publicacion: </td>
+                <td class="reo"> 1963 </td>
+            </tr>
+                </tbody>
+                </table>
+        </div>
+        <div class="lavadora">
+            <p class="siu">.RESUMEN</p>
+        <p class="texto">
+            La ciudad y los perros cuenta una serie de historias entrelazadas y desiguales de varios 
+            cadetes del Colegio Militar Leoncio Prado en Perú, poniendo de manifiesto la realidad 
+            del país entre serranos, blancos, indios, pobres, ricos, etc.
+        </p>
+        <br>
+        </div>
+    </div>-->
+<!--octavo-->
+    <!--<div id="literario">
+    <p class="fi" >COMO LEER TEXTOS LITERARIOS</p>
+    <p class="fo">(esta en la biblioteca)</p>
+    <div class="fideos">
+        <table class="kk">
+            <thead>
+            <tr>
+            <td class="a" colspan="2"> COMO LEER <br>
+                TEXTOS LITERARIOS
+                </td>
+            </tr>
+            <tr>
+            <td class="b" colspan="2"> De: <spam style="color: brown;">Julian Moreiro</spam> </td>
+            </tr>
+            <td  class="c" colspan="2"> <img src="img\texto.jpeg"></td>
+            </tr>
+            </thead>                                                                                                   
+            <tbody>                              
+            <tr>
+            <td class="d"> Genero:</td>
+            <td class="reo"> Critica y analisis literaria</td>                                        
+            </tr>
+            <tr>
+            <td class="d">Tema:</td>
+            <td class="reo">Analizar y comprender <br> obras literarias de manera critica</td>
+        </tr>
+        <tr>
+            <td class="d"> Idioma: </td>
+            <td> Castellano </td>
+        </tr>
+        <tr>
+            <td class="d"> Fecha de Publicacion: </td>
+            <td class="reo"> 1966 </td>
+        </tr>
+            </tbody>
+            </table>
+    </div>
+    <div class="lavanderia">
+        <p class="siu">.RESUMEN</p>
+    <p class="texto">
+        He aquí un libro que aborda la lectura del texto literario desde una perspectiva poco frecuente, 
+        ya que tiene un propósito divulgador. No hay en estas páginas análisis académicos, sino 
+        descripciones sencillas, prácticas y rigurosas de los factores estéticos y estilísticos cuyo 
+        conocimiento facilita la comprensión del mensaje literario. El libro contiene, además, una amplia 
+        selección de textos críticos y de creación literaria: una antología comentada que interesará, 
+        sin dudan a profesores, estudiantes y lectores en general.
+    </p>
+    <br>
+    </div>
+    </div>-->
+<!--noveno-->
+    <!--<div id="musica">
+    <p class="fi" >COMO APRECIAR LA MUSICA</p>
+    <p class="fo">(esta en la biblioteca)</p>
+    <div class="fideos">
+        <table class="kk">
+            <thead>
+            <tr>
+            <td class="a" colspan="2"> COMO APRECIAR <br>
+                LA MUSICA
+                </td>
+            </tr>
+            <tr>
+            <td class="b" colspan="2"> De: <spam style="color: brown;">Soney Harrison</spam></td>
+            </tr>
+            <td  class="c" colspan="2"> <img src="img\musica.jpeg"></td>
+            </tr>
+            </thead>                                                                                                   
+            <tbody>                              
+            <tr>
+            <td class="d"> Genero:</td>
+            <td class="reo"> Educacion musical</td>                                        
+            </tr>
+            <tr>
+            <td class="d">Tema:</td>
+            <td class="reo">Entender y disfrutar la musica<br>mas profundamente</td>
+        </tr>
+        <tr>
+            <td class="d"> Idioma: </td>
+            <td> Ingles </td>
+        </tr>
+        <tr>
+            <td class="d"> Fecha de Publicacion: </td>
+            <td class="reo"> 1952 </td>
+        </tr>
+            </tbody>
+            </table>
+    </div>
+    <div class="lavande">
+        <p class="siu">.RESUMEN</p>
+    <p class="texto">
+        Este libro, sin caer en un excesivo academicismo, es una guía muy útil y accesible 
+        que le permitirá apreciar todas las formas musicales. Una herramienta valiodísima 
+        para los principiantes y fuente de nuevos y novedosos conocimientos para profesores 
+        y estudiantes avanzados.
+    </p>
+    <br>
+    </div>
+    </div>-->
+<!--decimo-->
+    <!--<div id="1" style="display:none;">
+    <p class="fi" >COMO SUPERAR EL MIEDO DE TODAS LAS TRINCHERAS DE LA VIDA</p>
+    <div class="fideos">
+        <table class="vv">
+            <thead>
+            <tr>
+            <td class="a" colspan="2"> COMO SUPERAR
+                EL MIEDO <br>DE TODAS LAS TRINCHERAS DE LA <br>
+                VIDA
+                </td>
+            </tr>
+            <tr>
+            <td class="b" colspan="2"> De: <spam style="color: brown;">Mayte Carrasco</spam> </td>
+            </tr>
+            <td  class="c" colspan="2"> <img src="img\Autoayuda\1.jpg"></td>
+            </tr>
+            </thead>                                                                                                   
+            <tbody>                              
+            <tr>
+            <td class="d"> Genero:</td>
+            <td class="reo"> Educacion musical</td>                                        
+            </tr>
+            <tr>
+            <td class="d">Tema:</td>
+            <td class="reo">Consejos para enfrentar el miedo</td>
+        </tr>
+        <tr>
+            <td class="d"> Idioma: </td>
+            <td class="reo"> Español </td>
+        </tr>
+        <tr>
+            <td class="d"> Fecha de Publicacion: </td>
+            <td class="reo"> 2024 </td>
+        </tr>
+            </tbody>
+            </table>
+    </div>
+    <div class="lavandero">
+        <p class="siu">.RESUMEN</p>
+    <p class="texto">
+        La gestión del miedo es todo un desafío. Durante los últimos años todos 
+        hemos desarrollado miedos, paranoias, dudas o manías. Hay en la sociedad 
+        actual una necesidad de calma, y de ahí nace también la voluntad de la autora 
+        de dar a conocer sus experiencias, anécdotas, trucos y consejos para poder 
+        enfrentarse al miedo en todas sus manifestaciones: los miedos infundados, los miedos 
+        premonitorios, los miedos paranoicos, los maníacos, los miedos a la muerte, a la 
+        responsabilidad, a la toma de decisiones, a enfrentarse a las personas autoritarias, a 
+        las perversas y también el temor a enfrentar las inevitables injusticias sociales
+    </p>
+    <p class="texto">
+        Ser valiente no siempre es el único antídoto contra el miedo; controlarlo y convivir 
+        con él para evitar la angustia por un posible daño real o imaginario está al alcance de 
+        todos si se trabaja y se entrena. Y la valentía no es algo con lo que se nace o no se nace, 
+        sino que se aprende y, por lo tanto, ¡se enseña!
+    </p>
+    <br>
+    </div>
+    </div>-->
+<!--once-->
+<!--<div id="2" style="display:none;">
+    <p class="fi" >HUMANITAS</p>
+    <div class="fideos">
+        <table class="kk">
+            <thead>
+            <tr>
+            <td class="a" colspan="2"> HUMANITAS</td>
+            </tr>
+            <tr>
+            <td class="b" colspan="2"> De: <spam style="color: brown;">Xavier Ginestar Lopez</spam><br> <spam style="color: tomato;">Sergi Torres</spam> </td>
+            </tr>
+            <td  class="c" colspan="2"> <img src="img\Autoayuda\2.jpg"></td>
+            </tr>
+            </thead>                                                                                                   
+            <tbody>                              
+            <tr>
+            <td class="d"> Genero:</td>
+            <td class="reo">Divulgacion cientifica filosofica</td>                                        
+            </tr>
+            <tr>
+            <td class="d">Tema:</td>
+            <td class="reo">La Vida, La concienca</td>
+        </tr>
+        <tr>
+            <td class="d"> Idioma: </td>
+            <td class="reo"> Catalan </td>
+        </tr>
+        <tr>
+            <td class="d"> Fecha de Publicacion: </td>
+            <td class="reo"> 2022 </td>
+        </tr>
+            </tbody>
+            </table>
+    </div>
+    <div class="lavandero">
+        <p class="siu">.RESUMEN</p>
+    <p class="texto">
+        Este es un libro que habla de la vida de manera global, desde el abismo, el Big Bang, hasta 
+        el futuro que nos espera como especie delante de los retos vitales que tenemos que afrontar: 
+        el auge de la IA, las desigualdades, el cambio climático… Divulgativo, científico y filosófico, 
+        este libro se acerca de una manera accesible a los misterios de la ciencia y explica una filosofía 
+        revolucionaria a partir de los últimos descubrimientos sobre la conciencia. Los autores abanican 
+        una vez más por la historia de la ciencia y de la humanidad y proponen la conciencia como el gran 
+        motor de la evolución, entienden el origen del universo desde una visión colaborativa y la vida como 
+        un disenso ejecutado por una inteligencia que parece ser ahora trascendente e inherente.
+    </p>
+    <br>
+    </div>
+</div>-->
+<!--doce-->
+<!--<div id="3"style="display:none;">
+    <p class="fi" >LAS 5 ESTACIONES DEL AUTOESTIMA</p>
+    <div class="fideos">
+        <table class="kk">
+            <thead>
+            <tr>
+            <td class="a" colspan="2"> LAS 5 ESTACIONES DEL <br>AUTOESTIMA</td>
+            </tr>
+            <tr>
+            <td class="b" colspan="2"> De: <spam style="color: brown;">Ana Belen Medialdea</spam> </td>
+            </tr>
+            <td  class="c" colspan="2"> <img src="img\Autoayuda\3.jpg"></td>
+            </tr>
+            </thead>                                                                                                   
+            <tbody>                              
+            <tr>
+            <td class="d"> Genero:</td>
+            <td class="reo">Autoayuda</td>                                        
+            </tr>
+            <tr>
+            <td class="d">Tema:</td>
+            <td class="reo">el fortalecienmiento y desarrollo<br>del
+                autoestima</td>
+        </tr>
+        <tr>
+            <td class="d"> Idioma: </td>
+            <td class="reo"> Español</td>
+        </tr>
+        <tr>
+            <td class="d"> Fecha de Publicacion: </td>
+            <td class="reo"> 2022 </td>
+        </tr>
+            </tbody>
+            </table>
+    </div>
+    <div class="lavander">
+        <p class="siu">.RESUMEN</p>
+    <p class="texto">
+        Es un libro de autoayuda que te guía a través de cinco etapas para aprender a desarrollar 
+        una autoestima sana. En estas estaciones, encontrarás consejos, casos, narraciones cortas 
+        y ejercicios para cultivar tu amor propio, establecer límites y cuidarte mejor. Porque 
+        mereces valorarte y tener un presente y un futuro mejores. 
+    </p>
+    <br>
+    </div>
+</div>-->
+<!--trece-->
+<!--<div id="4" style="display:none;">
+    <p class="fi" > SUPERATE</p>
+    <div class="fideos">
+        <table class="kk">
+            <thead>
+            <tr>
+            <td class="a" colspan="2"> SUPERATE</td>
+            </tr>
+            <tr>
+            <td class="b" colspan="2"> De: <spam style="color: brown;"> Lorena Torres</spam> </td>
+            </tr>
+            <td  class="c" colspan="2"> <img src="img\Autoayuda\4.jpg"></td>
+            </tr>
+            </thead>                                                                                                   
+            <tbody>                              
+            <tr>
+            <td class="d"> Genero:</td>
+            <td class="reo">Autoayuda</td>                                        
+            </tr>
+            <tr>
+            <td class="d">Tema:</td>
+            <td class="reo">superarte en cualquier area de la <br> vida</td>
+        </tr>
+        <tr>
+            <td class="d"> Idioma: </td>
+            <td class="reo"> Español</td>
+        </tr>
+        <tr>
+            <td class="d"> Fecha de Publicacion: </td>
+            <td class="reo"> 2024 </td>
+        </tr>
+            </tbody>
+            </table>
+    </div>
+    <div class="vivela">
+        <p class="siu">.RESUMEN</p>
+    <p class="texto">
+        te guía a través de un plan de alto rendimiento. 
+        Basado en el conocimiento y la experiencia de Lorena 
+        Torres en la élite deportiva, este libro te permitirá 
+        alcanzar tu máximo potencial. 
+    </p>
+    <p class="texto">
+        Define tu propósito, apóyate en tu motivación y determinación, desafía lo convencional y rodéate de un entorno positivo.<br>
+        Pon tu plan en acción y afianza tus hábitos mediante tres pilares básicos: muévete, nútrete y domina tu mente.<br>
+        Abraza tu superación, aprende de las derrotas, potencia tu liderazgo personal y define tus rituales de competición.<br>
+        Valora tu sueño y profundiza en estrategias de recuperación como la exposición deliberada al frío y al calor, la meditación y la respiración.
+    </p>
+    <p class="texto">
+        Todos podemos rendir al máximo de nuestras posibilidades, independientemente del propósito que 
+        persigamos, si tenemos la intención, la motivación y los recursos adecuados para ello. En Supérate, 
+        conocerás los factores que influyen en el potencial individual y descubrirás herramientas con base 
+        científica que podrás aplicar en tu día a día.
+    </p>
+    <br>
+    </div>
+</div>-->
+<!--catorce-->
+<!--<div id="5" style="display:none;">
+    <p class="fi" > GRACIAS AL MIEDO</p>
+    <div class="fideos">
+        <table class="kk">
+            <thead>
+            <tr>
+            <td class="a" colspan="2"> GRACIAS AL MIEDO</td>
+            </tr>
+            <tr>
+            <td class="b" colspan="2"> De: <spam style="color: brown;"> Cristina Pedroche</spam> </td>
+            </tr>
+            <td  class="c" colspan="2"> <img src="img\Autoayuda\5.jpg"></td>
+            </tr>
+            </thead>                                                                                                   
+            <tbody>                              
+            <tr>
+            <td class="d"> Genero:</td>
+            <td class="reo">Autoayuda</td>                                        
+            </tr>
+            <tr>
+            <td class="d">Tema:</td>
+            <td class="reo">desafiar, reflexonar y aprender<br>sobre
+                 los miedos</td>
+        </tr>
+        <tr>
+            <td class="d"> Idioma: </td>
+            <td class="reo"> Español</td>
+        </tr>
+        <tr>
+            <td class="d"> Fecha de Publicacion: </td>
+            <td class="reo"> 2024 </td>
+        </tr>
+            </tbody>
+            </table>
+    </div>
+    <div class="zzz">
+        <p class="siu">.RESUMEN</p>
+    <p class="texto">
+        es un libro muy personal que duele por su honestidad y atrapa por su belleza. Es un testimonio 
+        valiente sobre cómo plantarle cara al miedo. En él, Cristina comparte su proceso de embarazo y 
+        posparto, los cambios por los que atravesó su cuerpo y mente, y cómo ha sobrellevado los 
+        momentos difíciles con la ayuda de terapeutas y asesores. Un relato íntimo que abraza la valentía, 
+        el descubrimiento y el amor incondiciona.
+    </p>
+    <br>
+    </div>
+</div>-->
+<!--quince-->
+<!--<div id="6" style="display:none;">
+    <p class="fi" > MAHATMAN GANDHI</p>
+    <div class="fideos">
+        <table class="kk">
+            <thead>
+            <tr>
+            <td class="a" colspan="2"> Mahatman Gandhi<td>
+            </tr>
+            <tr>
+            <td class="b" colspan="2"> De: <spam style="color: brown;">Mahatman Gandhi</spam> </td>
+            </tr>
+            <td  class="c" colspan="2"> <img src="img\Biografia\Gran.jpg"></td>
+            </tr>
+            </thead>                                                                                                   
+            <tbody>                              
+            <tr>
+            <td class="d"> Genero:</td>
+            <td class="reo">Auto-Biografia</td>                                        
+            </tr>
+            <tr>
+            <td class="d">Tema:</td>
+            <td class="reo">.Las Experiencias De Su Vida. <td>
+        </tr>
+        <tr>
+            <td class="d"> Idioma: </td>
+            <td class="reo"> Español</td>
+        </tr>
+        <tr>
+            <td class="d"> Fecha de Publicacion: </td>
+            <td class="reo"> 1927 </td>
+        </tr>
+            </tbody>
+            </table>
+    </div>
+    <div class="zzz">
+        <p class="siu">.RESUMEN</p>
+    <p class="texto">
+        Es un testimonio excepcional de su vida y lucha. 
+        Nacido en 1869 en Porbandar, India, Gandhi se convirtió en líder 
+        del movimiento nacionalista y organizador de la resistencia civil contra la 
+        dominación inglesa. A través de su pacífica resistencia y su filosofía de no violencia, 
+        dejó una huella imborrable en la historia. Su figura, reflejo de voluntad, justicia y libertad, 
+        sigue inspirando a millones de personas en todo el mundo. Como él mismo dijo: “Quien busca la verdad 
+        debe ser tan humilde como el polvo”.
+    </p>
+    <br>
+    </div>
+</div>-->
+<!--diesiseis-->
+<!--<div id="7" style="display:none;">
+    <p class="fi" > JULIO CESAR</p>
+    <div class="fideos">
+        <table class="kk">
+            <thead>
+            <tr>
+            <td class="a" colspan="2"> Julio Cesar<td>
+            </tr>
+            <tr>
+            <td class="b" colspan="2"> De: <spam style="color: brown;">Richard Billows</spam> </td>
+            </tr>
+            <td  class="c" colspan="2"> <img src="img\Biografia\Julio.jpg"></td>
+            </tr>
+            </thead>                                                                                                   
+            <tbody>                              
+            <tr>
+            <td class="d"> Genero:</td>
+            <td class="reo">Auto-Biografia</td>                                        
+            </tr>
+            <tr>
+            <td class="d">Tema:</td>
+            <td class="reo">La vida y las expreriencias de<br> Julio Cesar<td>
+        </tr>
+        <tr>
+            <td class="d"> Idioma: </td>
+            <td class="reo"> Español</td>
+        </tr>
+        <tr>
+            <td class="d"> Fecha de Publicacion: </td>
+            <td class="reo"> 2011 </td>
+        </tr>
+            </tbody>
+            </table>
+    </div>
+    <div class="yyy">
+        <p class="siu">.RESUMEN</p>
+    <p class="texto">
+        Al final de su adolescencia, César evitó ser ejecutado por oponerse 
+        directamente al dictador Sila. Condecorado por su valentía en combate 
+        y capturado por piratas, César también se ganó una reputación política 
+        como inconformista y ambicioso. Además, sus amoríos con mujeres aristocráticas, 
+        incluida la enigmática Cleopatra, añaden un toque escandaloso a su historia. Este 
+        libro penetra en la figura de quien se alzó desde la oscuridad para convertirse en 
+        el hombre más rico del mundo y detentar un poder capaz de acabar con la República 
+        romana.
+    </p>
+    <br>
+    </div>
+</div>-->
+<!--diesiciete-->
+<!--<div id="8" style="display:none;"> 
+    <p class="fi" > NAPOLEON </p>
+    <div class="fideos">
+        <table class="kk">
+            <thead>
+            <tr>
+            <td class="a" colspan="2"> Napoleon<td>
+            </tr>
+            <tr>
+            <td class="b" colspan="2"> De: <spam style="color: brown;">Andrew Roberts</spam> </td>
+            </tr>
+            <td  class="c" colspan="2"> <img src="img\Biografia\Napoleon.jpg"></td>
+            </tr>
+            </thead>                                                                                                   
+            <tbody>                              
+            <tr>
+            <td class="d"> Genero:</td>
+            <td class="reo">Biografia</td>                                        
+            </tr>
+            <tr>
+            <td class="d">Tema:</td>
+            <td class="reo"> La Intriga politica y militar de <br> Napoleon<td>
+        </tr>
+        <tr>
+            <td class="d"> Idioma: </td>
+            <td class="reo"> Español</td>
+        </tr>
+        <tr>
+            <td class="d"> Fecha de Publicacion: </td>
+            <td class="reo"> 2016 </td>
+        </tr>
+            </tbody>
+            </table>
+    </div>
+    <div class="yyy">
+        <p class="siu">.RESUMEN</p>
+    <p class="texto">
+        Desde su nacimiento en la oscuridad de la Isla de Córcega hasta su carrera 
+        militar durante la Revolución Francesa, sus conquistas en Italia y África, 
+        y su ascenso al poder como Emperador de Francia, esta biografía revela aspectos 
+        íntimos y humanos detrás de la figura histórica. Cronin nos muestra a un Napoleón 
+        apasionado, generoso, impaciente e impulsivo, desafiando la propaganda adversa que 
+        a menudo lo denigraba.
+    </p>
+    <br>
+    </div>
+</div>-->
+<!--diecinueve-->
+<!--<div id="10" style="display:none;"> 
+    <p class="fi" > LA VIDA DESPUES DE ELLA </p>
+    <div class="fideos">
+        <table class="kk">
+            <thead>
+            <tr>
+            <td class="a" colspan="2"> La vida despues de ella<td>
+            </tr>
+            <tr>
+            <td class="b" colspan="2"> De: <spam style="color: brown;">Abril Camino</spam> </td>
+            </tr>
+            <td  class="c" colspan="2"> <img src="img\Drama\Ella.jpg"></td>
+            </tr>
+            </thead>                                                                                                   
+            <tbody>                              
+            <tr>
+            <td class="d"> Genero:</td>
+            <td class="reo">Novela Realista</td>                                        
+            </tr>
+            <tr>
+            <td class="d">Tema:</td>
+            <td class="reo">historia de encuentro Inesperado<td>
+        </tr>
+        <tr>
+            <td class="d"> Idioma: </td>
+            <td class="reo"> Español</td>
+        </tr>
+        <tr>
+            <td class="d"> Fecha de Publicacion: </td>
+            <td class="reo"> 2020 </td>
+        </tr>
+            </tbody>
+            </table>
+    </div>
+    <div class="yyy">
+        <p class="siu">.RESUMEN</p>
+    <p class="texto">
+        Durante cuatro días en una casa en las montañas, dos personas que ya no tienen razón para 
+        ser familia se enfrentan al duelo, al amor roto y a la vida que se acabó demasiado pronto. 
+        Secretos se desvelan al calor de una chimenea, recuerdos se clavan en el alma, y la historia 
+        explora la supervivencia, la familia y el amor después de la partida de alguien querido.
+    </p>
+    <br>
+    </div>
+</div>-->
+<!--veinte-->
+<!--<div id="11" style="display:none;">
+    <p class="fi" > EL LIBRO NEGRO DE LAS HORAS</p>
+    <div class="fideos">
+        <table class="kk">
+            <thead>
+            <tr>
+            <td class="a" colspan="2"> El libro negro de las horas<td>
+            </tr>
+            <tr>
+            <td class="b" colspan="2"> De: <spam style="color: brown;">Eva Saenz de Urturi</spam> </td>
+            </tr>
+            <td class="c" colspan="2"> <img src="img\Drama\Hora.jpg"></td>
+            </tr>
+            </thead>                                                                                                   
+            <tbody>                              
+            <tr>
+            <td class="d"> Genero:</td>
+            <td class="reo">Novela Policiaca</td>                                        
+            </tr>
+            <tr>
+            <td class="d">Tema:</td>
+            <td class="reo">Encontrar un libro para salvar a<br>su madre<td>
+        </tr>
+        <tr>
+            <td class="d"> Idioma: </td>
+            <td class="reo"> Español</td>
+        </tr>
+        <tr>
+            <td class="d"> Fecha de Publicacion: </td>
+            <td class="reo"> 2022 </td>
+        </tr>
+            </tbody>
+            </table>
+    </div>
+    <div class="uuu">
+        <p class="siu">.RESUMEN</p>
+    <p class="texto">
+        En un vertiginoso juego contra el tiempo, Unai debe encontrar el legendario Libro Negro de 
+        las Horas, una joya bibliográfica exclusiva, para salvar a su madre, quien lleva décadas en 
+        el cementerio. Sin embargo, hay un detalle inquietante: su madre ha estado sangrando en el 
+        mismo lugar donde murió otra mujer, Sarah Morgan. La trama se entrelaza con la juventud de 
+        Ítaca Expósito, la madre de Unai, en la década de los setenta, donde su talento único la 
+        lleva a enfrentarse a estafas, amores y decisiones difíciles. El libro explora la intriga, 
+        la obsesión y la lucha por la libertad y la identidad, todo en el contexto apasionante de 
+        la bibliofilia.
+    </p>
+    <br>
+    </div>
+</div>-->
+<!--veinti y uno-->
+<!--<div id="12" style="display:none;">
+    <p class="fi" >ROMEO Y JULLIETA </p>
+    <div class="fideos">
+        <table class="kk">
+            <thead>
+            <tr>
+            <td class="a" colspan="2"> Romeo y Julieta<td>
+            </tr>
+            <tr>
+            <td class="b" colspan="2"> De: <spam style="color: brown;">William Shakespeare</spam> </td>
+            </tr>
+            <td class="c" colspan="2"> <img src="img\Drama\Romeo.jpg"></td>
+            </tr>
+            </thead>                                                                                                   
+            <tbody>                              
+            <tr>
+            <td class="d"> Genero:</td>
+            <td class="reo">Tragedia</td>                                        
+            </tr>
+            <tr>
+            <td class="d">Tema:</td>
+            <td class="reo">Amor prohibido, pasion intensa<td>
+        </tr>
+        <tr>
+            <td class="d"> Idioma: </td>
+            <td class="reo"> Español</td>
+        </tr>
+        <tr>
+            <td class="d"> Fecha de Publicacion: </td>
+            <td class="reo"> 1594 </td>
+        </tr>
+            </tbody>
+            </table>
+    </div>
+    <div class="hhh">
+        <p class="siu">.RESUMEN</p>
+    <p class="texto">
+        La trama de la obra se centra en la relación amorosa entre los protagonistas, Romeo y Julieta. 
+        A pesar de la enemistad entre sus familias, su amor es apasionado y desafiante. El fraile 
+        Lorenzo ideará un plan para salvar a la pareja, pero las circunstancias trágicas los llevarán a 
+        un destino fatal.
+    </p>
+    <br>
+    </div>
+</div>-->
+<!--veinti y dos-->
+<!--<div id="13" style="display:none;">
+    <p class="fi" >LA ISLA DEL TESORO </p>
+    <div class="fideos">
+        <table class="kk">
+            <thead>
+            <tr>
+            <td class="a" colspan="2"> La isla del teosro<td>
+            </tr>
+            <tr>
+            <td class="b" colspan="2"> De: <spam style="color: brown;"> Robert Louis Stevenson</spam> </td>
+            </tr>
+            <td class="c" colspan="2"> <img src="img\Aventura\Isla.jpg"></td>
+            </tr>
+            </thead>                                                                                                   
+            <tbody>                              
+            <tr>
+            <td class="d"> Genero:</td>
+            <td class="reo">Aventura</td>                                        
+            </tr>
+            <tr>
+            <td class="d">Tema:</td>
+            <td class="reo">Busqueda del legendario tesoro<td>
+        </tr>
+        <tr>
+            <td class="d"> Idioma: </td>
+            <td class="reo"> Español</td>
+        </tr>
+        <tr>
+            <td class="d"> Fecha de Publicacion: </td>
+            <td class="reo"> 1883 </td>
+        </tr>
+            </tbody>
+            </table>
+    </div>
+    <div class="fff">
+        <p class="siu">.RESUMEN</p>
+    <p class="texto">
+        La historia comienza en la posada del Almirante Benbow, donde el joven Jim Hawkins y 
+        su madre atienden a los clientes. Un día, un viejo marinero 
+        llamado Billy Bones llega al lugar y se hospeda allí. Antes de morir, Billy le entrega 
+        a Jim un misterioso mapa que señala la ubicación de un tesoro escondido en una isla remota.
+    </p>
+    <p class="texto">
+        Jim y su madre deciden buscar el tesoro, y junto con el doctor Livesey y el caballero 
+        Trelawney, organizan una expedición en el barco Hispaniola. Contratan a una tripulación, 
+        incluido el cocinero John Silver, un hombre con una pierna de palo y una actitud ambigua.
+    </p>
+    <p class="texto">
+        Durante el viaje, Jim descubre que algunos marineros son en realidad piratas y están 
+        conspirando para apoderarse del tesoro. Silver, a quien Jim consideraba su amigo, resulta 
+        ser el líder de los piratas. Jim y sus aliados luchan contra los traidores mientras buscan 
+        la isla y enfrentan peligros como tormentas, motines y ataques.
+    </p>
+    <p class="texto">
+        Finalmente, llegan a la Isla del Esqueleto, donde encuentran el tesoro enterrado. Sin embargo, 
+        la codicia y la traición siguen acechando. Jim debe usar su ingenio y valentía para sobrevivir 
+        y proteger el tesoro. La novela explora temas como la lealtad, la avaricia y la búsqueda de 
+        aventuras.
+    </p>
+    <br>
+    </div>
+</div>-->
+<!--veinti y tres-->
+<!--<div id="14" style="display:none;">
+    <p class="fi" >THE LAST OF THE MOHICANS</p>
+    <div class="fideos">
+        <table class="kk">
+            <thead>
+            <tr>
+            <td class="a" colspan="2"> The last of the mohicans<td>
+            </tr>
+            <tr>
+            <td class="b" colspan="2"> De: <spam style="color: brown;"> James Fenimore Cooper</spam> </td>
+            </tr>
+            <td class="c" colspan="2"> <img src="img\Aventura\Mamzana.jpg"></td>
+            </tr>
+            </thead>                                                                                                   
+            <tbody>                              
+            <tr>
+            <td class="d"> Genero:</td>
+            <td class="reo">Aventura</td>                                        
+            </tr>
+            <tr>
+            <td class="d">Tema:</td>
+            <td class="reo">la raza y la dificultad de superar<br> las divisiones raciales <td>
+        </tr>
+        <tr>
+            <td class="d"> Idioma: </td>
+            <td class="reo"> Ingles</td>
+        </tr>
+        <tr>
+            <td class="d"> Fecha de Publicacion: </td>
+            <td class="reo"> 1826 </td>
+        </tr>
+            </tbody>
+            </table>
+    </div>
+    <div class="aaa">
+        <p class="siu">.RESUMEN</p>
+    <p class="texto">
+        La historia se desarrolla durante la Guerra de la Independencia de los Estados Unidos y explora 
+        el conflicto entre la tribu de los mohicanos y los colonos europeos. La novela presenta una 
+        narrativa épica, cargada de aventuras y emociones, mientras los personajes enfrentan situaciones 
+        extremas y conflictos raciales
+    </p>
+    <p class="texto">
+        En este apasionante relato, destacan varios personajes: el valiente Hawkeye (también conocido como 
+        ojo de Falcón), un cazador blanco adoptado por la tribu de los mohicanos; Uncas, el último mohicano; 
+        y Chingachgook, su padre y último jefe de la tribu. Por otro lado, el pérfido Magua, un renegado 
+        hurón, busca venganza contra los ingleses y hará todo lo posible por lograr su objetivo. Además, 
+        conocemos a las hermanas Cora Munro y Alice, hijas de un oficial británico, quienes se verán envueltas 
+        en una serie de peligrosos acontecimientos durante la guerra.
+    </p>
+    <p class="texto">
+        La narrativa de James Fenimore Cooper nos sumerge en un mundo lleno de conflictos culturales, 
+        tensiones raciales y luchas por el poder, mientras los personajes luchan por sobrevivir en un 
+        entorno hostil y peligroso. La historia culmina en un emocionante desenlace donde se revelan las 
+        verdaderas lealtades de cada personaje y se desvelan los secretos que han estado ocultos a lo largo 
+        de la trama.
+    </p>
+    <br>
+    </div>
+</div>-->
+<!--veinti y cuatro-->
+<!--<div id="15" style="display:none;">
+    <p class="fi" >LOS TRES MOSQUETEROS</p>
+    <div class="fideos">
+        <table class="kk">
+            <thead>
+            <tr>
+            <td class="a" colspan="2"> Los tres mosqueteros<td>
+            </tr>
+            <tr>
+            <td class="b" colspan="2"> De: <spam style="color: brown;">Alexandre Duma</spam> </td>
+            </tr>
+            <td class="c" colspan="2"> <img src="img\Aventura\Mosca.jpg"></td>
+            </tr>
+            </thead>                                                                                                   
+            <tbody>                              
+            <tr>
+            <td class="d"> Genero:</td>
+            <td class="reo">Capa y espada</td>                                        
+            </tr>
+            <tr>
+            <td class="d">Tema:</td>
+            <td class="reo">honor, lealtad, aventura, amor y <br>traicion <td>
+        </tr>
+        <tr>
+            <td class="d"> Idioma: </td>
+            <td class="reo"> Ingles</td>
+        </tr>
+        <tr>
+            <td class="d"> Fecha de Publicacion: </td>
+            <td class="reo"> 1844 </td>
+        </tr>
+            </tbody>
+            </table>
+    </div>
+    <div class="bbb">
+        <p class="siu">.RESUMEN</p>
+    <p class="texto">
+        La historia se desarrolla en la Francia del siglo XVII y sigue a D’Artagnan, un joven gascón 
+        que llega a París con la intención de convertirse en mosquetero. Allí se encuentra con los 
+        tres legendarios mosqueteros: Athos, Porthos y Aramis. Juntos, enfrentan intrigas políticas, 
+        conspiraciones y duelos emocionantes mientras protegen los intereses de la reina Ana de Austria.
+    </p>
+    <p class="texto">
+        La novela está llena de acción, camaradería, romance y traición. Los personajes se ven envueltos 
+        en una serie de aventuras, desde persecuciones a caballo hasta enfrentamientos con el astuto cardenal 
+        Richelieu y su agente, la misteriosa Milady de Winter. El lema de los mosqueteros, “Todos para 
+        uno, uno para todos”, simboliza su lealtad y valentía.
+    </p>
+    <p class="texto">
+        A medida que la trama se desarrolla, los lazos entre los personajes se fortalecen, y D’Artagnan 
+        descubre que la verdadera amistad y el honor son más valiosos que cualquier tesoro.
+    </p>
+    <br>
+    </div>
+</div>-->
+<!--veinti y cinco-->
+<!--<div id="16" style="display:none;"> 
+    <p class="fi" > VIAJE AL CENTRO DE LA TIERRA</p>
+    <div class="fideos">
+        <table class="kk">
+            <thead>
+            <tr>
+            <td class="a" colspan="2"> Viaje al centro de la tierra<td>
+            </tr>
+            <tr>
+            <td class="b" colspan="2"> De: <spam style="color: brown;">Julio Verne</spam> </td>
+            </tr>
+            <td class="c" colspan="2"> <img src="img\Aventura\Viaje.jpg"></td>
+            </tr>
+            </thead>                                                                                                   
+            <tbody>                              
+            <tr>
+            <td class="d"> Genero:</td>
+            <td class="reo">Aventura</td>                                        
+            </tr>
+            <tr>
+            <td class="d">Tema:</td>
+            <td class="reo">Exploracion Y Descubrimiento<td>
+        </tr>
+        <tr>
+            <td class="d"> Idioma: </td>
+            <td class="reo"> Ingles</td>
+        </tr>
+        <tr>
+            <td class="d"> Fecha de Publicacion: </td>
+            <td class="reo"> 1844 </td>
+        </tr>
+            </tbody>
+            </table>
+    </div>
+    <div class="yyy">
+        <p class="siu">.RESUMEN</p>
+    <p class="texto">
+        Todo comienza con la interpretación de un misterioso y antiguo manuscrito que contiene la 
+        ruta seguida mucho tiempo atrás por un extraño viajero. Este intrépido grupo, liderado por 
+        el sabio empeñoso Otto Lidenbrock, su algo timorato sobrino Axel y el efectivo guía Hans 
+        Bjelke, se adentra en las entrañas terrestres. Allí, enfrentarán infinidad de riesgos, 
+        galerías engañosas, temperaturas variables, sorprendentes formas de vida y paisajes únicos. 
+        La imaginación y el interés de Verne se plasman en esta emocionante travesía hacia lo desconocido
+    </p>
+    <br>
+    </div>
+</div>-->
+<!--veinti y sies-->
+<!--<div id="17" style="display:none;"> 
+    <p class="fi" > REVOLUCION</p>
+    <div class="fideos">
+        <table class="kk">
+            <thead>
+            <tr>
+            <td class="a" colspan="2"> Revolucion<td>
+            </tr>
+            <tr>
+            <td class="b" colspan="2"> De: <spam style="color: brown;">Arturo Perez-Reverte</spam> </td>
+            </tr>
+            <td class="c" colspan="2"> <img src="img\Accion\Revolucion.jpg"></td>
+            </tr>
+            </thead>                                                                                                   
+            <tbody>                              
+            <tr>
+            <td class="d"> Genero:</td>
+            <td class="reo">Novela historica</td>                                        
+            </tr>
+            <tr>
+            <td class="d">Tema:</td>
+            <td class="reo">iniciacion, madurez, amor y vida<td>
+        </tr>
+        <tr>
+            <td class="d"> Idioma: </td>
+            <td class="reo"> Ingles</td>
+        </tr>
+        <tr>
+            <td class="d"> Fecha de Publicacion: </td>
+            <td class="reo"> 2022 </td>
+        </tr>
+            </tbody>
+            </table>
+    </div>
+    <div class="jjj">
+        <p class="siu">.RESUMEN</p>
+    <p class="texto">
+        La historia sigue a Martín Garret Ortiz, un joven ingeniero 
+        de minas español, quien se ve atrapado en los dramáticos 
+        acontecimientos de la época. Junto a tres mujeres y la búsqueda de 
+        un tesoro robado, la novela explora temas de amor, lealtad, muerte y vida. Es un relato 
+        de iniciación y madurez a través del caos y la lucidez.
+    </p>
+    <br>
+    </div>
+</div>-->
+<!--veinti y siete-->
+<!--<div id="18" style="display:none;">
+    <p class="fi" > PADRE</p>
+    <div class="fideos">
+        <table class="kk">
+            <thead>
+            <tr>
+            <td class="a" colspan="2"> Padre<td>
+            </tr>
+            <tr>
+            <td class="b" colspan="2"> De: <spam style="color: brown;">Jose Kapelo</spam> </td>
+            </tr>
+            <td class="c" colspan="2"> <img src="img\Accion\Padre.jpg"></td>
+            </tr>
+            </thead>                                                                                                   
+            <tbody>                              
+            <tr>
+            <td class="d"> Genero:</td>
+            <td class="reo">Narconovela de ficcion</td>                                        
+            </tr>
+            <tr>
+            <td class="d">Tema:</td>
+            <td class="reo">Transformacion y la influencia <br>de figuras paternas<td>
+        </tr>
+        <tr>
+            <td class="d"> Idioma: </td>
+            <td class="reo"> Español</td>
+        </tr>
+        <tr>
+            <td class="d"> Fecha de Publicacion: </td>
+            <td class="reo"> 2021 </td>
+        </tr>
+            </tbody>
+            </table>
+    </div>
+    <div class="yyy">
+        <p class="siu">.RESUMEN</p>
+    <p class="texto">
+        La historia sigue a Antonio, un joven ambicioso que se adentra en la mafia desde su 
+        adolescencia hasta convertirse en un poderoso narcotraficante. La figura del padre 
+        representa las tres grandes influencias en su vida: Dios, el padre que lo crió y otro 
+        mafioso más experimentado llamado Peppe Bossi. A través de un estilo realista, Kapelo 
+        explora el poder, la avaricia y la influencia de estas figuras en la vida de Antonio.
+    </p>
+    <br>
+    </div>
+</div>-->
+<!--veinti y ocho-->
+<!--<div id="19" style="display:none;">
+    <p class="fi" > ODISEA</p>
+    <div class="fideos">
+        <table class="kk">
+            <thead>
+            <tr>
+            <td class="a" colspan="2"> Odisea<td>
+            </tr>
+            <tr>
+            <td class="b" colspan="2"> De: <spam style="color: brown;">Javier Negrete</spam> </td>
+            </tr>
+            <td class="c" colspan="2"> <img src="img\Accion\Odisea.jpg"></td>
+            </tr>
+            </thead>                                                                                                   
+            <tbody>                              
+            <tr>
+            <td class="d"> Genero:</td>
+            <td class="reo">Mitologia griega</td>                                        
+            </tr>
+            <tr>
+            <td class="d">Tema:</td>
+            <td class="reo">aventura, busqueda de identidad<td>
+        </tr>
+        <tr>
+            <td class="d"> Idioma: </td>
+            <td class="reo"> Español</td>
+        </tr>
+        <tr>
+            <td class="d"> Fecha de Publicacion: </td>
+            <td class="reo"> 2019 </td>
+        </tr>
+            </tbody>
+            </table>
+    </div>
+    <div class="yyy">
+        <p class="siu">.RESUMEN</p>
+    <p class="texto">
+        La historia sigue las peripecias del legendario héroe griego Odiseo (Ulises) después de la 
+        guerra de Troya. Odiseo, conocido por su astucia y habilidades estratégicas, emprende un largo 
+        viaje de regreso a su hogar en la isla de Ítaca. A lo largo de su odisea, enfrenta desafíos, se 
+        encuentra con dioses y criaturas míticas, y lucha por reunirse con su familia.
+    </p>
+    <br>
+    </div>
+</div>-->
+<!--veinti y nueve-->
+<!--<div id="20" style="display:none;">
+    <p class="fi" > UNA EDUCACION MORTAL</p>
+    <div class="fideos">
+        <table class="kk">
+            <thead>
+            <tr>
+            <td class="a" colspan="2"> Una educacion mortal<td>
+            </tr>
+            <tr>
+            <td class="b" colspan="2"> De: <spam style="color: brown;">Naomi Novik</spam> </td>
+            </tr>
+            <td class="c" colspan="2"> <img src="img\Fantasía\five.jpg"></td>
+            </tr>
+            </thead>                                                                                                   
+            <tbody>                              
+            <tr>
+            <td class="d"> Genero:</td>
+            <td class="reo">Fantasia</td>                                        
+            </tr>
+            <tr>
+            <td class="d">Tema:</td>
+            <td class="reo"> La Supervivencia En Un Mundo<br>magico peligroso<td>
+        </tr>
+        <tr>
+            <td class="d"> Idioma: </td>
+            <td class="reo"> Español</td>
+        </tr>
+        <tr>
+            <td class="d"> Fecha de Publicacion: </td>
+            <td class="reo"> 2021 </td>
+        </tr>
+            </tbody>
+            </table>
+    </div>
+    <div class="rrr">
+        <p class="siu">.RESUMEN</p>
+    <p class="texto">
+        En esta fascinante obra, la autora nos introduce en una peligrosa escuela de magia 
+        como ninguna otra. Aquí, no hay profesores ni vacaciones, y las amistades son pura 
+        estrategia. Las probabilidades de sobrevivir nunca son las mismas, y cuando estás dentro, 
+        solo hay dos maneras de salir: graduarte o enfrentar la muerte.
+    </p>
+    <p class="texto">
+        La protagonista, El Higgins, posee una fuerza oscura lo suficientemente poderosa para elevar 
+        montañas y aniquilar a millones. Sin embargo, también podría matar accidentalmente a sus 
+        compañeros. Así que El lucha por no usar su poder, a menos que no tenga elección.
+    </p>
+    <p class="texto">
+        La novela combina ingenio, mordacidad y diversión con un profundo sentido de la justicia.
+        Nos recuerda que hay cosas mucho más importantes que la mera supervivencia.
+    </p>
+    <br>
+    </div>
+</div>-->
+<!--treinta-->
+<!--<div id="21" style="display:none;">
+    <p class="fi" > GATA BLANCA</p>
+    <div class="fideos">
+        <table class="kk">
+            <thead>
+            <tr>
+            <td class="a" colspan="2"> Gata Blanca<td>
+            </tr>
+            <tr>
+            <td class="b" colspan="2"> De: <spam style="color: brown;">Holly Black</spam> </td>
+            </tr>
+            <td class="c" colspan="2"> <img src="img\Fantasía\four.jpg"></td>
+            </tr>
+            </thead>                                                                                                   
+            <tbody>                              
+            <tr>
+            <td class="d"> Genero:</td>
+            <td class="reo">Fantasia urbana</td>                                        
+            </tr>
+            <tr>
+            <td class="d">Tema:</td>
+            <td class="reo"> supervivencia en un<br>mundo transformado por magia<td>
+        </tr>
+        <tr>
+            <td class="d"> Idioma: </td>
+            <td class="reo"> Español</td>
+        </tr>
+        <tr>
+            <td class="d"> Fecha de Publicacion: </td>
+            <td class="reo"> 2010 </td>
+        </tr>
+            </tbody>
+            </table>
+    </div>
+    <div class="yyy">
+        <p class="siu">.RESUMEN</p>
+    <p class="texto">
+        En este mundo, solamente un 1% de la población es capaz de hacer magia, pero sus poderes son 
+        dignos de una pesadilla. La historia sigue a Cassel, atormentado por el recuerdo de la chica 
+        de catorce años a la que asesinó. La vida en el colegio es una prueba constante, y en su casa 
+        todo es incluso peor. Nadie olvida que Cassel es un asesino, y nadie olvida que no es un obrador 
+        de maleficios. Sin embargo, en el seno de la familia de Cassel se oculta un secreto aterrador 
+        que él está a punto de heredar: la verdad.
+    </p>
+    <br>
+    </div>
+</div>-->
+<!--treinta y uno-->
+<!--<div id="22" style="display:none;">
+    <p class="fi" > ELANTRIS</p>
+    <div class="fideos">
+        <table class="kk">
+            <thead>
+            <tr>
+            <td class="a" colspan="2"> Elantris<td>
+            </tr>
+            <tr>
+            <td class="b" colspan="2"> De: <spam style="color: brown;">Brandon Sanderson</spam> </td>
+            </tr>
+            <td class="c" colspan="2"> <img src="img\Fantasía\one.jpg"></td>
+            </tr>
+            </thead>                                                                                                   
+            <tbody>                              
+            <tr>
+            <td class="d"> Genero:</td>
+            <td class="reo">Fantasia independiente</td>                                        
+            </tr>
+            <tr>
+            <td class="d">Tema:</td>
+            <td class="reo">Gira En Torno A Decadencia Y <br> Redencion<td>
+        </tr>
+        <tr>
+            <td class="d"> Idioma: </td>
+            <td class="reo"> Español</td>
+        </tr>
+        <tr>
+            <td class="d"> Fecha de Publicacion: </td>
+            <td class="reo"> 2005 </td>
+        </tr>
+            </tbody>
+            </table>
+    </div>
+    <div class="yyy">
+        <p class="siu">.RESUMEN</p>
+    <p class="texto">
+        Elantris, la capital de Arelon, solía ser una ciudad radiante y llena de magia, habitada por 
+        seres benevolentes. Sin embargo, hace diez años, la magia falló sin previo aviso. Los habitantes 
+        de Elantris, ahora desfigurados y sin poderes, luchan por sobrevivir. La princesa Sarene llega 
+        a Arelon y descubre la transformación de la ciudad. 
+    </p>
+    <br>
+    </div>
+</div>-->
+<!--treinta y dos-->
+<!--<div id="23" style="display:none;">
+    <p class="fi" > LOS SEIS DE ATLAS</p>
+    <div class="fideos">
+        <table class="kk">
+            <thead>
+            <tr>
+            <td class="a" colspan="2"> Los seis de atlas<td>
+            </tr>
+            <tr>
+            <td class="b" colspan="2"> De: <spam style="color: brown;">Oliver Blake</spam> </td>
+            </tr>
+            <td class="c" colspan="2"> <img src="img\Fantasía\seven.jpg"></td>
+            </tr>
+            </thead>                                                                                                   
+            <tbody>                              
+            <tr>
+            <td class="d"> Genero:</td>
+            <td class="reo">Fantasia</td>                                        
+            </tr>
+            <tr>
+            <td class="d">Tema:</td>
+            <td class="reo">competencia, busqueda de poder<td>
+        </tr>
+        <tr>
+            <td class="d"> Idioma: </td>
+            <td class="reo"> Español</td>
+        </tr>
+        <tr>
+            <td class="d"> Fecha de Publicacion: </td>
+            <td class="reo"> 2022 </td>
+        </tr>
+            </tbody>
+            </table>
+    </div>
+    <div class="lll">
+        <p class="siu">.RESUMEN</p>
+    <p class="texto">
+        Cada década se eligen a los seis magos más extraordinarios para 
+        que compitan por una plaza en la Sociedad Alejandrina, la sociedad 
+        secreta más importante del mundo. Los seleccionados disfrutarán de una 
+        vida de poder y prestigio que superará sus sueños más salvajes. 
+    </p>
+    <br>
+    </div>
+</div>-->
+<!--treinta y tres-->
+<!--<div id="24" style="display:none;">
+    <p class="fi" > EL VALS DE LA BRUJA</p>
+    <div class="fideos">
+        <table class="kk">
+            <thead>
+            <tr>
+            <td class="a" colspan="2"> El vals de la bruja<td>
+            </tr>
+            <tr>
+            <td class="b" colspan="2"> De: <spam style="color: brown;">Belen Martinez</spam> </td>
+            </tr>
+            <td class="c" colspan="2"> <img src="img\Fantasía\six.jpg"></td>
+            </tr>
+            </thead>                                                                                                   
+            <tbody>                              
+            <tr>
+            <td class="d"> Genero:</td>
+            <td class="reo">Fantasia</td>                                        
+            </tr>
+            <tr>
+            <td class="d">Tema:</td>
+            <td class="reo">La Magia Oscura y el Misterio<td>
+        </tr>
+        <tr>
+            <td class="d"> Idioma: </td>
+            <td class="reo"> Español</td>
+        </tr>
+        <tr>
+            <td class="d"> Fecha de Publicacion: </td>
+            <td class="reo"> 2021 </td>
+        </tr>
+            </tbody>
+            </table>
+    </div>
+    <div class="yyy">
+        <p class="siu">.RESUMEN</p>
+    <p class="texto">
+        La historia se desarrolla en Londres, 1895, en la Academia Covenant. Todo parece normal 
+        hasta que Eliza Kyteler y Kate Saint Germain, dos jóvenes Sangre Negra, despiertan a los 
+        muertos del cementerio Little Hill. Esta travesura les cuesta la expulsión de la academia. 
+        Años después, los Sangre Negra enfrentan una serie de macabros asesinatos. ¿Quién está detrás 
+        de estos crímenes? ¿Qué amenaza pone en peligro a brujos y no mágicos? 
+    </p>
+    <br>
+    </div>
+</div>-->
+<!--treinta y cuatro-->
+<!--<div id="25" style="display:none;">
+    <p class="fi" > UN RIO ENCANTADO</p>
+    <div class="fideos">
+        <table class="kk">
+            <thead>
+            <tr>
+            <td class="a" colspan="2"> Un rio encantado<td>
+            </tr>
+            <tr>
+            <td class="b" colspan="2"> De: <spam style="color: brown;">Rebecca Ross</spam> </td>
+            </tr>
+            <td class="c" colspan="2"> <img src="img\Fantasía\three.jpg"></td>
+            </tr>
+            </thead>                                                                                                   
+            <tbody>                              
+            <tr>
+            <td class="d"> Genero:</td>
+            <td class="reo">Fantasia</td>                                        
+            </tr>
+            <tr>
+            <td class="d">Tema:</td>
+            <td class="reo">La Busqueda de la verdad en una<br> isla magica<td>
+        </tr>
+        <tr>
+            <td class="d"> Idioma: </td>
+            <td class="reo"> Español</td>
+        </tr>
+        <tr>
+            <td class="d"> Fecha de Publicacion: </td>
+            <td class="reo"> 2022 </td>
+        </tr>
+            </tbody>
+            </table>
+    </div>
+    <div class="fff">
+        <p class="siu">.RESUMEN</p>
+    <p class="texto">
+        La historia comienza con una carta y un siniestro viaje a través de las aguas oscuras. Diez 
+        años después de ser enviado al continente para convertirse en bardo, Jack Tamerlaine es convocado 
+        de vuelta a su hogar en Cadence. Sin embargo, su regreso no es alegre: están desapareciendo niñas 
+        de la isla, y Adaira, la futura líder del clan, cree que Jack es el único que puede encontrarlas. 
+        En Cadence, los espíritus elementales habitan en cada soplo de aire, salpicadura de agua, brizna de 
+        hierba y destello de fuego. Secuestrar a las niñas Tamerlaine es ir demasiado lejos, y solo la música 
+        de un bardo puede convocar a los espíritus para que expliquen dónde están las muchachas. Jack y Adaira, 
+        anteriormente enemigos de la infancia y ahora socios reticentes, deben dejar a un lado la rivalidad 
+        del pasado para persuadir a los espíritus de que devuelvan a las niñas. Sin embargo, mientras preparan 
+        las canciones, otra amenaza enemiga aparece en el horizonte: el clan de los Breccan del oeste, enemigos 
+        confesos de los Tamerlaine, abre las líneas de comunicación por primera vez en varios siglos. La 
+        coincidencia es sospechosa, pero los Breccan, que siempre han estado más en sintonía con los espíritus, 
+        pueden tener otra clave que ayude a Jack y a Adaira. A medida que se acercan a descubrir dónde están 
+        las niñas y por qué se las llevaron, se hace evidente que el problema con los espíritus es mucho más 
+        siniestro de lo que esperaban. 
+    </p>
+    <br>
+    </div>
+</div>-->
+<!--treinta y seis-->
+<!--<div id="27" style="display:none;">
+    <p class="fi" >LA CABAÑA</p>
+    <div class="fideos">
+        <table class="kk">
+            <thead>
+            <tr>
+            <td class="a" colspan="2">LA CABAÑA<td>
+            </tr>
+            <tr>
+            <td class="b" colspan="2"> De: <spam style="color: brown;">Natasha Preston</spam> </td>
+            </tr>
+            <td class="c" colspan="2"> <img src="img\Suspenso\Cabaña.jpg"></td>
+            </tr>
+            </thead>                                                                                                   
+            <tbody>                              
+            <tr>
+            <td class="d"> Genero:</td>
+            <td class="reo">Thriller</td>                                        
+            </tr>
+            <tr>
+            <td class="d">Tema:</td>
+            <td class="reo">descubrir al asesino entre ellos<td>
+        </tr>
+        <tr>
+            <td class="d"> Idioma: </td>
+            <td class="reo"> Español</td>
+        </tr>
+        <tr>
+            <td class="d"> Fecha de Publicacion: </td>
+            <td class="reo"> 2022 </td>
+        </tr>
+            </tbody>
+            </table>
+    </div>
+    <div class="yyy">
+        <p class="siu">.RESUMEN</p>
+    <p class="texto">
+        Después de una noche de juerga, dos de ellos mueren asesinados. 
+        Sin signos de forzamiento en la puerta y ningún rastro de forcejeo, 
+        las sospechas recaen sobre el grupo de amigos. Entre ellos solo hay 
+        un asesino, pero ninguno es inocente.
+    </p>
+    <br>
+    </div>
+</div>-->
+<!--treinta y siete-->
+<!--<div id="28" style="display:none;">
+    <p class="fi" >EL CODIGO DA VINCI</p>
+    <div class="fideos">
+        <table class="kk">
+            <thead>
+            <tr>
+            <td class="a" colspan="2">El codigo da vinci<td>
+            </tr>
+            <tr>
+            <td class="b" colspan="2"> De: <spam style="color: brown;">Dan Brown</spam> </td>
+            </tr>
+            <td class="c" colspan="2"> <img src="img\Suspenso\Código.jpg"></td>
+            </tr>
+            </thead>                                                                                                   
+            <tbody>                              
+            <tr>
+            <td class="d"> Genero:</td>
+            <td class="reo">Novela de suspenso</td>                                        
+            </tr>
+            <tr>
+            <td class="d">Tema:</td>
+            <td class="reo"> Busqueda del santo Grial y la <br> verdad de Jesucristo<td>
+        </tr>
+        <tr>
+            <td class="d"> Idioma: </td>
+            <td class="reo"> Español</td>
+        </tr>
+        <tr>
+            <td class="d"> Fecha de Publicacion: </td>
+            <td class="reo"> 2003 </td>
+        </tr>
+            </tbody>
+            </table>
+    </div>
+    <div class="yyy">
+        <p class="siu">.RESUMEN</p>
+    <p class="texto">
+        La trama gira en torno a un enigma relacionado con la vida y obra de Leonardo da Vinci.<br>
+        El protagonista, Robert Langdon, un profesor experto en simbología religiosa, y Sophie Neveu,<br>
+        criptógrafa, investigan la muerte de Saunière, el abuelo de Sophie. Este hombre conocía la<br>
+        localización y el secreto del Santo Grial, así como documentos comprometedores para el Vaticano.<br>
+        Perseguidos por la policía, descubren pistas que los llevan a un criptex y a la creencia de que<br>
+        el Santo Grial podría ser la tumba de María Magdalena. La novela está llena de intriga, arte,<br>
+        religión y conspiración.
+    </p>
+    <br>
+    </div>
+</div>-->
+<!--treinta y ocho-->
+<!--<div id="29" style="display:none;">
+    <p class="fi" >LA SOMBRA DEL VIENTO</p>
+    <div class="fideos">
+        <table class="kk">
+            <thead>
+            <tr>
+            <td class="a" colspan="2">La sombra del viento<td>
+            </tr>
+            <tr>
+            <td class="b" colspan="2"> De: <spam style="color: brown;">Dan Brown</spam> </td>
+            </tr>
+            <td class="c" colspan="2"> <img src="img/Suspenso/Sonvra.jpg"></td>
+            </tr>
+            </thead>                                                                                                   
+            <tbody>                              
+            <tr>
+            <td class="d"> Genero:</td>
+            <td class="reo">Misterio y Suspenso</td>                                        
+            </tr>
+            <tr>
+            <td class="d">Tema:</td>
+            <td class="reo"> Trama de misterio y secretos oscuros <br> que afectan a varias generaciones<td>
+        </tr>
+        <tr>
+            <td class="d"> Idioma: </td>
+            <td class="reo"> Español</td>
+        </tr>
+        <tr>
+            <td class="d"> Fecha de Publicacion: </td>
+            <td class="reo"> 2001 </td>
+        </tr>
+            </tbody>
+            </table>
+    </div>
+    <div class="yyy">
+        <p class="siu">.RESUMEN</p>
+    <p class="texto">
+        La sombra del viento, del escritor español Carlos Ruiz Zafón, es una novela que me cautivó<br>
+        desde el principio con su atmósfera misteriosa y su trama llena de intriga. Ambientada en<br>
+        la Barcelona de la posguerra, la historia gira en torno a Daniel Sempere, un joven que<br>
+        descubre un libro misterioso en el Cementerio de los Libros Olvidados. A partir de ese<br>
+        momento, Daniel se embarca en una búsqueda para descubrir la verdad sobre el autor del libro,<br>
+        Julián Carax, y los secretos que este esconde.
+    </p>
+    <br>
+    </div> 
+</div>-->
+<!--treinta y nueve-->
+<!--<div id="30" style="display:none;">
+    <p class="fi" >LA CHICA DEL TREN</p>
+    <div class="fideos">
+        <table class="kk">
+            <thead>
+            <tr>
+            <td class="a" colspan="2">La chica del tren<td>
+            </tr>
+            <tr>
+            <td class="b" colspan="2"> De: <spam style="color: brown;">Paula Hawkins</spam> </td>
+            </tr>
+            <td class="c" colspan="2"> <img src="img/Suspenso/Tren.jpg"></td>
+            </tr>
+            </thead>                                                                                                   
+            <tbody>                              
+            <tr>
+            <td class="d"> Genero:</td>
+            <td class="reo">Thriller</td>                                        
+            </tr>
+            <tr>
+            <td class="d">Tema:</td>
+            <td class="reo"> Envuelta en un misterio <br> que cambia su vida<td>
+        </tr>
+        <tr>
+            <td class="d"> Idioma: </td>
+            <td class="reo"> Español</td>
+        </tr>
+        <tr>
+            <td class="d"> Fecha de Publicacion: </td>
+            <td class="reo"> 2015 </td>
+        </tr>
+            </tbody>
+            </table>
+        </div> 
+        <br>
+            <div class="yyy">
+                <p class="siu">.RESUMEN</p>
+            <p class="texto">
+                La chica del tren nos cuenta la historia de Rachel, una mujer con mil conflictos<br>
+                internos a cuestas, con problemas que retumban día a día en su cabeza, con un<br>
+                pasado que la persigue y la atormenta, con una vida que no la alimenta, sino que<br>
+                se la va tragando a cada segundo.
+            </p>
+            <br>
+</div>
+</div>-->
+<!--cuarenta-->
+<!--<div id="31" style="display:none;">
+    <p class="fi" >EL VISITANTE</p>
+    <div class="fideos">
+        <table class="kk">
+            <thead>
+            <tr>
+            <td class="a" colspan="2">El visitante<td>
+            </tr>
+            <tr>
+            <td class="b" colspan="2"> De: <spam style="color: brown;">Stephen King</spam> </td>
+            </tr>
+            <td class="c" colspan="2"> <img src="img/Suspenso/Visitas.jpg"></td>
+            </tr>
+            </thead>                                                                                                   
+            <tbody>                              
+            <tr>
+            <td class="d"> Genero:</td>
+            <td class="reo">Terror,suspenso y novela policiaca</td>                                        
+            </tr>
+            <tr>
+            <td class="d">Tema:</td>
+            <td class="reo"> Revelan elementos sobrenaturales <br> que complican el caso. <td>
+        </tr>
+        <tr>
+            <td class="d"> Idioma: </td>
+            <td class="reo"> Español</td>
+        </tr>
+        <tr>
+            <td class="d"> Fecha de Publicacion: </td>
+            <td class="reo"> 2018 </td>
+        </tr>
+            </tbody>
+            </table>
+        </div>
+            <div class="yyy">
+                <p class="siu">.RESUMEN</p>
+            <p class="texto">
+                El Visitante es una historia de terror, con tintes policiacos y muchas dosis<br>
+                de misterio donde tenemos una historia mórbida y oscura que re descubre a uno<br>
+                de los temores de la infancia para convertirlo en algo muy adulto y muy oscuro
+            </p>
+            <br>
+</div>
+</div>-->
+<!--cuarenta y uno-->
+<!--<div id="32" style="display:none;">
+    <p class="fi" >LA NOCHE HUMANA</p>
+    <div class="fideos">
+        <table class="kk">
+            <thead> 
+            <tr>
+            <td class="a" colspan="2">La noche humana</tr>
+            </tr>
+            <tr>
+            <td class="b" colspan="2"> De: <spam style="color: brown;">Carlos Calderon Fajardo</spam> </td>
+            </tr>
+            <td class="c" colspan="2"> <img src="img/Suspenso/la noche humana.png"></td>
+            </tr>
+            </thead>                                                                                                   
+            <tbody>                              
+            <tr>
+            <td class="d"> Genero:</td>
+            <td class="reo">Drama y suspenso</td>                                        
+            </tr>
+            <tr>
+            <td class="d">Tema:</td>
+            <td class="reo">  explora temas de identidad, lucha y <br> supervivencia en tiempos difíciles.<td>
+        </tr>
+        <tr>
+            <td class="d"> Idioma: </td>
+            <td class="reo"> Español</td>
+        </tr>
+        <tr>
+            <td class="d"> Fecha de Publicacion: </td>
+            <td class="reo"> 2008 </td>
+        </tr>
+            </tbody>
+            </table>
+        </div>
+            <div class="yyy">
+                <p class="siu">.RESUMEN</p>
+            <p class="texto">
+                En La noche humana, Calderón Fajardo muestra una historia con el necesario color local<br>
+                como para traslucir lo peruano, pero con el suficiente criterio como para evitar la <br>
+                escenografía costumbrista y folclórica de un grupo de peruanos en París la cual, a<br>
+                propósito, se ofrece desprovista de la Tour Eiffel y otros lugares comunes de la otra <br> 
+                Ciudad Luz. Tan universal como peruana, La noche humana es una novela clave en la <br>
+                biobibliografía de Carlos Calderón Fajardo, escritor que se ha hecho de un lugar <br>
+                prominente a fuerza de no dejarse vencer por un espacio literario en el que la banalidad <br> 
+                y la falta de oficio se pasa por alto porque se prefiere lo malo conocido a lo bueno por <br>
+                conocer.
+            </p>
+            <br>
+</div>
+</div>-->
+<!--cuarenta y dos-->
+<!--<div id="33" style="display:none;">
+    <p class="fi" >EL VIEJO Y EL MAR</p>
+    <div class="fideos">
+        <table class="kk">
+            <thead>
+            <tr>
+            <td class="a" colspan="2">El viejo y el mar<td>
+            </tr>
+            <tr>
+            <td class="b" colspan="2"> De: <spam style="color: brown;">Carlos Calderon Fajardo</spam> </td>
+            </tr>
+            <td class="c" colspan="2"> <img src="img/Ficcion/g.jpg"></td>
+            </tr>
+            </thead>                                                                                                   
+            <tbody>                              
+            <tr>
+            <td class="d"> Genero:</td>
+            <td class="reo">Novela de suspenso</td>                                        
+            </tr>
+            <tr>
+            <td class="d">Tema:</td>
+            <td class="reo"> Busqueda del santo Grial y la <br> verdad de Jesucristo<td>
+        </tr>
+        <tr>
+            <td class="d"> Idioma: </td>
+            <td class="reo"> Español</td>
+        </tr>
+        <tr>
+            <td class="d"> Fecha de Publicacion: </td>
+            <td class="reo"> 2003 </td>
+        </tr>
+            </tbody>
+            </table>
+        </div>
+        <div class="yyy">
+            <p class="siu">.RESUMEN</p>
+        <p class="texto">
+            En La noche humana, Calderón Fajardo muestra una historia con el necesario color local<br>
+            como para traslucir lo peruano, pero con el suficiente criterio como para evitar la <br>
+            escenografía costumbrista y folclórica de un grupo de peruanos en París la cual, a<br>
+            propósito, se ofrece desprovista de la Tour Eiffel y otros lugares comunes de la otra <br> 
+            Ciudad Luz. Tan universal como peruana, La noche humana es una novela clave en la <br>
+            biobibliografía de Carlos Calderón Fajardo, escritor que se ha hecho de un lugar <br>
+            prominente a fuerza de no dejarse vencer por un espacio literario en el que la banalidad <br> 
+            y la falta de oficio se pasa por alto porque se prefiere lo malo conocido a lo bueno por <br>
+            conocer.
+        </p>
+        <br>
+</div>
+</div>-->
+<!--cuarenta y tres-->
+<!--<div id="34" style="display:none;">
+    <p class="fi" >PEDRO PARAMO</p>
+    <div class="fideos">
+        <table class="kk">
+            <thead>
+            <tr>
+            <td class="a" colspan="2">Pedro Paramo<td>
+            </tr>
+            <tr>
+            <td class="b" colspan="2"> De: <spam style="color: brown;">Carlos Calderon Fajardo</spam> </td>
+            </tr>
+            <td class="c" colspan="2"> <img src="img\Ficcion\h.jpg"></td>
+            </tr>
+            </thead>                                                                                                   
+            <tbody>                              
+            <tr>
+            <td class="d"> Genero:</td>
+            <td class="reo">Novela de suspenso</td>                                        
+            </tr>
+            <tr>
+            <td class="d">Tema:</td>
+            <td class="reo"> Busqueda del santo Grial y la <br> verdad de Jesucristo<td>
+        </tr>
+        <tr>
+            <td class="d"> Idioma: </td>
+            <td class="reo"> Español</td>
+        </tr>
+        <tr>
+            <td class="d"> Fecha de Publicacion: </td>
+            <td class="reo"> 2003 </td>
+        </tr>
+            </tbody>
+            </table>
+</div>
+</div>-->
+<!--cuarenta y cuatro-->
+<!--<div id="35" style="display:none;">
+    <p class="fi" >CIEN AÑOS DE SOLEDAD</p>
+    <div class="fideos">
+        <table class="kk">
+            <thead>
+            <tr>
+            <td class="a" colspan="2">Cien años de soledad<td>
+            </tr>
+            <tr>
+            <td class="b" colspan="2"> De: <spam style="color: brown;">Carlos Calderon Fajardo</spam> </td>
+            </tr>
+            <td class="c" colspan="2"> <img src="img\Ficcion\j.jpg"></td>
+            </tr>
+            </thead>                                                                                                   
+            <tbody>                              
+            <tr>
+            <td class="d"> Genero:</td>
+            <td class="reo">Novela de suspenso</td>                                        
+            </tr>
+            <tr>
+            <td class="d">Tema:</td>
+            <td class="reo"> Busqueda del santo Grial y la <br> verdad de Jesucristo<td>
+        </tr>
+        <tr>
+            <td class="d"> Idioma: </td>
+            <td class="reo"> Español</td>
+        </tr>
+        <tr>
+            <td class="d"> Fecha de Publicacion: </td>
+            <td class="reo"> 2003 </td>
+        </tr>
+            </tbody>
+            </table>
+</div>
+</div>-->
+<!--cuarenta y cinco-->
+<!--<div id="36" style="display:none;">
+    <p class="fi" >DON QUIJOTE DE LA MANCHA</p>
+    <div class="fideos">
+        <table class="kk">
+            <thead>
+            <tr>
+            <td class="a" colspan="2">Anatomia humana<td>
+            </tr>
+            <tr>
+            <td class="b" colspan="2"> De: <spam style="color: brown;">Carlos Calderon Fajardo</spam> </td>
+            </tr>
+            <td class="c" colspan="2"> <img src="img\estudio\Atlas del cuerpo humano.png"></td>
+            </tr>
+            </thead>                                                                                                   
+            <tbody>                              
+            <tr>
+            <td class="d"> Genero:</td>
+            <td class="reo">Novela de suspenso</td>                                        
+            </tr>
+            <tr>
+            <td class="d">Tema:</td>
+            <td class="reo"> Busqueda del santo Grial y la <br> verdad de Jesucristo<td>
+        </tr>
+        <tr>
+            <td class="d"> Idioma: </td>
+            <td class="reo"> Español</td>
+        </tr>
+        <tr>
+            <td class="d"> Fecha de Publicacion: </td>
+            <td class="reo"> 2003 </td>
+        </tr>
+            </tbody>
+            </table>
+</div>
+</div>-->
+<!--cuarenta y seis-->
+<!--<div id="37" style="display:none;">
+    <p class="fi" >ATLAS DEL CUERPO HUMANO</p>
+    <div class="fideos">
+        <table class="kk">
+            <thead>
+            <tr>
+            <td class="a" colspan="2">Atlas del cuepo humano<td>
+            </tr>
+            <tr>
+            <td class="b" colspan="2"> De: <spam style="color: brown;">Carlos Calderon Fajardo</spam> </td>
+            </tr>
+            <td class="c" colspan="2"> <img src="img\estudio\atlas del cuerpo humano2.png"></td>
+            </tr>
+            </thead>                                                                                                   
+            <tbody>                              
+            <tr>
+            <td class="d"> Genero:</td>
+            <td class="reo">Novela de suspenso</td>                                        
+            </tr>
+            <tr>
+            <td class="d">Tema:</td>
+            <td class="reo"> Busqueda del santo Grial y la <br> verdad de Jesucristo<td>
+        </tr>
+        <tr>
+            <td class="d"> Idioma: </td>
+            <td class="reo"> Español</td>
+        </tr>
+        <tr>
+            <td class="d"> Fecha de Publicacion: </td>
+            <td class="reo"> 2003 </td>
+        </tr>
+            </tbody>
+            </table>
+</div>
+</div>-->
+<!--cuarenta y siete-->
+<!--<div id="38" style="display:none;">
+    <p class="fi" >ATLAS</p>
+    <div class="fideos">
+        <table class="kk">
+            <thead>
+            <tr>
+            <td class="a" colspan="2">Atlas<td>
+            </tr>
+            <tr>
+            <td class="b" colspan="2"> De: <spam style="color: brown;">Carlos Calderon Fajardo</spam> </td>
+            </tr>
+            <td class="c" colspan="2"> <img src="img\estudio\atlas tomo del 1 al 16.png"></td>
+            </tr>
+            </thead>                                                                                                   
+            <tbody>                              
+            <tr>
+            <td class="d"> Genero:</td>
+            <td class="reo">Novela de suspenso</td>                                        
+            </tr>
+            <tr>
+            <td class="d">Tema:</td>
+            <td class="reo"> Busqueda del santo Grial y la <br> verdad de Jesucristo<td>
+        </tr>
+        <tr>
+            <td class="d"> Idioma: </td>
+            <td class="reo"> Español</td>
+        </tr>
+        <tr>
+            <td class="d"> Fecha de Publicacion: </td>
+            <td class="reo"> 2003 </td>
+        </tr>
+            </tbody>
+            </table>
+</div>
+</div>-->
+<!--cuarenta y ocho-->
+<!--<div id="39" style="display:none;">
+    <p class="fi" >CATESISMO DE LA IGLESIA CATOLICA</p>
+    <div class="fideos">
+        <table class="kk">
+            <thead>
+            <tr>
+            <td class="a" colspan="2">Catesistmo de la iglesia catolica<td>
+            </tr>
+            <tr>
+            <td class="b" colspan="2"> De: <spam style="color: brown;">Carlos Calderon Fajardo</spam> </td>
+            </tr>
+            <td class="c" colspan="2"> <img src="img\estudio\catecismo de la iglesia catolica.png"></td>
+            </tr>
+            </thead>                                                                                                   
+            <tbody>                              
+            <tr>
+            <td class="d"> Genero:</td>
+            <td class="reo">Novela de suspenso</td>                                        
+            </tr>
+            <tr>
+            <td class="d">Tema:</td>
+            <td class="reo"> Busqueda del santo Grial y la <br> verdad de Jesucristo<td>
+        </tr>
+        <tr>
+            <td class="d"> Idioma: </td>
+            <td class="reo"> Español</td>
+        </tr>
+        <tr>
+            <td class="d"> Fecha de Publicacion: </td>
+            <td class="reo"> 2003 </td>
+        </tr>
+            </tbody>
+            </table>
+</div>
+</div>-->
+<!--cuarenta y nueve-->
+<!--<div id="40" style="display:none;">
+    <p class="fi" >ATLAS GEOGRAFICO UNIVERSAL</p>
+    <div class="fideos">
+        <table class="kk">
+            <thead>
+            <tr>
+            <td class="a" colspan="2">Atlas geografico universal<td>
+            </tr>
+            <tr>
+            <td class="b" colspan="2"> De: <spam style="color: brown;">Carlos Calderon Fajardo</spam> </td>
+            </tr>
+            <td class="c" colspan="2"> <img src="img\estudio\atlas universal y del peru.png"></td>
+            </tr>
+            </thead>                                                                                                   
+            <tbody>                              
+            <tr>
+            <td class="d"> Genero:</td>
+            <td class="reo">Novela de suspenso</td>                                        
+            </tr>
+            <tr>
+            <td class="d">Tema:</td>
+            <td class="reo"> Busqueda del santo Grial y la <br> verdad de Jesucristo<td>
+        </tr>
+        <tr>
+            <td class="d"> Idioma: </td>
+            <td class="reo"> Español</td>
+        </tr>
+        <tr>
+            <td class="d"> Fecha de Publicacion: </td>
+            <td class="reo"> 2003 </td>
+        </tr>
+            </tbody>
+            </table>
+</div>
+</div>-->
+
+<!--aqui-->
+
+<!--cincuenta y uno-->
+<div id="42" style="display:none;">
+    <p class="fi" >HISTORIA DEL JABON</p>
+    <div class="fideos">
+        <table class="kk">
+            <thead>
+            <tr>
+            <td class="a" colspan="2">Historia del jabon<td>
+            </tr>
+            <tr>
+            <td class="b" colspan="2"> De: <spam style="color: brown;">Carlos Calderon Fajardo</spam> </td>
+            </tr>
+            <td class="c" colspan="2"> <img src="img\Ficcion\g.jpg"></td>
+            </tr>
+            </thead>                                                                                                   
+            <tbody>                              
+            <tr>
+            <td class="d"> Genero:</td>
+            <td class="reo">Novela de suspenso</td>                                        
+            </tr>
+            <tr>
+            <td class="d">Tema:</td>
+            <td class="reo"> Busqueda del santo Grial y la <br> verdad de Jesucristo<td>
+        </tr>
+        <tr>
+            <td class="d"> Idioma: </td>
+            <td class="reo"> Español</td>
+        </tr>
+        <tr>
+            <td class="d"> Fecha de Publicacion: </td>
+            <td class="reo"> 2003 </td>
+        </tr>
+            </tbody>
+            </table>
+</div>
+</div>
+
+<!--cincuenta y dos-->
+<div id="43" style="display:none;">
+    <p class="fi"> LA CRISALIDA</p>
+    <div class="fideos">
+        <table class="kk">
+            <thead>
+            <tr>
+            <td class="a" colspan="2">La crisalida<td>
+            </tr>
+            <tr>
+            <td class="b" colspan="2"> De: <spam style="color: brown;">Carlos Calderon Fajardo</spam> </td>
+            </tr>
+            <td class="c" colspan="2"> <img src="img\Ficcion\g.jpg"></td>
+            </tr>
+            </thead>                                                                                                   
+            <tbody>                              
+            <tr>
+            <td class="d"> Genero:</td>
+            <td class="reo">Novela de suspenso</td>                                        
+            </tr>
+            <tr>
+            <td class="d">Tema:</td>
+            <td class="reo"> Busqueda del santo Grial y la <br> verdad de Jesucristo<td>
+        </tr>
+        <tr>
+            <td class="d"> Idioma: </td>
+            <td class="reo"> Español</td>
+        </tr>
+        <tr>
+            <td class="d"> Fecha de Publicacion: </td>
+            <td class="reo"> 2003 </td>
+        </tr>
+            </tbody>
+            </table>
+</div>
+</div>
+
+<!--cincuenta y tres-->
+<div id="44" style="display:none;">
+    <p class="fi" >TRADICIONES PERUANAS</p>
+    <div class="fideos">
+        <table class="kk">
+            <thead>
+            <tr>
+            <td class="a" colspan="2"> tradiciones peruanas<td>
+            </tr>
+            <tr>
+            <td class="b" colspan="2"> De: <spam style="color: brown;">Carlos Calderon Fajardo</spam> </td>
+            </tr>
+            <td class="c" colspan="2"> <img src="img\Ficcion\g.jpg"></td>
+            </tr>
+            </thead>                                                                                                   
+            <tbody>                              
+            <tr>
+            <td class="d"> Genero:</td>
+            <td class="reo">Novela de suspenso</td>                                        
+            </tr>
+            <tr>
+            <td class="d">Tema:</td>
+            <td class="reo"> Busqueda del santo Grial y la <br> verdad de Jesucristo<td>
+        </tr>
+        <tr>
+            <td class="d"> Idioma: </td>
+            <td class="reo"> Español</td>
+        </tr>
+        <tr>
+            <td class="d"> Fecha de Publicacion: </td>
+            <td class="reo"> 2003 </td>
+        </tr>
+            </tbody>
+            </table>
+</div>
+</div>
+
+<!--cincuenta y cuatro-->
+<div id="45" style="display:none;">
+    <p class="fi" >EL VIEJO Y EL MAR</p>
+    <div class="fideos">
+        <table class="kk">
+            <thead>
+            <tr>
+            <td class="a" colspan="2">El viejo y el mar<td>
+            </tr>
+            <tr>
+            <td class="b" colspan="2"> De: <spam style="color: brown;">Carlos Calderon Fajardo</spam> </td>
+            </tr>
+            <td class="c" colspan="2"> <img src="img\Ficcion\g.jpg"></td>
+            </tr>
+            </thead>                                                                                                   
+            <tbody>                              
+            <tr>
+            <td class="d"> Genero:</td>
+            <td class="reo">Novela de suspenso</td>                                        
+            </tr>
+            <tr>
+            <td class="d">Tema:</td>
+            <td class="reo"> Busqueda del santo Grial y la <br> verdad de Jesucristo<td>
+        </tr>
+        <tr>
+            <td class="d"> Idioma: </td>
+            <td class="reo"> Español</td>
+        </tr>
+        <tr>
+            <td class="d"> Fecha de Publicacion: </td>
+            <td class="reo"> 2003 </td>
+        </tr>
+            </tbody>
+            </table>
+</div>
+
+
+<!--sript-->
+    <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      centeredSlides: true,
+      spaceBetween: 3,
+      pagination: {
+        el: ".swiper-pagination",
+        type: "fraction",
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+
+    var appendNumber = 4;
+    var prependNumber = 1;
+    document.querySelector(".prepend-2-slides")
+    .addEventListener("click", function (e) {
+        e.preventDefault();
+        swiper.prependSlide([
+          '<div class="swiper-slide">Slide ' + --prependNumber + "</div>",
+          '<div class="swiper-slide">Slide ' + --prependNumber + "</div>",
+        ]);
+      });
+    document.querySelector(".prepend-slide")
+      .addEventListener("click", function (e) {
+        e.preventDefault();
+        swiper.prependSlide(
+          '<div class="swiper-slide">Slide ' + --prependNumber + "</div>"
+        );
+      });
+    document.querySelector(".append-slide")
+      .addEventListener("click", function (e) {
+        e.preventDefault();
+        swiper.appendSlide(
+          '<div class="swiper-slide">Slide ' + ++appendNumber + "</div>"
+        );
+      });
+    document.querySelector(".append-2-slides")
+      .addEventListener("click", function (e) {
+        e.preventDefault();
+        swiper.appendSlide([
+          '<div class="swiper-slide">Slide ' + ++appendNumber + "</div>",
+          '<div class="swiper-slide">Slide ' + ++appendNumber + "</div>",
+        ]);
+      });
+  </script>
+
+<div id="google_translate_element"></div>
+<script type="text/javascript">
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({pageLanguage: 'es', includedLanguages: 'en,fr,de,it,pt'}, 'google_translate_element');
+    }
+</script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html>
+        <head>
+            <title>INTERCAMBIO DE LIBROS Y CONTENIDO ACADEMICO</title>
+            <meta charset="utf-8"/>
+            <meta name="viewport" content="width=device-width" , user-scalable= no, initial-scale=1.0 maxinum-scale=1.0, minimun-scale=1.>
+            <link rel="stylesheet" href="estilos.css" />
+            <link rel="stylesheet" href="estiloscelular.css" />
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+            <link rel="icon" href="computador\img\catatua.ico">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+            <script src="educativo.js"></script>
+            <script src="script.js"></script>
+            <script src="busqueda.js"></script>
+        </head>
+        <body>
+            <div id="logo">
+                <img class="figura" src="img\logo.png" />
+            </div>
+        
+            <!-- el menu--> 
+            <div id="tipo">
+                <header class="head">
+                    <nav>
+                        <img style="width:60px; height: 70px;" src="img\jad-removebg-preview (1).png">
+                        <ul class="horizontal">
+                            <button class="refresco" onclick="window.location.assign('LIBROS.html')";>INICIO</button>
+                            
+                            <li class="dedo"> 
+                                CONTACTOS
+                                <ul class="vertical">
+                                    <li><a  class="enlace"  target="_blank" href="https://wa.me/qr/7RLD325345PLC1">953 514 348</a></li>
+                                    <li><a  class="enlace"  target="_blank" href="img\qr.jpeg">QR (WASAP)</a></li>
+                                    <li><a  class="enlace"  target="_blank" href="https://www.instagram.com/edu.libro?utm_source=qr&igsh=eWtzbjlxdHY5MWRx">INSTAGRAN</a></li>   
+                                </ul>
+                            </li>
+        
+                        <li class="dedo">
+                                PUBLICIDAD              
+                            <ul class="vertical">
+                                <li><button class="clasista" onclick="educa()">PROMOCIONALES</button></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    
+                        <div class="container">
+                            <search>
+                                <form id="search" onsubmit="return false;"> 
+                                    <label>
+                                        <input input type="search" id="input-search"  list="search-options" placeholder="Buscar" autocomplete="off">
+                                    </label>
+                                    <datalist id="search-options">
+                                        <select id="oxapampa" multiple size="10">
+                                            <option value=" "> </option>
+                                        </select> 
+                                    </datalist>
+                                </form>
+                            </search>
+                            <div class="btn">
+                                <button id="botoncito"><i class="fa fa-search" aria-hidden="true"></i></button>
+                            </div>
+                        </div>
+                    </nav>
+                </header>
+            </div>
+
+
+                <!--titulo-->
+    <div id="titulo">
+      <p class="fu">"Institucion Educativa 6050 Juana Alarco de Dammert" </p>
+      <p class="fe">BIBLIOTECA</p>
+  </div>
+
+            <div id="buttonContainer">
+                <button class="gog" data-title="el sexto" onclick="one()"><img src="https://imagessl3.casadellibro.com/a/l/s5/53/9788494435553.webp"></button><!--f-->
+                <button class="gog" data-title="todas las sangres" onclick="dos()" > <img src="https://images.cdn1.buscalibre.com/fit-in/360x360/3b/01/3b01b3739e1b67a95c51a9f04836a2a7.jpg"></button><!--f-->
+                <button class="gog" data-title="yawar fiesta" onclick="tres()"> <img  src="https://www.elvirrey.com/imagenes/9786125/978612505919.GIF"></button><!--f-->
+                <button class="gog" data-title="los rios profundos" onclick="cuatro()"> <img  src="https://elcomercio.pe/resizer/UGJvHtpmOZJ5GobiRgQX3mZkU9I=/620x0/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/ACOGKHBGKNGSBAZOVXM5IDZZ2I.jpg"></button><!--f-->
+                <button class="gog" data-title="el zorro de arriba y el zorro de abajo" onclick="cinco()"> <img  src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1482834617i/33615123.jpg"> </button><!--f-->
+                <button class="gog" data-title="warma kuyay" onclick="seis()"> <img src="https://www.universidadperu.com/imgsag/trascendencia-de-la-literatura-quechua-actual-lectura-dramatica-de-la-adaptacion-de-la-obra-warma-kuyay-de-jose-maria-arguedas-por-el-grupo-teatral.jpg"> </button><!--f-->
+                <button class="gog" data-title="la ciudad y los perros" onclick="siete()"><img class="jim"  src="https://images.cdn1.buscalibre.com/fit-in/360x360/46/0c/460cf768bec27103e3d93791c2770ba5.jpg"> </button><!--f-->
+                <button class="gog" data-title="el fuego de la imaginacion" onclick="pepe()"><img class="jim" src="https://www.penguinlibros.com/pe/2012577-large_default/el-fuego-de-la-imaginacion-libros-escenarios-pantallas-y-museos.webp"> </button> <!--f-->
+                <button class="gog" data-title="le dedico mi silencio" onclick="pipa()"><img class="jim" src="https://www.libreriasur.com.pe/imagenes/9786125/978612502068.webp"> </button><!--f-->
+                <button class="gog" data-title="un barbaro en paris" onclick="joselino()"><img class="jim" src="https://f.rpp-noticias.io/2023/03/15/1402061portada-un-barbaro-en-parisjpg.jpg"> </button><!--f-->            
+                <button class="gog" data-title="la llamada de la tribu" onclick="pepita()"><img class="jim" src="https://www.crisol.com.pe/media/catalog/product/cache/f6d2c62455a42b0d712f6c919e880845/9/7/9788420431994_f1zhnomg1x6pg0hq.jpg"> </button><!--f-->
+                <button class="gog" data-title="la verdad de las mentiras" onclick="pepito()"><img class="jim" src="https://imagenes.elpais.com/resizer/v2/ARO3GBP4WQEZX43BWWP7GY72II.jpg?auth=1debe2a0a54ce2eb7b7ee47e284bba16042cfd9fbb8813bba5f105e423285a22&width=1960"> </button><!--f-->
+                <button class="gog" data-title="como leer textos literarios" onclick="ocho()"><img class="jime" src="img\texto.jpeg"> </button><!--f-->
+                <button class="gog" data-title="como apreciar la musica"  onclick="nueve()"><img class="jim" src="img\musica.jpeg"> </button><!--f-->
+                <button class="gog" data-title="como superar el miedo en todas las trincheras de la vida" onclick="dies()"><img class="jim" src="img\Autoayuda\1.jpg"> </button><!--f-->
+                <button class="gog" data-title="humanitas" onclick="once()"><img class="jim" src="img\Autoayuda\2.jpg"> </button>    <!--f-->
+                <button class="gog" data-title="las 5 estaciones del autoestima" onclick="doce()"><img class="jim" src="img\Autoayuda\3.jpg"> </button><!--f-->
+                <button class="gog" data-title="superate" onclick="trece()"><img class="jim" src="img\Autoayuda\4.jpg"> </button><!--f-->
+                <button class="gog" data-title="gracias al miedo" onclick="catorce()"><img class="jim" src="img\Autoayuda\5.jpg"> </button><!--f-->
+                <button class="gog" data-title="paula" onclick="aa()"><img class="jim" src="img\Autoayuda\paula .png"> </button><!--f-->
+                <button class="gog" data-title="mahatma gandhi" onclick="quince()"><img class="jim" src="img\Biografia\Gran.jpg"> </button><!--...-->
+                <button class="gog" data-title="julio cesar" onclick="dieciseis()"><img class="jim" src="img\Biografia\Julio.jpg"> </button><!--...-->
+                <button class="gog" data-title="napoleon" onclick="diesiciete()"><img class="jim" src="img\Biografia\Napoleon.jpg"> </button><!--...-->
+                <button class="gog" data-title="oscar wilde" onclick="ff()"><img class="jim" src="img\Biografia\su vida y obra de oscar wilde.png"> </button><!--...-->
+                <button class="gog" data-title="la vida despues de ella" onclick="diecinueve()"><img class="jim" src="img\Drama\Ella.jpg"> </button><!--f-->
+                <button class="gog" data-title="el libro negro de las horas" onclick="veinte()"><img class="jim" src="img\Drama\Hora.jpg"> </button><!--f-->
+                <button class="gog" data-title="romeo y julieta" onclick="veintiuno()"><img class="jim" src="img\Drama\Romeo.jpg"> </button><!--f-->
+                <button class="gog" data-title="edipo rey" onclick="gg()"><img class="jim" src="img\Drama\edipo rey.png"> </button><!--...-->
+                <button class="gog" data-title="la isla del tesoro" onclick="veintidos()"><img class="jim" src="img\Aventura\Isla.jpg"> </button><!--f-->
+                <button class="gog" data-title="the last of the mohican" onclick="veintitres()"><img class="jim" src="img\Aventura\Mamzana.jpg"> </button><!--f-->
+                <button class="gog" data-title="los tres mosqueteros" onclick="veinticuatro()"><img class="jim" src="img\Aventura\Mosca.jpg"> </button><!--f-->
+                <button class="gog" data-title="viaje al centro de la tierra" onclick="veinticinco()"><img class="jim" src="img\Aventura\Viaje.jpg"> </button><!--f-->
+                <button class="gog" data-title="revolucion" onclick="veintiseis()"><img class="jim" src="img\Accion\Revolucion.jpg"> </button><!--f-->
+                <button class="gog" data-title="padre" onclick="veintisiete()"><img class="jim" src="img\Accion\Padre.jpg"> </button><!--f-->
+                <button class="gog" data-title="una educacion mortal" onclick="veintinueve()"><img class="jim" src="img\Fantasía\five.jpg"> </button><!--f-->
+                <button class="gog" data-title="gata blanca" onclick="treinta()"><img class="jim" src="img\Fantasía\four.jpg"> </button><!--f-->
+                <button class="gog" data-title="elantris" onclick="treintayuno()"><img class="jim" src="img\Fantasía\one.jpg"> </button><!--f-->
+                <button class="gog" data-title="los seis de atlas" onclick="treintaydos()"><img class="jim" src="img\Fantasía\seven.jpg"> </button><!--f-->
+                <button class="gog" data-title="el vals de las brujas" onclick="treintaytres()"><img class="jim" src="img\Fantasía\six.jpg"> </button><!--f-->
+                <button class="gog" data-title="un rio encantado" onclick="treintaycuatro()"><img class="jim" src="img\Fantasía\three.jpg"> </button><!--f-->
+                <button class="gog" data-title="alicia en el pais de las maravillas" onclick="jaja()"><img class="jim" src="img\Fantasía\alicia en el pais de las maravillas.png"> </button><!--...-->
+                <button class="gog" data-title="bonicula" onclick="hh()"><img class="jim" src="img\Fantasía\bonicula.png"> </button><!--...-->
+                <button class="gog" data-title="la cabaña" onclick="treintayseis()"><img class="jim" src="img\Suspenso\Cabaña.jpg"> </button><!--f-->
+                <button class="gog" data-title="codigo da-vinci" onclick="treintaysiete()"><img class="jim" src="img\Suspenso\Código.jpg"> </button><!--f-->
+                <button class="gog" data-title="la sombra del viento" onclick="treintayocho()"><img class="jim" src="img\Suspenso\Sonvra.jpg"> </button><!--f-->
+                <button class="gog" data-title="la chica del tren" onclick="treintaynueve()"><img class="jim" src="img\Suspenso\Tren.jpg"> </button><!--f-->
+                <button class="gog" data-title="el visitate" onclick="cuarenta()"><img class="jim" src="img\Suspenso\Visitas.jpg"> </button><!--f-->
+                <button class="gog" data-title="la noche humana" onclick="uu()"><img class="jim" src="img\Suspenso\la noche humana.png"> </button><!--f-->
+                <button class="gog" data-title="el viejo y el mar" onclick="cuarentayuno()"><img class="jim" src="img\Ficcion\g.jpg"> </button><!--f-->
+                <button class="gog" data-title="pedro paramo" onclick="cuarentaydos()"><img class="jim" src="img\Ficcion\h.jpg"> </button><!--f-->
+                <button class="gog" data-title="cien años de soledad" onclick="cuarentaytres()"><img class="jim" src="img\Ficcion\j.jpg"> </button><!--f-->
+                <button class="gog" data-title="don quijote de la mancha" onclick="vv()"><img class="jim" src="img\Ficcion\Quijote.jpg"> </button><!--f-->
+                <button class="gog" data-title="conde dracula" onclick="ii()"><img class="jim" src="img\Ficcion\el conde dracula.png"> </button><!--...-->
+                <button class="gog" data-title="el extraño" onclick="jj()"><img class="jim" src="img\Ficcion\el extraño.png"> </button><!--...-->
+                <button class="gog" data-title="el fantasma de canterville" onclick="kk()"><img class="jim" src="img\Ficcion\el fantasma de canterville.png"> </button><!--...-->   
+                <button class="gog" data-title="el llano en llamas" onclick="ll()"><img class="jim" src="img\Ficcion\el llano en llamas.png"> </button><!--...-->
+                <button class="gog" data-title="el misterio del gato negro" onclick="mm()"><img class="jim" src="img\Ficcion\el misterio del gato negro.png"> </button><!--...-->
+                <button class="gog" data-title="el señor de las moscas" onclick="nn()"><img class="jim" src="img\Ficcion\el señor de las moscas.png"> </button><!--...-->
+                <button class="gog" data-title="historia del jabon" onclick="oo()"><img class="jim" src="img\Ficcion\historia del jabon.png"> </button><!--...-->
+                <button class="gog" data-title="la crisalida" onclick="pp()"><img class="jim" src="img\Ficcion\la crisalida.png"> </button><!--...-->
+                <button class="gog" data-title="tradiciones peruanas" onclick="qq()"><img class="jim" src="img\Ficcion\tradiciones peruanas.png"> </button><!--...-->
+                <button class="gog" data-title="una vez y nunca mas" onclick="rr()"><img class="jim" src="img\Ficcion\una vez y nunca mas.png"> </button><!--...-->
+                <button class="gog" data-title="una visita inesperada" onclick="ss()"><img class="jim" src="img\Ficcion\una visita inesperada.png"> </button><!--...-->
+                <button class="gog" data-title="zapateando bajo la lluvia" onclick="tt()"><img class="jim" src="img\Ficcion\zapateando bajo la lluvia.png"> </button><!--...--> 
+                <button class="gog" data-title="atlas del cuerpo humano" onclick="cuarentaycinco()"><img class="jim" src="img\estudio\Atlas del cuerpo humano.png"> </button><!--f-->
+                <button class="gog" data-title="atlas del cuerpo humano 2" onclick="cuarentayseis()"><img class="jim" src="img\estudio\atlas del cuerpo humano2.png"> </button><!--f-->
+                <button class="gog" data-title="atlas tomo del 1 al 16" onclick="cuarentaysiete()"><img class="jim" src="img\estudio\atlas tomo del 1 al 16.png"> </button><!--...-->
+                <button class="gog" data-title="atlas geografico universal" onclick="cuarentayocho()"><img class="jim" src="img\estudio\atlas universal y del peru.png"> </button><!--f-->
+                <button class="gog" data-title="catesismo de la iglesia catolica" onclick="bing()"><img class="jim" src="img\estudio\catecismo de la iglesia catolica.png"> </button><!--f-->
+                <button class="gog" data-title="collins pocket plus" onclick="chatgpt()"><img class="jim" src="img\estudio\collins pocket plus.png"> </button><!--...-->
+                <button class="gog" data-title="como desarrollar micro emprendimientos" onclick="meta()"><img class="jim" src="img\estudio\Como desarollar micro emprendimientos.png"> </button><!--...-->
+                <button class="gog" data-title="como escribir mejor" onclick="matate()"><img class="jim" src="img\estudio\Como escribir mejor.png"> </button><!--...-->
+                <button class="gog" data-title="como hacer monografias" onclick="cuarentaynueve()"><img class="jim" src="img\estudio\Como hacer monografias.png"> </button><!--...-->
+                <button class="gog" data-title="diccionario de sinonimos y antonimos" onclick="cincuenta()"><img class="jim" src="img\estudio\diccionario de sinonimos y antonimos.png"> </button><!--...-->
+                <button class="gog" data-title="diccionario español ingles y viceversa" onclick="cincuentayuno()"><img class="jim" src="img\estudio\diccionario español ingles y viceversa.png"> </button><!--...-->
+                <button class="gog" data-title="diccionario ilustrado oceano de la lengua española" onclick="cincuentaydos()"><img class="jim" src="img\estudio\diccionario ilustrado oceano de la lengua española.png"> </button><!--...-->
+                <button class="gog" data-title="diccionario prehispanico de dudas" onclick="cincuentaytres()"><img class="jim" src="img\estudio\diccionario panhispanico de dudas.png"> </button><!--...-->
+                <button class="gog" data-title="diccionario pocket" onclick="cincuentaycuatro()"><img class="jim" src="img\estudio\diccionario pocket.png"> </button><!--...-->
+                <button class="gog" data-title="English dictionary" onclick="cincuentaycinco()"><img class="jim" src="img\estudio\English dictionary.png"> </button><!--...-->
+                <button class="gog" data-title="english language" onclick="cincuentayseis()"><img class="jim" src="img\estudio\English language.png"> </button><!--...-->
+                <button class="gog" data-title="essential dictionary" onclick="cincuentaysiete()"><img class="jim" src="img\estudio\essential dictionary.png"> </button><!--...-->
+                <button class="gog" data-title="hablemos de cienca" onclick="cincuentayocho()"><img class="jim" src="img\estudio\hablemos de ciencia.png"> </button><!--...-->
+                <button class="gog" data-title="la biblia de la fisica y quimica" onclick="cincuentaynueve()"><img class="jim" src="img\estudio\la biblia de la fisica y quimica.png"> </button><!--...-->
+                <button class="gog" data-title="sound foundation" onclick="sesenta()"><img class="jim" src="img\estudio\sound foundations.png"> </button><!--...-->
+                <button class="gog" data-title="diccionario basico escolar" onclick="sesentayuno()"><img class="jim" src="https://images.cdn2.buscalibre.com/fit-in/360x360/77/a8/77a8f289d4838c66fcd97763f0dca65d.jpg"> </button><!--...-->
+                <button class="gog" data-title="la biblia de las ciencias naturales" onclick="sesentaydos()"><img class="jim" src="img\estudio\la biblia de las ciencias naturales.png"> </button><!--...-->
+                <button class="gog" data-title="the framework of english" onclick="sesentaytres()"><img class="jim" src="img\estudio\the frameworks of english.png"> </button><!--...-->    
+                <button class="gog" data-title="el sargento canuto" onclick="sesentaycuatro()"><img class="jim" src="img\comedia\el sargento canuto.png"> </button><!--...-->
+                <button class="gog" data-title="ña catita" onclick="sesentaycinco()"><img class="jim" src="img\comedia\ña catita.png"> </button><!--...-->
+                <button class="gog" data-title="criatura musicales y otros cuentos" onclick="sesentayseis()"><img class="jim" src="img\cuentos\criatura musicales y otros cuentos.png"> </button><!--...-->
+                <button class="gog" data-title="cuentos de la ciudad" onclick="sesentaysiete()"><img class="jim" src="img\cuentos\cuentos de la ciudad.png"> </button><!--...-->
+                <button class="gog" data-title="cuentos de la selva" onclick="sesentayocho()"><img class="jim" src="img\cuentos\cuentos de la selva.png"> </button><!--...-->
+                <button class="gog" data-title="los colores del cielo" onclick="sesentaynueve()"><img class="jim" src="img\cuentos\los colores del cielo.png"> </button><!--...-->
+                <button class="gog" data-title="los duendes secuestradores" onclick="setenta()"><img class="jim" src="img\cuentos\los duendes secuestradores.png"></button><!--...-->
+                <button class="gog" data-title="introduccion a la filosofia" onclick="setentaydos()"><img class="jim" src="img\filosofia\introduccion a la filosofia.png"> </button><!--...-->
+                <button class="gog" data-title="el retrato de dorian gray" onclick="setentayuno()"><img class="jim" src="img\filosofia\el retrato de dorian gray.png"> </button><!--...-->
+                <button class="gog" data-title="platon y otros pretextos" onclick="setentaytres()"><img class="jim" src="img\filosofia\platon y otros pretextos.png"> </button><!--...-->
+                <button class="gog" data-title="cenepa mision de honor" onclick="setentaycuatro()"><img class="jim" src="img\historia\cenepa mision de honor.png"> </button><!--...-->
+                <button class="gog" data-title="desde el usnu de los incas" onclick="setentaycinco()"><img class="jim" src="img\historia\desde el usnu de los incas.png"> </button><!--...-->
+                <button class="gog" data-title="historia cronologica del peru" onclick="setentayseis()"><img class="jim" src="img\historia\historia cronologica del peru.png"> </button><!--...-->
+                <button class="gog" data-title="historia de la republica del peru 2" onclick="setentaysiete()"><img class="jim" src="img\historia\historia de la republica del peru 2.png"> </button><!--...-->
+                <button class="gog" data-title="historia de la republica del peru 4" onclick="setentayocho()"><img class="jim" src="img\historia\historia de la republica del peru 4.png"> </button><!--...-->
+                <button class="gog" data-title="historia de la republica del peru 5" onclick="setentaynueve()"><img class="jim" src="img/historia/historia de la republica del peru 5.png"> </button><!--...-->
+                <button class="gog" data-title="historia del peru contemporaneo" onclick="ochenta()"><img class="jim" src="img\historia\historia del peru contemporaneo.png"> </button><!--...--> 
+                <button class="gog" data-title="historia del peru" onclick="ochentayuno()"><img class="jim" src="img/historia/historia del peru.png"> </button><!--...-->
+                <button class="gog" data-title="ivanhoe de walter scott" onclick="ochentaydos()"><img class="jim" src="img\historia\ivanhoe de walter scott.png"> </button><!--...-->
+                <button class="gog" data-title="la iliada" onclick="ochentaytres()"><img class="jim" src="img\historia\la iliada.png"> </button><!--...-->
+                <button class="gog" data-title="meditaciones sobre el destino historico del peru" onclick="ochentaycuatro()"><img class="jim" src="img/historia/meditaciones sobre el destino historico del peru.png"> </button><!--...-->
+                <button class="gog" data-title="pecados publicos hombres y mujeres en la colonia" onclick="ochentaycinco()"><img class="jim" src="img\historia\pecados publicos hombres y mujeres en la colonia.png"> </button><!--...-->
+       <!--7--> <button class="gog" data-title="ensayos de interpretacion de la realidad peruana" onclick="ochentayseis()"><img class="jim" src="img\literatura\7  ensayos de interpretacion de la realidad peruana.png"> </button><!--...-->
+                <button class="gog" data-title="amen" onclick="ochentaysiete()"><img class="jim" src="img\literatura\amen.png"> </button><!--...-->
+                <button class="gog" data-title="antologia poetica" onclick="ochentayocho()"><img class="jim" src="img\literatura\antologia poetica.png"> </button><!--...-->
+                <button class="gog" data-title="antologia poetica1" onclick="ochentaynueve()"><img class="jim" src="img\literatura\antologia poetica1.png"> </button><!--...-->
+                <button class="gog" data-title="antologia poetica2" onclick="noventa()"><img class="jim" src="img/literatura/antologia poetica2.png"> </button><!--...-->
+                <button class="gog" data-title="ciudad de los reyes" onclick="noventayuno()"><img class="jim" src="img\literatura\ciudad de los reyes.png"> </button><!--...-->
+                <button class="gog" data-title="don quijote contra los molinos" onclick="noventaydos()"><img class="jim" src="img\literatura\don quijote contra los molinos.png"> </button><!--...-->
+                <button class="gog" data-title="el corsario negroel corsario negro" onclick="noventaytres()"><img class="jim" src="img\literatura\el corsario negro.png"> </button><!--...-->
+                <button class="gog" data-title="el guardian entre el centenoel" onclick="noventaycuatro()"><img class="jim" src="img\literatura\el guardian entre el centeno.png"> </button><!--...-->
+                <button class="gog" data-title="el monstruo de los cerrosel monstruo de los cerros" onclick="noventaycinco()"><img class="jim" src="img/literatura/el monstruo de los cerros.png"> </button><!--...-->
+                <button class="gog" data-title="el muchacho que inventa historias de otros cuentos" onclick="noventayseis()"><img class="jim" src="img/literatura/el muchacho que inventa historias de otros cuentos.png"> </button><!--...-->
+                <button class="gog" data-title="el tunelel tunel" onclick="noventaysiete()"><img class="jim" src="img/literatura/el tunel.png"> </button><!--...-->
+                <button class="gog" data-title="el viejo saurio se retirael viejo saurio se retira" onclick="noventayocho()"><img class="jim" src="img/literatura/el viejo saurio se retira.png"> </button><!--...-->
+                <button class="gog" data-title="fortunatofortunato" onclick="noventaynueve()"><img class="jim" src="img/literatura/fortunato.png"> </button><!--...-->
+                <button class="gog" data-title="gulliver entre los gigantes" onclick="cien()"><img class="jim" src="img/literatura/gulliver entre los gigantes.png"> </button><!--...-->
+                <button class="gog" data-title="historia de la muralla" onclick="cientouno()"><img class="jim" src="img/literatura/historia de la muralla.png"> </button><!--...-->
+                <button class="gog" data-title="konrad o el niño que salio de una lata de conservas" onclick="cientodos()"><img class="jim" src="img/literatura/konrad o el niño que salio de una lata de conservas.png"> </button><!--...-->
+                <button class="gog" data-title="la furia de aquiles" onclick="cientotres()"><img class="jim" src="img/literatura/la furia de aquiles.png"> </button><!--...-->
+                <button class="gog" data-title="le metamorfosis" onclick="cientocuatro()"><img class="jim" src="img/literatura/le metamorfosis.png"> </button><!--...-->
+                <button class="gog" data-title="los jefes los cachorros" onclick="cientocinco()"><img class="jim" src="img/literatura/los jefes los cachorros.png"> </button><!--...-->
+                <button class="gog" data-title="los perros hambrientos" onclick="cientoseis()"><img class="jim" src="img/literatura/los perros hambrientos.png"> </button><!--...-->
+                <button class="gog" data-title="mas alla de la vida y la muerte" onclick="cientosiete()"><img class="jim" src="img/literatura/mas alla de la vida y la muerte.png"> </button><!--...-->
+                <button class="gog" data-title="mis queridos vandalos" onclick="cientoocho()"><img class="jim" src="img/literatura/mis queridos vandalos.png"> </button><!--...-->
+                <button class="gog" data-title="novelas y cuentos completos" onclick="cientonueve()"><img class="jim" src="img/literatura/novelas y cuentos completos.png"> </button><!--...-->
+                <button class="gog" data-title="ollantay,el rigor de un padre y la generosidad de un rey" onclick="cientodies()"><img class="jim" src="img/literatura/ollantay,el rigor de un padre y la generosidad de un rey.png"> </button><!--...-->
+                <button class="gog" data-title="paren el mundo que aca me bajo" onclick="cientoonce()"><img class="jim" src="img/literatura/paren el mundo que aca me bajo.png"> </button><!--...-->
+                <button class="gog" data-title="poesia completa" onclick="cientodoce()"><img class="jim" src="img/literatura/poesia completa.png"> </button><!--...-->
+                <button class="gog" data-title="poetas peruanas de antologia" onclick="cientotrece()"><img class="jim" src="img/literatura/poetas peruanas de antologia.png"> </button><!--...-->
+                <button class="gog" data-title="puerto cholo" onclick="cientocatorce()"><img class="jim" src="img/literatura/puerto cholo.png"> </button><!--...-->
+                <button class="gog" data-title="sueño aymara" onclick="cientoquince()"><img class="jim" src="img/literatura/sueño aymara.png"> </button><!--...-->
+                <button class="gog" data-title="trilce"  onclick="cientodiesiseis()"><img class="jim" src="img/literatura/trilce.png"> </button><!--...-->
+                <button class="gog" data-title="un extraterrestre en la cocina" onclick="cientodiecisiete()"><img class="jim" src="img/literatura/un extraterrestre en la cocina.png"> </button><!--...-->
+                <button class="gog" data-title="un mundo para julius" onclick="cientodieciocho()"><img class="jim" src="img/literatura/un mundo para julius.png"> </button><!--...-->
+                <button class="gog" data-title="navajas en el paladar"onclick="cientodiecinueve()"><img class="jim" src="img\misteiro\navajas en el paladar.png"> </button><!--...-->
+                <button class="gog" data-title="sherlock holmes y el misterio de las cinco semillas" onclick="cientoveinte()"><img class="jim" src="img\misteiro\sherlock holmes y el misterio de las cinco semillas.png"> </button><!--...-->
+                <button class="gog" data-title="doctor jekyll y mister hyde" onclick="cientoveintiuno()"><img class="jim" src="img\terror\doctor jekyll y mister hyde.png"> </button><!--...-->
+                <button class="gog" data-title="el entierro prematuro" onclick="cientoveintidos()"><img class="jim" src="img\terror\el entierro prematuro.png"> </button><!--...-->
+                <button class="gog" data-title="hijas del terror" onclick="cientoveintitres()"><img class="jim" src="img\terror\hijas del terror.png"> </button><!--...-->
+                <button class="gog" data-title="el aprendiz se hace mago" onclick="cientoveinticuatro()"><img class="jim" src="img\Autoayuda\el aprendiz se hace mago.png"> </button><!--...-->
+                <button class="gog" data-title="el libro de las edades" onclick="cientoveinticinco()"><img class="jim" src="img\Autoayuda\el libro de las edades.png"> </button><!--...-->
+                <button class="gog" data-title="manantiales del desierto" onclick="cientoveintiseis()"><img class="jim" src="img\Autoayuda\manantiales del desierto.png"> </button><!--...-->
+                <button class="gog" data-title="testimonio de amor" onclick="cientoveintisiete()"><img class="jim" src="img\Autoayuda\testimonio de amor.png"> </button>  <!--...-->
+                <button class="gog" data-title="una nueva mujer, relato intimo de la menopausia" onclick="cientoveintiocho()"><img class="jim" src="img\Autoayuda\una nueva mujer, relato intimo de la menopausia.png"> </button><!--...-->
+                <button class="gog" data-title="todas mis muertes" onclick="cientoveintinueve()"><img class="jim" src="img\Biografia\todas mis muertes.png"> </button><!--...-->
+                <button class="gog" data-title="mi planta de naranja lima" onclick="cientotreinta()"><img class="jim" src="img\Biografia\mi planta de naranja lima.png"> </button><!--...-->
+                <button class="gog" data-title="camila y paul" onclick="cientotreintados()"><img class="jim" src="img\Biografia\camila y paul .png"> </button><!--...-->
+                <button class="gog" data-title="el moises de las americas, vida obra del baron de hirsch" onclick="cientotreintatres()"><img class="jim" src="img\Biografia\el moises de las americas, vida obra del baron de hirsch.png"> </button><!--...-->
+                <button class="gog" data-title="la agonia del patriota" onclick="cientotreintacuatro()"><img class="jim" src="img\Biografia\la agonia del patriota.png"> </button> <!--...-->
+                <button class="gog" data-title="maus" onclick="cientotreintacinco()"><img class="jim" src="img\Biografia\Maus.png"> </button><!--...-->
+              </div>
+               
+               <div class="efe">
+                <details class="detalle" id="A">
+                    <summary class="sol">Letra A</summary>
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper"></div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                      </div>
+                </details> <br>
+            
+                <details class="detalle" id="B">
+                    <summary class="sol">Letra B</summary>
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                      </div>
+                </details> <br>
+
+                <details class="detalle" id="C">
+                    <summary class="sol">Letra C</summary>
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                      </div>
+                </details> <br>
+
+                <details class="detalle" id="D">
+                    <summary class="sol">Letra D</summary>
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                      </div>
+                </details> <br>
+
+                <details class="detalle" id="E">
+                    <summary class="sol">Letra E</summary>
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                      </div>
+                </details> <br>
+
+                <details class="detalle" id="F">
+                    <summary class="sol">Letra F</summary>
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                      </div>
+                </details> <br>
+
+                <details class="detalle" id="G">
+                    <summary class="sol">Letra G</summary>
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                      </div>
+                </details> <br>
+
+                <details class="detalle" id="H">
+                    <summary class="sol">Letra H</summary>
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                      </div>
+                </details> <br>
+
+                <details class="detalle" id="I">
+                    <summary class="sol">Letra I</summary>
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                      </div>
+                </details> <br>
+
+                <details class="detalle" id="J">
+                    <summary class="sol">Letra J</summary>
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                      </div>
+                </details> <br>
+
+                <details class="detalle" id="K">
+                    <summary class="sol">Letra K</summary>
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                          
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                      </div>
+                </details> <br>
+
+                <details class="detalle" id="L">
+                    <summary class="sol">Letra L</summary>
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                      </div>
+                </details> <br>
+
+                <details class="detalle" id="M">
+                    <summary class="sol">Letra M</summary>
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                      </div>
+                </details> <br>
+
+                <details class="detalle" id="N">
+                    <summary class="sol">Letra N</summary>
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                      </div>
+                </details> <br>
+
+                <details class="detalle" id="Ñ">
+                  <summary class="sol">Letra Ñ</summary>
+                  <div class="swiper mySwiper">
+                      <div class="swiper-wrapper"></div>
+                      <div class="swiper-button-next"></div>
+                      <div class="swiper-button-prev"></div>
+                    </div>
+              </details> <br>
+
+                <details class="detalle" id="O">
+                    <summary class="sol">Letra O</summary>
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                      </div>
+                </details> <br>
+
+                <details  class="detalle" id="P">
+                    <summary class="sol">Letra P</summary>
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                      </div>
+                </details> <br>
+
+                <details class="detalle" id="Q">
+                    <summary class="sol">Letra Q</summary>
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                      </div>
+                </details> <br>
+
+                <details class="detalle" id="R">
+                    <summary class="sol">Letra R</summary>
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                      </div>
+                </details> <br>
+
+                <details class="detalle" id="S">
+                    <summary class="sol">Letra S</summary>
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                      </div>
+                </details> <br>
+
+                <details class="detalle" id="T">
+                    <summary class="sol">Letra T</summary>
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                      </div>
+                </details> <br>
+
+                <details class="detalle" id="U">
+                    <summary class="sol">Letra U</summary>
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                      </div>
+                </details> <br>
+
+                <details class="detalle" id="V">
+                    <summary class="sol">Letra V</summary>
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                      </div>
+                </details> <br>
+
+                <details class="detalle" id="W">
+                    <summary class="sol">Letra W</summary>
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                      </div>
+                </details> <br>
+
+                <details class="detalle" id="X">
+                    <summary class="sol">Letra X</summary>
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                      </div>
+                </details> <br>
+
+                <details class="detalle" id="Y">
+                    <summary class="sol">Letra Y</summary>
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                      </div>
+                    </details> <br>
+
+                      <details class="detalle" id="Z">
+                        <summary class="sol">Letra Z</summary>
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                          </div>
+                    </details> <br>
+                  </div>
+
+<!--<div>
+<div class="swiper-slide">
+               
+                
+                <button class="gog" data-title="mozart" onclick="cientotreintaseis()"><img class="jim" src="img\Biografia\mozart.png"> </button>
+                <button class="gog" data-title="triangulo de rembrandt" onclick="cientotreintasiete()"><img class="jim" src="img\Biografia\triangulo de rembrandt.png"> </button>
+                <button class="gog" data-title="vallejo.periodista paradigmatico" onclick="cientotreintaocho()"><img class="jim" src="img\Biografia\vallejo.periodista paradigmatico.png"> </button>
+                <button class="gog" data-title="verdi y su tiempo" onclick="cientotreintanueve()"><img class="jim" src="img\Biografia\verdi y su tiempo.png"> </button>
+                <button class="gog" data-title="antologia de los ganadores y finalistas de la XXII bienal de poesia premios copè 2005" onclick="cientocuarenta()"><img class="jim" src="img\cuentos\antologia de los ganadores y finalistas de la XXII bienal de poesia premios copè 2005.png"></button>
+                <button class="gog" data-title="cuentos andinos" onclick="cientocuarentauno()"><img class="jim" src="img\cuentos\cuentos andinos.png"></button>
+                <button class="gog" data-title="cuentos reunidos" onclick="cientocuarentados()"><img class="jim" src="img\cuentos\cuentos reunidos.png"></button>
+                <button class="gog" data-title="el mestizo de las alpujarras" onclick="cientocuarentatres()"><img class="jim" src="img\cuentos\el mestizo de las alpujarras.png"></button>
+                <button class="gog" data-title="el principito" onclick="cientocuarentacuatro()"><img class="jim" src="img\cuentos\el principito.png"></button>
+                <button class="gog" data-title="el toro que se perdio en la lluvia" onclick="cientocuarentacinco()"><img class="jim" src="img\cuentos\el toro que se perdio en la lluvia.png"></button>
+                <button class="gog" data-title="en llano en llamas" onclick="cientocuarentaseis()"><img class="jim" src="img\cuentos\en llano en llamas.png"></button>
+                <button class="gog" data-title="guitarra de palisandro" onclick="cientocuarentasiete()"><img class="jim" src="img\cuentos\guitarra de palisandro.png"></button>
+                <button class="gog" data-title="la leyenda del cid" onclick="cientocuarentaocho()"><img class="jim" src="img\cuentos\la leyenda del cid .png"></button>
+                <button class="gog" data-title="los ojos de judas" onclick="cientocuarentanueve()"><img class="jim" src="img\cuentos\los ojos de judas.png"></button>
+                <button class="gog" data-title="paco yunque" onclick="cientocincuenta()"><img class="jim" src="img\cuentos\paco yunque.png"></button>
+                <button class="gog" data-title="relampago inmovil" onclick="cientocincuentauno()"><img class="jim" src="img\cuentos\relampago inmovil.png"></button>
+                <button class="gog" data-title="teatro infantil y juvenil" onclick="cientocincuentados()"><img class="jim" src="img\cuentos\teatro infantil y juvenil.png"></button>
+                <button class="gog" data-title="un mundo para julius" onclick="cientocincuentatres()"><img class="jim" src="img\cuentos\un mundo para julius.png"></button>
+                <button class="gog" data-title="chicken street" onclick="cientocincuentacuatro()"><img class="jim" src="img\Drama\chicken street.png"> </button>
+                <button class="gog" data-title="juan el bautista" onclick="cientocincuentacinco()"><img class="jim" src="img\Drama\juan el bautista.png"> </button>
+                <button class="gog" data-title="tragedias" onclick="cientocincuentaseis()"><img class="jim" src="img\Drama\tragedias.png"> </button>
+                <button class="gog" data-title="un divorcio perfecto" onclick="cientocincuentasiete()"><img class="jim" src="img\Drama\un divorcio perfecto.png"> </button>
+                <button class="gog" data-title="antologia de los finalistas de la XIII bienal de poesia" onclick="cientocincuentaocho()"><img class="jim" src="img\estudio\antologia de los finalistas de la XIII bienal de poesia.png"> </button>
+                <button class="gog" data-title="aprende ingles en 7 dias" onclick="cientocincuentanueve()"><img class="jim" src="img\estudio\aprende ingles en 7 dias.png"> </button>
+                <button class="gog" data-title="breve manual de puntuacion y acentuacion" onclick="cientosesenta()"><img class="jim" src="img\estudio\breve manual de puntuacion y acentuacion.png"> </button>
+                <button class="gog" data-title="como conocer las formas de la musica" onclick="cientosesentauno()"><img class="jim" src="img\estudio\como conocer las formas de la musica.png"> </button>
+                <button class="gog" data-title="conversaciones con lexema" onclick="cientosesentados()"><img class="jim" src="img\estudio\conversaciones con lexema.png"> </button>
+                <button class="gog" data-title="desarrollo de la expresividad corporal" onclick="cientosesentatres()"><img class="jim" src="img\estudio\desarrollo de la expresividad corporal.png"> </button>
+                <button class="gog" data-title="dos decadas de formacion profesional y certificacion de competencias peru 1990-2010" onclick="cientosesentacuatro()"><img class="jim" src="img\estudio\dos decadas de formacion profesional y certificacion de competencias peru 1990-2010.png"> </button>
+                <button class="gog" data-title="economia para principiantes" onclick="cientosesentacinco()"><img class="jim" src="img\estudio\economia para principiantes.png"> </button>
+                <button class="gog" data-title="educar la mirada" onclick="cientosesentaseis()"><img class="jim" src="img\estudio\educar la mirada.png"> </button>
+                <button class="gog" data-title="el espacio" onclick="cientosesentasiete()"><img class="jim" src="img\estudio\el espacio.png"> </button>
+                <button class="gog" data-title="el mito de la superpotencia uso y abuso del poder- prologo de bill clinton" onclick="cientosesentaocho()"><img class="jim" src="img\estudio\el mito de la superpotencia uso y abuso del poder- prologo de bill clinton.png"> </button>
+                <button class="gog" data-title="evaluar educacion fisica" onclick="cientosesentanueve()"><img class="jim" src="img\estudio\evaluar educacion fisica.png"> </button>
+                <button class="gog" data-title="historia universal 1" onclick="cientosetenta()"><img class="jim" src="img\estudio\historia universal 1.png"> </button>
+                <button class="gog" data-title="huaca pucllana" onclick="cientosetentauno()"><img class="jim" src="img\estudio\huaca pucllana.png"> </button>
+                <button class="gog" data-title="la cocina de la escritura" onclick="cientosetentados()"><img class="jim" src="img\estudio\la cocina de la escritura.png"> </button>
+                <button class="gog" data-title="la condicion fisica en la educacion secundaria obligatoria" onclick="cientosetentatres()"><img class="jim" src="img\estudio\la condicion fisica en la educacion secundaria obligatoria.png"> </button>
+                <button class="gog" data-title="la evaluación formativa como instrumento de aprendizaje en educacion fisica" onclick="cientosetentacuatro()"><img class="jim" src="img\estudio\la evaluación formativa como instrumento de aprendizaje en educacion fisica.png"> </button>
+                <button class="gog" data-title="la expresion corporal" onclick="cientosetentacinco()"><img class="jim" src="img\estudio\la expresion corporal.png"> </button>
+                <button class="gog" data-title="lexico de la politica" onclick="cientosetentaseis()"><img class="jim" src="img\estudio\lexico de la politica.png"> </button>
+                <button class="gog" data-title="lexico popular peruano" onclick="cientosetentasiete()"><img class="jim" src="img\estudio\lexico popular peruano.png"> </button>
+                <button class="gog" data-title="los estados desunidos de latinoamerica" onclick="cientosetentaocho()"><img class="jim" src="img\estudio\los estados desunidos de latinoamerica.png"> </button>
+                <button class="gog" data-title="matematicas..estas ahi" onclick="cientosetentanueve()"><img class="jim" src="img\estudio\matematicas..estas ahi.png"> </button>
+                <button class="gog" data-title="pais de jauja" onclick="cientoochenta()"><img class="jim" src="img\estudio\pais de jauja.png"> </button>
+                <button class="gog" data-title="perspectivas teoricas y ejercicios practicos" onclick="cientoochentados()"><img class="jim" src="img\estudio\perspectivas teoricas y ejercicios practicos.png"> </button>
+                <button class="gog" data-title="politicas de empleo peru" onclick="cientoochentatres()"><img class="jim" src="img\estudio\politicas de empleo peru.png"> </button>
+                <button class="gog" data-title="politicas y sistemas de formación" onclick="cientoochentacuatro()"><img class="jim" src="img\estudio\politicas y sistemas de formación.png"> </button>
+                <button class="gog" data-title="probabilidad y estadistica como trabajar con niños y jovenes" onclick="cientoochentacinco()"><img class="jim" src="img\estudio\probabilidad y estadistica como trabajar con niños y jovenes.png"> </button>
+                <button class="gog" data-title="razones para enseñar geometría en la educación básica" onclick="cientoochentaseis()"><img class="jim" src="img\estudio\razones para enseñar geometría en la educación básica.png"> </button>
+                <button class="gog" data-title="sistematización de la practica docente" onclick="cientoochentasiete()"><img class="jim" src="img\estudio\sistematización de la practica docente.png"> </button>
+                <button class="gog" data-title="sound foundations learning and teaching pronunciato" onclick="cientoochentaocho()"><img class="jim" src="img\estudio\sound foundations learning and teaching pronunciato.png"> </button>
+                <button class="gog" data-title="teoria del movimiento" onclick="cientoochentanueve()"><img class="jim" src="img\estudio\teoria del movimiento.png"> </button>
+                <button class="gog" data-title="una verdad incomoda" onclick="cientonoventa()"><img class="jim" src="img\estudio\una verdad incomoda.png"> </button>
+                <button class="gog" data-title="diccionario de abracadabra" onclick="cientonoventauno()"><img class="jim" src="img\Fantasía\diccionario de abracadabra.png"> </button>
+                <button class="gog" data-title="jirel de joiry" onclick="cientonoventados()"><img class="jim" src="img\Fantasía\jirel de joiry.png"> </button>
+                <button class="gog" data-title="thor y la serpiente de midgard" onclick="cientonoventatres()"><img class="jim" src="img\Fantasía\thor y la serpiente de midgard.png"> </button>
+                <button class="gog" data-title="coleccion minuscula" onclick="cientonoventacuatro()"><img class="jim" src="img\Ficcion\coleccion minuscula.png"> </button> 
+                <button class="gog" data-title="conversacion en la catedral" onclick="cientonoventacinco()"><img class="jim" src="img\Ficcion\conversacion en la catedral.png"> </button> 
+                <button class="gog" data-title="el cristo villenas" onclick="cientonoventaseis()"><img class="jim" src="img\Ficcion\el cristo villenas.png"> </button> 
+                <button class="gog" data-title="el guardian entre el centeno" onclick="cientonoventasiete()"><img class="jim" src="img\Ficcion\el guardian entre el centeno.png"> </button> 
+                <button class="gog" data-title="el inventor de la maquina prodigiosa" onclick="cientonoventaocho()"><img class="jim" src="img\Ficcion\el inventor de la maquina prodigiosa.png"> </button> 
+                <button class="gog" data-title="el limbo del doctor river" onclick="cientonoventanueve()"><img class="jim" src="img\Ficcion\el limbo del doctor river.png"> </button> 
+                <button class="gog" data-title="el secreto de emma" onclick="doscientos()"><img class="jim" src="img\Ficcion\el secreto de emma.png"> </button> 
+                <button class="gog" data-title="extraña recompensa" onclick="doscientosuno()"><img class="jim" src="img\Ficcion\extraña recompensa.png"> </button> 
+                <button class="gog" data-title="la casa en amalfi" onclick="doscientosdos()"><img class="jim" src="img\Ficcion\la casa en amalfi.png"> </button> 
+                <button class="gog" data-title="las hijas del capitán " onclick="doscientostres()"><img class="jim" src="img\Ficcion\las hijas del capitán .png"> </button> 
+                <button class="gog" data-title="maze runner correr o morir" onclick="doscientoscuatro()"><img class="jim" src="img\Ficcion\maze runner correr o morir.png"> </button> 
+                <button class="gog" data-title="nitocris, princesa de egipto" onclick="doscientoscinco()"><img class="jim" src="img\Ficcion\nitocris, princesa de egipto.png"> </button> 
+                <button class="gog" data-title="no sera la tierra" onclick="doscientosseis()"><img class="jim" src="img\Ficcion\no sera la tierra.png"> </button> 
+                <button class="gog" data-title="rivales inesperados" onclick="doscientossiete()"><img class="jim" src="img\Ficcion\rivales inesperados.png"> </button> 
+                <button class="gog" data-title="ética para amador" onclick="doscientosocho()"><img class="jim" src="img\filosofia\ética para amador.png"> </button>
+                <button class="gog" data-title="antigua china tesoros artisticos" onclick="doscientosnueve()"><img class="jim" src="img\historia\antigua china tesoros artisticos.png"> </button>
+                <button class="gog" data-title="antigua china una cultura milenaria" onclick="doscientosdies()"><img class="jim" src="img\historia\antigua china una cultura milenaria.png"> </button>
+                <button class="gog" data-title="antigua egipto tierra de dioses y faraones" onclick="doscientosonce()"><img class="jim" src="img\historia\antigua egipto tierra de dioses y faraones.png"> </button>
+                <button class="gog" data-title="episodios nacionales  la guerra de la independencia" onclick="doscientosdoce()"><img class="jim" src="img\historia\episodios nacionales  la guerra de la independencia.png"> </button>
+                <button class="gog" data-title="grecia antigua el arte griego a través de los siglos" onclick="doscientostrece()"><img class="jim" src="img\historia\grecia antigua el arte griego a través de los siglos.png"> </button>
+                <button class="gog" data-title="india antigua historia de la cultura indu" onclick="doscientoscatorce()"><img class="jim" src="img\historia\india antigua historia de la cultura indu.png"> </button>
+                <button class="gog" data-title="india antigua, arte, religion y vida cotidiana" onclick="doscientosquince()"><img class="jim" src="img\historia\india antigua, arte, religion y vida cotidiana.png"> </button>
+                <button class="gog" data-title="introduccion a la pintura peruana del siglo XXI" onclick="doscientosdiesiseis()"><img class="jim" src="img\historia\introduccion a la pintura peruana del siglo XXI.png"> </button>
+                <button class="gog" data-title="la cara del mal" onclick="doscientosdiesisiete()"><img class="jim" src="img\historia\la cara del mal.png"> </button>
+                <button class="gog" data-title="la vida y la historia" onclick="doscientosdiesiocho()"><img class="jim" src="img\historia\la vida y la historia.png"> </button>
+                <button class="gog" data-title="las flechas del guerrero" onclick="doscientosdiesinueve()"><img class="jim" src="img\historia\las flechas del guerrero.png"> </button>
+                <button class="gog" data-title="las lanzas de jerusalen" onclick="doscientosveinte()"><img class="jim" src="img\historia\las lanzas de jerusalen.png"> </button>
+                <button class="gog" data-title="lima a fines del siglo XIX" onclick="doscientosveintiuno()"><img class="jim" src="img\historia\lima a fines del siglo XIX.png"> </button>
+                <button class="gog" data-title="los papeles del damasco " onclick="doscientosveintidos()"><img class="jim" src="img\historia\los papeles del damasco .png"> </button>
+                <button class="gog" data-title="mexico antiguo, el mundo azteca y maya" onclick="doscientosveintitres()"><img class="jim" src="img\historia\mexico antiguo, el mundo azteca y maya.png"> </button>
+                <button class="gog" data-title="mexico antiguo, mesoamerica precolombina" onclick="doscientosveinticuatro()"><img class="jim" src="img\historia\mexico antiguo, mesoamerica precolombina.png"> </button>
+                <button class="gog" data-title="poesia peruana siglo XX" onclick="doscientosveinticinco()"><img class="jim" src="img\historia\poesia peruana siglo XX.png"> </button>
+                <button class="gog" data-title="a lo mejor soy otro" onclick="doscientosveintiseis()"><img class="jim" src="img\literatura\a lo mejor soy otro.png"> </button>
+                <button class="gog" data-title="alicho" onclick="doscientosveintisiete()"><img class="jim" src="img\literatura\alicho.png"> </button>
+                <button class="gog" data-title="calixto garmendia" onclick="doscientosveintiocho()"><img class="jim" src="img\literatura\calixto garmendia.png"> </button>
+                <button class="gog" data-title="cuentos de te y otros arboles" onclick="doscientosveintinueve()"><img class="jim" src="img\literatura\cuentos de te y otros arboles.png"> </button>
+                <button class="gog" data-title="El bagrecico" onclick="doscientostreinta()"><img class="jim" src="img\literatura\El bagrecico.png"> </button>
+                <button class="gog" data-title="el demonio de los andes" onclick="doscientostreintauno()"><img class="jim" src="img\literatura\el demonio de los andes.png"> </button>
+                <button class="gog" data-title="el equilibrista" onclick="doscientostreintados()"><img class="jim" src="img\literatura\el equilibrista.png"> </button>
+                <button class="gog" data-title="el mundo es ancho y ajeno" onclick="doscientostreintatres()"><img class="jim" src="img\literatura\el mundo es ancho y ajeno.png"> </button>
+                <button class="gog" data-title="el narrador de historias" onclick="doscientostreintacuatro()"><img class="jim" src="img\literatura\el narrador de historias.png"> </button>
+                <button class="gog" data-title="el principe que todo lo aprendio de los libros" onclick="doscientostreintacinco()"><img class="jim" src="img\literatura\el principe que todo lo aprendio de los libros.png"> </button>
+                <button class="gog" data-title="el zoo a través del cristal" onclick="doscientostreintaseis()"><img class="jim" src="img\literatura\el zoo a través del cristal.png"> </button>
+                <button class="gog" data-title="entre la sombra y el fuego" onclick="doscientostreintasiete()"><img class="jim" src="img\literatura\entre la sombra y el fuego.png"> </button>
+                <button class="gog" data-title="fuera de clases" onclick="doscientostreintaocho()"><img class="jim" src="img\literatura\fuera de clases.png"> </button>
+                <button class="gog" data-title="jane eyre" onclick="doscientostreintanueve()"><img class="jim" src="img\literatura\jane eyre.png"> </button>
+                <button class="gog" data-title="la casa de carton" onclick="doscientoscuarenta()"><img class="jim" src="img\literatura\la casa de carton.png"> </button>
+                <button class="gog" data-title="la llamada de lo salvaje" onclick="doscientoscuarentauno()"><img class="jim" src="img\literatura\la llamada de lo salvaje.png"> </button>
+                <button class="gog" data-title="los crimenes de collique" onclick="doscientoscuarentados()"><img class="jim" src="img\literatura\los crimenes de collique.png"> </button>
+                <button class="gog" data-title="los dientes del dragon" onclick="doscientoscuarentatres()"><img class="jim" src="img\literatura\los dientes del dragon.png"> </button>
+                <button class="gog" data-title="los heraldos negros" onclick="doscientoscuarentacuatro()"><img class="jim" src="img\literatura\los heraldos negros.png"> </button>
+                <button class="gog" data-title="los inocentes" onclick="doscientoscuarentacinco()"><img class="jim" src="img\literatura\los inocentes.png"> </button>
+                <button class="gog" data-title="ofrenda de piedra" onclick="doscientoscuarentaseis()"><img class="jim" src="img\literatura\ofrenda de piedra.png"> </button>
+                <button class="gog" data-title="palma, la tradicion y el tiempo" onclick="doscientoscuarentasiete()"><img class="jim" src="img\literatura\palma, la tradicion y el tiempo.png"> </button>
+                <button class="gog" data-title="el libro los crimenes de la calle morgue" onclick="doscientoscuarentayocho()"><img class="jim" src="img\misteiro\el libro los crimenes de la calle morgue.png"> </button>
+                <button class="gog" data-title="confesiones junto al lago" onclick="doscientoscuarentanueve()"><img class="jim" src="img\romance\confesiones junto al lago.png"> </button>
+                <button class="gog" data-title="el señor de la tentacion" onclick="doscientoscincuenta()"><img class="jim" src="img\romance\el señor de la tentacion.png"> </button>
+                <button class="gog" data-title="la condesa de toscana" onclick="doscientoscincuentauno()"><img class="jim" src="img\romance\la condesa de toscana.png"> </button>
+                <button class="gog" data-title="la doncella de fuego" onclick="doscientoscincuentados()"><img class="jim" src="img\romance\la doncella de fuego.png"> </button>
+                <button class="gog" data-title="la espada venecia" onclick="doscientoscincuentatres()"><img class="jim" src="img\romance\la espada venecia.png"> </button>
+                <button class="gog" data-title="los amantes de judea" onclick="doscientoscincuentacuatro()"><img class="jim" src="img\romance\los amantes de judea.png"> </button>
+                <button class="gog" data-title="Maria" onclick="doscientoscincuentacinco()"><img class="jim" src="img\romance\Maria.png"> </button>
+                <button class="gog" data-title="una loba en la corte " onclick="doscientoscincuentaseis()"><img class="jim" src="img\romance\una loba en la corte .png"> </button>
+                <button class="gog" data-title="werther" onclick="doscientoscincuentasiete()"><img class="jim" src="img\romance\werther.png"> </button>
+                <button class="gog" data-title="un infierno en la mente" onclick="doscientoscincuentaocho()"><img class="jim" src="img\terror\un infierno en la mente.png"> </button>
+     </div>-->
+ <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const buttonContainer = document.getElementById("buttonContainer");
+            const buttons = Array.from(buttonContainer.getElementsByTagName("button"));
+
+            buttons.sort((a, b) => {
+                const nameA = a.getAttribute("data-title").toUpperCase();
+                const nameB = b.getAttribute("data-title").toUpperCase();
+                return nameA.localeCompare(nameB);
+            });
+
+            buttons.forEach(button => {
+                const firstLetter = button.getAttribute("data-title").charAt(0).toUpperCase();
+                const detailsElement = document.getElementById(firstLetter);
+                if (detailsElement) {
+                    const swiperWrapper = detailsElement.querySelector('.swiper-wrapper');
+                    const swiperSlide = document.createElement('div');
+                    swiperSlide.className = 'swiper-slide';
+                    swiperSlide.appendChild(button);
+                    swiperWrapper.appendChild(swiperSlide);
+                }
+            });
+
+            // Inicializa Swiper
+            /*const swipers = document.querySelectorAll('.swiper');
+            swipers.forEach(swiper => {
+                new Swiper(swiper, {
+                    navigation: {
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev',
+                    },
+                });
+            });*/
+        });
+    </script>
+
+                <!--sript-->
+    <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      centeredSlides: true,
+      spaceBetween: 3,
+      pagination: {
+        el: ".swiper-pagination",
+        type: "fraction",
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+
+    var appendNumber = 4;
+    var prependNumber = 1;
+    document.querySelector(".prepend-2-slides")
+    .addEventListener("click", function (e) {
+        e.preventDefault();
+        swiper.prependSlide([
+          '<div class="swiper-slide">Slide ' + --prependNumber + "</div>",
+          '<div class="swiper-slide">Slide ' + --prependNumber + "</div>",
+        ]);
+      });
+    document.querySelector(".prepend-slide")
+      .addEventListener("click", function (e) {
+        e.preventDefault();
+        swiper.prependSlide(
+          '<div class="swiper-slide">Slide ' + --prependNumber + "</div>"
+        );
+      });
+    document.querySelector(".append-slide")
+      .addEventListener("click", function (e) {
+        e.preventDefault();
+        swiper.appendSlide(
+          '<div class="swiper-slide">Slide ' + ++appendNumber + "</div>"
+        );
+      });
+    document.querySelector(".append-2-slides")
+      .addEventListener("click", function (e) {
+        e.preventDefault();
+        swiper.appendSlide([
+          '<div class="swiper-slide">Slide ' + ++appendNumber + "</div>",
+          '<div class="swiper-slide">Slide ' + ++appendNumber + "</div>",
+        ]);
+      });
+  </script>
+        </body>
+</html>

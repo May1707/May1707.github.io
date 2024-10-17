@@ -1,0 +1,494 @@
+/* :hover es para crear cualquier efecto cuando se cruza el cursor*/
+/*::selection: es para que el mous agarre parrafo asul o algo asi*/
+/* width = ancho ; height = alto; w: 1366; h: 768 */
+/*en cualquier cosa con 4 valores = arriba-derecha-abajo-izquierda*/
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+
+body {
+    user-select: none;
+    background-color: rgb(250, 236, 228);
+    zoom:100%;
+    width: 96.7vw;
+    height: 100vh;
+}
+
+img {
+    width: 14vw;
+    height: 40vh;
+    padding: 4px;
+}
+
+.o{
+    position: relative;
+    text-align: center;
+    font-size: 130%;
+    margin-top:-35vh;
+    text-align: center;
+}
+
+.fu{
+    position: relative;
+    text-align: center;
+    font-size: 160%;
+    margin-top:10px;
+    left:0px;
+}
+
+
+.fe {
+    position: relative;
+    text-align: center;
+    font-size: 600%;
+    margin-top:50px;
+    left:0px;
+}
+
+#f{ 
+    margin-top:-23px;
+}
+
+.fi {
+    position: relative;
+    text-align: center;
+    font-size: 75px;
+    margin-bottom: 30px;
+}
+
+.sol {
+    font-size: 30px;
+}
+
+.texto {
+    margin-left: 55px;
+    font-size: 20px;
+}
+
+.text{
+    font-size: 20px;
+    margin-left: -450px;
+}
+
+.peppa {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    left: 110px;
+}
+
+.sesi {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    left: 90px;
+}
+
+.jime{
+    position: relative;
+    width:200px;
+    height: 250px;
+    border: 0.5px solid black;
+}
+
+.jim{
+    position: relative;
+    width:200px;
+    height: 250px;
+    
+}
+
+.rafa {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    left: 120px;
+}
+
+.jhordy {
+    text-align: center;
+    font-size: 20px
+}
+
+.ale, .yta {
+    font-size: 30px;
+}
+
+.gog {
+    position: relative;
+    border: none;
+    width: 205px;
+    height: 77px;
+    cursor: pointer;
+    background: none;
+}
+
+#logo { 
+    bottom:0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgb(236, 225, 225);
+    position: fixed;
+    z-index: 1000;
+}
+
+.figura{
+    width: 1000px;
+    height: 570px;
+    left: 230px; /*210*/
+    top: 65px; /*55*/
+    position: relative;
+}
+
+#titulo{
+    position: relative;
+}
+
+/*details*/
+
+.detalle{
+    position: relative;
+    display:flex;
+    flex-wrap: wrap;
+    gap: 10px;
+} 
+
+.detalle .gog{
+    flex: 1 1 auto;
+    max-width: 100vw;
+    display: inline-block;
+    height: auto;
+}
+.detalle summary{
+    cursor:pointer;
+    list-style-type:"◣ " ;
+}
+
+.detalle[open] summary{
+    list-style-type:"◢ "  ;
+}
+
+.detalle summary::before{
+    position: absolute;
+}
+
+/*::selection{
+    background-color: lightblue;
+    color: darkblue;
+}*/
+
+.kk{  
+    padding:5px;
+    width:99%;
+    height:99%;
+}
+
+.a, .b, .c, .d, .reo{
+    text-align: center; 
+    padding:10px;
+    border-radius: 10px;
+}
+
+.a{ 
+    font-weight:bold; 
+    background-color: #B0C4DE;
+}
+
+.b{ 
+    font-weight:bold; 
+    background-color: #B0E0E6;
+}
+
+@font-face {
+    font-family: 'pepe';
+    src: url('font/ARDESTINE.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'cinema';
+    src: url('font/DRAGON HUNTER.otf') format('opentype-font');
+}
+
+.d {
+    font-family: 'pepe';
+    font-size: 20px;
+}
+
+.fideos{
+    background-color: lavender;
+    width:32.5%;
+    height: 40%;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+
+.img{
+    margin-top: 750px;
+}
+
+.caldo{
+    position: absolute;
+    width: 63%;
+    left: 33%;
+    bottom: 40%;
+}
+
+.gallina{
+    position: absolute;
+    width: 63%;
+    left: 33%;
+    bottom: 45%;  
+}
+
+.resumen{
+    width:100vw;
+    height:100vh;
+}
+.lavanderia{
+    position: absolute;
+    width: 63vw;
+    left: 32vw;
+    bottom:25vh;
+    /*margin:5%;*/
+}
+
+.vivela{
+    position: absolute;
+    width: 63%;
+    left: 33%;
+    bottom: -7%;
+}
+
+.zzz{
+    position: absolute;
+    width: 63%;
+    left: 33%;
+    bottom: 10%;
+}
+
+.jjj{
+    position: absolute;
+    width: 63%;
+    left: 33%;
+    bottom: 20%;
+}
+
+.bbb{
+    position: absolute;
+    width: 63%;
+    left: 33%;
+    bottom:2%;
+}
+
+.lavande{
+    position: absolute;
+    width: 63%;
+    left: 33%;
+    bottom: 14%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding-top: 0vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    margin-right:18vw;
+}
+
+#botoncito{
+    background: transparent;
+    border: none;
+}
+
+ul, .dedo, .refresco{
+    display: inline-block;
+    padding: 0vh 3vw;
+    font-family:"cinema"; /*indie flower*/
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.dedo{
+    list-style-type: none;
+    cursor:pointer;
+    color: white;
+}
+
+.dedo:hover, .refresco:hover{
+    color: white;
+}
+
+.head{
+    width:97.7vw;
+    background-color: #670010;
+    border: 3px solid #670010;
+}
+
+#tipo{
+    position: sticky;
+    top: 0;
+    z-index:1000000000000;
+    display: none;
+}
+
+.refresco{
+    border: none;
+    background: none;
+    cursor:pointer;
+    font-weight: bold;
+    color: white;
+}
+
+.vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    color: white;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, .5);
+    font-weight: none;
+    font-weight: bold;
+}
+
+.horizontal li:hover .vertical{
+    display:block;
+}
+
+.clasista{
+    border: none; 
+    background-color: transparent;
+    cursor: pointer;
+    color: white;
+    font-family:"indie flower";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.enlace{
+    color: white;
+    font-weight: bold;
+}
+
+li{
+    text-align: center;
+}
+
+.clasista:hover{
+    color: darkblue;
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.enlace:hover{
+    color: darkblue;
+    font-size: 22px;
+    text-align: center;
+}
+
+.container{
+    position: absolute;
+    top:7vh;
+    right: 7vw;
+    transform: translate( 20%, -50%);
+    padding: 10px;
+}
+
+input{
+    margin-top:-12px;
+    outline: none;
+    box-sizing: border-box;
+    height: 60px;
+    width: 0;
+    padding: 0 20px;
+    color: black;
+    border-radius: 50px;
+    font-size: 20px;
+    border: 1px solid black; /*blueviolet;*/
+    transition: all .7s ease;
+}
+
+::placeholder{
+    color: gray;
+}
+
+.btn{
+    position: absolute;
+    right: 0;
+    top: -1px;
+    width: 60px;
+    height: 60px;
+    background: red;
+    line-height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.btn i{
+    font-size: 25px;
+    color: white;
+    line-height: 60px;
+    transition: all .6s ease;
+}
+
+.container:hover input{
+    width: 300px;
+}
+
+.btn:hover{
+    background: red;
+}
+
+.container input:focus{
+    width: 300px;
+}
+
+/*carrusel*/
+.swiper {
+    width: 100vw;
+    height: 100vh;
+  }
+
+.swiper-slide {
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -38vh; /*18%*/
+  }
+
+.swiper-slide .gog {
+    display: block;
+    width: 0vw;
+    height: 42vh;
+    object-fit: cover;
+  }
+
+.swiper {
+    width: 95.7vw;
+    right:1vw;
+    height: 40vh;
+    margin: 2% auto;
+  }
+
+.swiper-wrapper{
+    margin-left: -11vw;
+  }
+
+  .dina{
+    border-radius: 20px;
+    width:4vw;
+    height:6vh;
+    font-weight: bold;
+    border:3px solid rgb(95, 5, 5);
+    cursor:pointer;
+    transition: transform 0.2s ease;
+    margin:1%;
+  }
+
+  .dina:hover{
+    transform: scale(1.2);
+  }

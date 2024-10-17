@@ -1,0 +1,583 @@
+@media (max-width: 700px) {
+
+
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+
+
+
+body {
+    user-select: none;
+    background-color: whitesmoke;
+    zoom:0.85;
+}
+
+img {
+  width: 150px;
+  height: 230px;
+}
+
+/*.fo{
+    position: relative;
+    text-align: center;
+    font-size: 4000px;
+    margin-top:-35px;
+    text-align: center;
+}*/
+
+.fu{
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+    margin-top:10px;
+    left:0px;
+}
+
+
+.fe {
+    position: relative;
+    text-align: center;
+    font-size: 70px;
+    margin-top:50px;
+    left:0px;
+}
+
+#f{ 
+    margin-top:-23px;
+}
+
+.fi {
+    position: relative;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.sol {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.texto {
+    margin-left: 55px;
+    font-size: 20px;
+}
+
+.peppa {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    left: 110px;
+}
+
+.sesi {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    left: 90px;
+}
+
+.jime{
+    position: relative;
+    width:150px;
+    height: 230px;
+    border: 0.5px solid black;
+}
+
+.jim{
+    position: relative;
+    width:150px;
+    height: 230px;
+    
+}
+
+.rafa {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    left: 120px;
+}
+
+.jhordy {
+    text-align: center;
+    font-size: 20px
+}
+
+
+.gog {
+    position: relative;
+    border: none;
+    width: 150px;
+    height: 230px;
+    cursor: none;
+    background: none;
+}
+
+#logo { 
+    bottom:0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    background: white;
+    position: fixed;
+    z-index: 1000;
+}
+
+.figura{
+    width: 800px;
+    height: 480px;/*  left:-15%;*/
+    align-items: center;
+    position: relative;
+}
+
+#titulo{
+    position: relative;
+}
+
+/*details*/
+
+.detalle{
+    position: relative;
+    display:flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.detalle .gog{
+    flex: 1 1 auto;
+    max-width: 100%;
+    display: inline-block;
+    height: auto;
+}
+
+.detalle summary{
+    cursor:pointer;
+    list-style-type:"◢" ;
+}
+
+.detalle[open] summary{
+    list-style-type:"◤";
+}
+
+.detalle summary::before{
+    position: absolute;
+}
+
+/*::selection{
+    background-color: lightblue;
+    color: darkblue;
+}*/
+
+.kk{  
+    padding:5px;
+    width:93%;
+    height:35%;
+    position: absolute; 
+}
+
+.a, .b, .c, .d, .reo{
+    text-align: center; 
+    padding:10px;
+    border-radius: 10px;
+}
+
+.a{ 
+    font-weight:bold; 
+    background-color: #B0C4DE;
+}
+
+.b{ 
+    font-weight:bold; 
+    background-color: #B0E0E6;
+}
+
+@font-face {
+    font-family: 'pepe';
+    src: url('font/ARDESTINE.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'cinema';
+    src: url('font/CinemaOutfitDEMO-Regular.otf') format('opentype-font');
+}
+
+.d {
+    font-family: 'pepe';
+    font-size: 20px;
+}
+
+.fideos{
+    background-color: lavender;
+    width:96%;
+    height:40%;
+    border-radius: 10px;
+    border: 3px solid black;
+    align-items: center;
+    margin-left:1%;
+}
+
+.caldo{
+    position: absolute;
+    width: 63%;
+    left: 35%;
+    bottom: 10%;
+}
+
+.gallina{
+    position: absolute;
+    width: 870px;
+    left: 500px;
+    bottom: -1400px;   
+}
+
+.agua{
+    position: absolute;
+    width: 870px;
+    left: 505px;
+    bottom: -820px;   
+}
+
+.h2o{
+    position: absolute;
+    width: 870px;
+    left: 490px;
+    bottom: -1280px;
+}
+
+.vv{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.lava{
+    position: absolute;
+    width: 870px;
+    left: 500px;
+    bottom: -120px;   
+}
+
+.lavadora{
+    position: absolute;
+    width: 890px;
+    left: 500px;
+    bottom: -580px; 
+}
+
+.lavanderia{
+    position: absolute;
+    width: 100%;
+    left: -3%;
+    bottom: -60%;
+}
+
+.lavandero{
+    position: absolute;
+    width: 890px;
+    left: 500px;
+    bottom: -50px;
+}
+
+.lavander{
+    position: absolute;
+    width: 890px;
+    left: 500px;
+    bottom: 200px;
+}
+
+.vivela{
+    position: absolute;
+    width: 890px;
+    left: 500px;
+    bottom: -80px;
+}
+
+.zzz{
+    position: absolute;
+    width: 890px;
+    left: 500px;
+    bottom: 170px;
+}
+
+.yyy{
+    position: absolute;
+    width: 890px;
+    left: 500px;
+    bottom: 160px;
+}
+
+.jjj{
+    position: absolute;
+    width: 890px;
+    left: 500px;
+    bottom: 200px;
+}
+
+.rrr{
+    position: absolute;
+    width: 890px;
+    left: 500px;
+    bottom: 50px;
+}
+
+.lll{
+    position: absolute;
+    width: 890px;
+    left: 500px;
+    bottom: 230px;
+}
+
+.uuu{
+    position: absolute;
+    width: 890px;
+    left: 500px;
+    bottom: 130px;
+}
+
+.hhh{
+    position: absolute;
+    width: 890px;
+    left: 500px;
+    bottom: 220px;
+}
+
+.fff{
+    position: absolute;
+    width: 890px;
+    left: 500px;
+    bottom: -100px;
+}
+
+.aaa{
+    position: absolute;
+    width: 890px;
+    left: 500px;
+    bottom: -70px;
+}
+
+.bbb{
+    position: absolute;
+    width: 890px;
+    left: 500px;
+    bottom: 20px;
+}
+
+.lavande{
+    position: absolute;
+    width: 890px;
+    left: 500px;
+    bottom: 200px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding-top: 0px;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-right: 1000px;
+}
+
+#botoncito{
+    background: transparent;
+    border: none;
+}
+
+ul, .dedo, .refresco{
+    display: inline-block;
+    padding: 0px 40px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: none;
+}
+
+.dedo{
+    list-style-type: none;
+    font-family:"indie flower";
+    color: white;
+}
+
+.dedo:hover, .refresco:hover{
+    color: darkblue;
+}
+
+.head{
+    background-color: #670010;
+    border: 3px solid #670010;
+}
+
+#tipo{
+    position: sticky;
+    top: 0;
+    z-index:1000;
+    display: none;
+}
+
+.refresco{
+    border: none;
+    background: none;
+    font-weight: bold;
+    font-family: "indie Flower";
+    color: white;
+}
+
+.vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    color: white;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, .5);
+    font-weight: none;
+    font-weight: bold;
+}
+
+.horizontal li:hover .vertical{
+    display:block;
+}
+
+.clasista{
+    border: none; 
+    background-color: transparent;
+    cursor: pointer;
+    color: white;
+    font-family:"indie flower";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.enlace{
+    color: white;
+    font-weight: bold;
+}
+
+li{
+    text-align: center;
+}
+
+.clasista:hover{
+    color: darkblue;
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.enlace:hover{
+    color: darkblue;
+    font-size: 22px;
+    text-align: center;
+}
+
+.container{
+    position: absolute;
+    top:50px;
+    right: 100px;
+    transform: translate( 20%, -50%);
+    padding: 10px;
+}
+
+input{
+    margin-top:-5px;
+    outline: none;
+    box-sizing: border-box;
+    height: 60px;
+    width: 0;
+    padding: 0 20px;
+    color: black;
+    border-radius: 50px;
+    font-size: 20px;
+    border: 1px solid black;
+    transition: all .7s ease;
+}
+
+::placeholder{
+    color: gray;
+}
+
+.btn{
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 60px;
+    height: 60px;
+    background: red;
+    line-height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.btn i{
+    font-size: 25px;
+    color: white;
+    line-height: 60px;
+    transition: all .6s ease;
+}
+
+.container:hover input{
+    width: 300px;
+}
+
+.btn:hover{
+    background: red;
+}
+
+.container input:focus{
+    width: 300px;
+}
+
+    /*carrusel*/
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+.swiper-slide {
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0%; /* Reduce el margen izquierdo en pantallas pequeñas */
+  }
+
+.swiper-slide .gog {
+    display: block;
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+.swiper {
+    width: 100%;
+    height: 3%;
+    margin: 2% auto;
+} 
+
+.swiper-wrapper{
+    margin-left: -25%; 
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 600px) {
+    body {
+        background-color: rgb(255, 255, 255);
+    }
+}
+
+/* Estilos para tablets */
+@media (min-width: 601px) and (max-width: 1024px) {
+    body {
+        background-color: rgb(255, 255, 255);
+    }
+}
+
+/* Estilos para desktops */
+@media (min-width: 1025px) {
+    body {
+        background-color: rgb(255, 255, 255);
+    }
+}
+
+
+}
